@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.20)  23 MAR 2015 18:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.7.24)  24 MAR 2015 07:23
 entering extended mode
 **Assignment*1.tex
 
-("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\Assignment 1.te
-x"
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\Assignment 1.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,9 +15,9 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -32,42 +32,75 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfiles\subfiles.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfiles\subfiles.sty"
 Package: subfiles 2012/05/23 Federico Garcia
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks14
-\verbatim@line=\toks15
+\every@verbatim=\toks16
+\verbatim@line=\toks17
 \verbatim@in@stream=\read1
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\was\gensymb.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\was\gensymb.sty"
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\mcode.sty"
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\mcode.sty"
 -- Package: `mcode' 2.5 <2014/03/06> --
 Package: mcode 2014/03/06 2.5
  - settings optimized for display (colour formating)
  - line numbering enabled
  - framed listings
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count87
+\Gread@gobject=\count90
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
@@ -79,36 +112,32 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks16
-)
-\lst@mode=\count88
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count91
 \lst@gtempboxa=\box26
-\lst@token=\toks17
-\lst@length=\count89
-\lst@currlwidth=\dimen103
-\lst@column=\count90
-\lst@pos=\count91
-\lst@lostspace=\dimen104
-\lst@width=\dimen105
-\lst@newlines=\count92
-\lst@lineno=\count93
-\lst@maxwidth=\dimen106
+\lst@token=\toks18
+\lst@length=\count92
+\lst@currlwidth=\dimen111
+\lst@column=\count93
+\lst@pos=\count94
+\lst@lostspace=\dimen112
+\lst@width=\dimen113
+\lst@newlines=\count95
+\lst@lineno=\count96
+\lst@maxwidth=\dimen114
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count94
-\lst@skipnumbers=\count95
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count97
+\lst@skipnumbers=\count98
 \lst@framebox=\box27
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2014/09/06 1.5e listings configuration
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2014/03/04 1.5c listings configuration
 ))
-Package: listings 2014/09/06 1.5e (Carsten Heinz)
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -123,7 +152,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -189,167 +218,205 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks18
-\ex@=\dimen107
+\@emptytoks=\toks19
+\ex@=\dimen115
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen108
+\pmbraise@=\dimen116
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count96
+\inf@bad=\count99
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count97
-\leftroot@=\count98
+\uproot@=\count100
+\leftroot@=\count101
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count99
-\DOTSCASE@=\count100
+\classnum@=\count102
+\DOTSCASE@=\count103
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
-\big@size=\dimen109
+\big@size=\dimen117
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count101
-\c@MaxMatrixCols=\count102
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
 \dotsspace@=\muskip10
-\c@parentequation=\count103
-\dspbrk@lvl=\count104
-\tag@help=\toks19
-\row@=\count105
-\column@=\count106
-\maxfields@=\count107
-\andhelp@=\toks20
-\eqnshift@=\dimen110
-\alignsep@=\dimen111
-\tagshift@=\dimen112
-\tagwidth@=\dimen113
-\totwidth@=\dimen114
-\lineht@=\dimen115
-\@envbody=\toks21
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks20
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks21
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks22
 \multlinegap=\skip44
 \multlinetaggap=\skip45
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen116
-\Gin@req@width=\dimen117
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
 )
-("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\Assignment 1.au
-x")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 18.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\Assignment 1.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 19.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 19.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=681.15898pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 18.
-Package gensymb Info: Math companion symbols declared on input line 18.
-LaTeX Info: Redefining \degree on input line 18.
-LaTeX Info: Redefining \celsius on input line 18.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 19.
+Package gensymb Info: Math companion symbols declared on input line 19.
+LaTeX Info: Redefining \degree on input line 19.
+LaTeX Info: Redefining \celsius on input line 19.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 18.
-LaTeX Info: Redefining \ohm on input line 18.
-Package gensymb Info: Using \textohm for \ohm on input line 18.
-Package gensymb Info: Using \textmu for \micro on input line 18.
-
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+erthousand on input line 19.
+LaTeX Info: Redefining \ohm on input line 19.
+Package gensymb Info: Using \textohm for \ohm on input line 19.
+Package gensymb Info: Using \textmu for \micro on input line 19.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen118
+\scratchcounter=\count111
+\scratchdimen=\dimen126
 \scratchbox=\box30
-\nofMPsegments=\count109
-\nofMParguments=\count110
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen119
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
-\everyMPtoPDFconversion=\toks24
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen127
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks25
 )
-\c@lstlisting=\count114
+\c@lstlisting=\count117
 
-("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\AssignmentCover
-Sheet.tex"
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\AssignmentCoverSheet.tex"
 LaTeX Font Info:    Try loading font information for U+msa on input line 16.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
-("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\Question1.tex"
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\Question1.tex"
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 5.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\MATLABFiles\q1.
-m"
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\MATLABFiles\q1.m"
 LaTeX Font Info:    Try loading font information for TS1+pcr on input line 9.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
 LaTeX Font Info:    Try loading font information for OMS+pcr on input line 9.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspcr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspcr.fd"
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <8> not available
@@ -357,7 +424,7 @@ LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <8> not available
  [1])
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -377,74 +444,165 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--46
 
  []
 
-[2]
+
 Underfull \hbox (badness 10000) in paragraph at lines 55--63
 
  []
 
-) ("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\Question2.tex
-" [3]
-("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\MATLABFiles\q2.
-m" [4]) <images/q2Axes.png, id=32, 185.90506pt x 181.15047pt>
+)
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\Question2.tex" [2]
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\MATLABFiles\q2.m") <images/q2Axes.png, id=26, 185.90506pt x 181.15047pt>
 File: images/q2Axes.png Graphic file (type png)
 
 <use images/q2Axes.png>
-Package pdftex.def Info: images/q2Axes.png used on input line 4.
+Package pdftex.def Info: images/q2Axes.png used on input line 5.
 (pdftex.def)             Requested size: 185.9046pt x 181.15002pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--18
-
- []
-
-[5 <C:/Users/Kausthub/Documents/Fourth Year/MTRX5700/Assignment 1/images/q2Axes
-.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--81
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
+
+ []
+
+[4 <C:/Users/Kausthub/Documents/Uni Stuff/Fourth Year/Semester 1/MTRX5700/Assig
+nment 1/images/q2Axes.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 81--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--112
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 139--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--148
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 142--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--153
+Underfull \hbox (badness 10000) in paragraph at lines 147--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--158
+Underfull \hbox (badness 10000) in paragraph at lines 152--156
 
  []
 
-) ("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\Question3.tex
-" [7]
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--161
+
+ []
+
+)
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\Question3.tex" [6]
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\MATLABFiles\q2.m") [7]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 		\end{tabular}\\\\
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...on [DHVariables] {D-H Variable Notation}\\
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ... [DHVariables] {D-H Variable Notation}\\\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.23 		\end{table}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+<images/q3.png, id=48, 687.56876pt x 504.88625pt>
+File: images/q3.png Graphic file (type png)
+ <use images/q3.png>
+Package pdftex.def Info: images/q3.png used on input line 28.
+(pdftex.def)             Requested size: 343.78354pt x 252.44249pt.
+ [8 <C:/Users/Kausthub/Documents/Uni Stuff/Fourth Year/Semester 1/MTRX5700/Assi
+gnment 1/images/q3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.10 n_
-       {x} =
+l.37 			\bf{^
+             {0}T_{6}} =
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Extra }, or forgotten $.
+l.37 			\bf{^{0}T_{6}}
+                       =
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.44 			$ = {^
+              {0}A_{1}}\mult{^{1}A_{2}}\mult{^{2}A_{3}}\mult{^{3}A_{4}}\mult...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.44 			$ = {^{0}A_{1}}
+                       \mult{^{1}A_{2}}\mult{^{2}A_{3}}\mult{^{3}A_{4}}\mult...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ! Undefined control sequence.
-l.12 - \sin(\theta_{6})\mult
-                             (\cos(\theta_{4})\mult \sin(\theta_{1}) - \sin(...
+l.44 			$ = {^{0}A_{1}}\mult
+                            {^{1}A_{2}}\mult{^{2}A_{3}}\mult{^{3}A_{4}}\mult...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -452,8 +610,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...in(\theta_{6})\mult (\cos(\theta_{4})\mult
-                                                   \sin(\theta_{1}) - \sin(\...
+l.44 			$ = {^{0}A_{1}}\mult{^{1}A_{2}}\mult
+                                            {^{2}A_{3}}\mult{^{3}A_{4}}\mult...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -461,8 +619,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...t \sin(\theta_{1}) - \sin(\theta_{4})\mult
-                                                   (\cos(\theta_{1})\mult \s...
+l.44 ..._{1}}\mult{^{1}A_{2}}\mult{^{2}A_{3}}\mult
+                                                  {^{3}A_{4}}\mult{^{4}A_{5}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -470,8 +628,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...in(\theta_{4})\mult (\cos(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.44 ..._{2}}\mult{^{2}A_{3}}\mult{^{3}A_{4}}\mult
+                                                  {^{4}A_{5}}\mult{^{5}A_{6}}$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -479,8 +637,56 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...cos(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.44 ..._{3}}\mult{^{3}A_{4}}\mult{^{4}A_{5}}\mult
+                                                  {^{5}A_{6}}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.45 		\end{center}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.45 		\end{center}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.48 \bf{n_
+           {x}} =
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.48 \bf{n_{x}}
+                =
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.50 - \sin\theta_{6}\mult
+                           (\cos\theta_{4}\mult \sin\theta_{1} - \sin\theta_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -488,8 +694,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...t \sin(\theta_{3}) - \cos(\theta_{1})\mult
-                                                   \cos(\theta_{2})\mult \co...
+l.50 - \sin\theta_{6}\mult (\cos\theta_{4}\mult
+                                                \sin\theta_{1} - \sin\theta_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -497,8 +703,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...cos(\theta_{1})\mult \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3})))-  \cos...
+l.50 ...\mult \sin\theta_{1} - \sin\theta_{4}\mult
+                                                   (\cos\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -506,8 +712,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...\cos(\theta_{3})))-  \cos(\theta_{6})\mult
-                                                   (\cos(\theta_{5})\mult (\...
+l.50 ...- \sin\theta_{4}\mult (\cos\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -515,8 +721,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...os(\theta_{6})\mult (\cos(\theta_{5})\mult
-                                                   (\sin(\theta_{1})\mult \s...
+l.50 ...t (\cos\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -524,8 +730,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...os(\theta_{5})\mult (\sin(\theta_{1})\mult
-                                                   \sin(\theta_{4}) + \cos(\...
+l.50 ...\mult \sin\theta_{3} - \cos\theta_{1}\mult
+                                                   \cos\theta_{2}\mult \cos\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -533,8 +739,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...t \sin(\theta_{4}) + \cos(\theta_{4})\mult
-                                                   (\cos(\theta_{1})\mult \s...
+l.50 ... - \cos\theta_{1}\mult \cos\theta_{2}\mult
+                                                   \cos\theta_{3}))-  \cos\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -542,8 +748,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...os(\theta_{4})\mult (\cos(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.50 ...ult \cos\theta_{3}))-  \cos\theta_{6}\mult
+                                                   (\cos\theta_{5}\mult (\si...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -551,8 +757,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...cos(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.50 ...  \cos\theta_{6}\mult (\cos\theta_{5}\mult
+                                                   (\sin\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -560,8 +766,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...t \sin(\theta_{3}) - \cos(\theta_{1})\mult
-                                                   \cos(\theta_{2})\mult \co...
+l.50 ... (\cos\theta_{5}\mult (\sin\theta_{1}\mult
+                                                   \sin\theta_{4} + \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -569,8 +775,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...cos(\theta_{1})\mult \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3}))) + \sin...
+l.50 ...\mult \sin\theta_{4} + \cos\theta_{4}\mult
+                                                   (\cos\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -578,8 +784,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...\cos(\theta_{3}))) + \sin(\theta_{5})\mult
-                                                   (\cos(\theta_{1})\mult \c...
+l.50 ...+ \cos\theta_{4}\mult (\cos\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -587,8 +793,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...in(\theta_{5})\mult (\cos(\theta_{1})\mult
-                                                   \cos(\theta_{2})\mult \si...
+l.50 ...t (\cos\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -596,8 +802,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...cos(\theta_{1})\mult \cos(\theta_{2})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
+l.50 ...\mult \sin\theta_{3} - \cos\theta_{1}\mult
+                                                   \cos\theta_{2}\mult \cos\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -605,8 +811,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...t \sin(\theta_{3}) + \cos(\theta_{1})\mult
-                                                   \cos(\theta_{3})\mult \si...
+l.50 ... - \cos\theta_{1}\mult \cos\theta_{2}\mult
+                                                   \cos\theta_{3})) + \sin\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -614,8 +820,44 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 ...cos(\theta_{1})\mult \cos(\theta_{3})\mult
-                                                   \sin(\theta_{2})))
+l.50 ...ult \cos\theta_{3})) + \sin\theta_{5}\mult
+                                                   (\cos\theta_{1}\mult \cos...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.50 ...+ \sin\theta_{5}\mult (\cos\theta_{1}\mult
+                                                   \cos\theta_{2}\mult \sin\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.50 ...t (\cos\theta_{1}\mult \cos\theta_{2}\mult
+                                                   \sin\theta_{3} + \cos\the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.50 ...\mult \sin\theta_{3} + \cos\theta_{1}\mult
+                                                   \cos\theta_{3}\mult \sin\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.50 ... + \cos\theta_{1}\mult \cos\theta_{3}\mult
+                                                   \sin\theta_{2}))
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -625,50 +867,42 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.14 
+l.52 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-Overfull \hbox (30.72963pt too wide) in paragraph at lines 10--14
-\OT1/cmr/m/n/10 n$[] =$$\OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/
-10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/
-10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/
-10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/
-10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ))) \OMS/cmsy/m/
-n/10  $
- []
-
-
-Overfull \hbox (35.48666pt too wide) in paragraph at lines 10--14
-$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 ) + [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m
-/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cm
-m/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m
-/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cm
-m/m/it/10 []\OT1/cmr/m/n/10 ))) +$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
-
- []
+! Missing } inserted.
+<inserted text> 
+                }
+l.52 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.15 s_
-       {x} =
+l.53 \bf{s_
+           {x}} =
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Extra }, or forgotten $.
+l.53 \bf{s_{x}}
+                =
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ! Undefined control sequence.
-l.17 \sin(\theta_{6})\mult
-                           (\cos(\theta_{5})\mult (\sin(\theta_{1})\mult \si...
+l.55 \sin\theta_{6}\mult
+                         (\cos\theta_{5}\mult (\sin\theta_{1}\mult \sin\thet...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -676,8 +910,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 \sin(\theta_{6})\mult (\cos(\theta_{5})\mult
-                                                  (\sin(\theta_{1})\mult \si...
+l.55 \sin\theta_{6}\mult (\cos\theta_{5}\mult
+                                              (\sin\theta_{1}\mult \sin\thet...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -685,8 +919,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...os(\theta_{5})\mult (\sin(\theta_{1})\mult
-                                                   \sin(\theta_{4}) + \cos(\...
+l.55 ... (\cos\theta_{5}\mult (\sin\theta_{1}\mult
+                                                   \sin\theta_{4} + \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -694,8 +928,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...t \sin(\theta_{4}) + \cos(\theta_{4})\mult
-                                                   (\cos(\theta_{1})\mult \s...
+l.55 ...\mult \sin\theta_{4} + \cos\theta_{4}\mult
+                                                   (\cos\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -703,8 +937,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...os(\theta_{4})\mult (\cos(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.55 ...+ \cos\theta_{4}\mult (\cos\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -712,8 +946,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...cos(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.55 ...t (\cos\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -721,8 +955,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...t \sin(\theta_{3}) - \cos(\theta_{1})\mult
-                                                   \cos(\theta_{2})\mult \co...
+l.55 ...\mult \sin\theta_{3} - \cos\theta_{1}\mult
+                                                   \cos\theta_{2}\mult \cos\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -730,8 +964,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...cos(\theta_{1})\mult \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3}))) + \sin...
+l.55 ... - \cos\theta_{1}\mult \cos\theta_{2}\mult
+                                                   \cos\theta_{3})) + \sin\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -739,8 +973,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...\cos(\theta_{3}))) + \sin(\theta_{5})\mult
-                                                   (\cos(\theta_{1})\mult \c...
+l.55 ...ult \cos\theta_{3})) + \sin\theta_{5}\mult
+                                                   (\cos\theta_{1}\mult \cos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -748,8 +982,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...in(\theta_{5})\mult (\cos(\theta_{1})\mult
-                                                   \cos(\theta_{2})\mult \si...
+l.55 ...+ \sin\theta_{5}\mult (\cos\theta_{1}\mult
+                                                   \cos\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -757,8 +991,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...cos(\theta_{1})\mult \cos(\theta_{2})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
+l.55 ...t (\cos\theta_{1}\mult \cos\theta_{2}\mult
+                                                   \sin\theta_{3} + \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -766,8 +1000,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...t \sin(\theta_{3}) + \cos(\theta_{1})\mult
-                                                   \cos(\theta_{3})\mult \si...
+l.55 ...\mult \sin\theta_{3} + \cos\theta_{1}\mult
+                                                   \cos\theta_{3}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -775,8 +1009,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...cos(\theta_{1})\mult \cos(\theta_{3})\mult
-                                                   \sin(\theta_{2}))) - \cos...
+l.55 ... + \cos\theta_{1}\mult \cos\theta_{3}\mult
+                                                   \sin\theta_{2})) - \cos\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -784,8 +1018,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...\sin(\theta_{2}))) - \cos(\theta_{6})\mult
-                                                   (\cos(\theta_{4})\mult \s...
+l.55 ...ult \sin\theta_{2})) - \cos\theta_{6}\mult
+                                                   (\cos\theta_{4}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -793,8 +1027,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...os(\theta_{6})\mult (\cos(\theta_{4})\mult
-                                                   \sin(\theta_{1}) - \sin(\...
+l.55 ...- \cos\theta_{6}\mult (\cos\theta_{4}\mult
+                                                   \sin\theta_{1} - \sin\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -802,8 +1036,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...t \sin(\theta_{1}) - \sin(\theta_{4})\mult
-                                                   (\cos(\theta_{1})\mult \s...
+l.55 ...\mult \sin\theta_{1} - \sin\theta_{4}\mult
+                                                   (\cos\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -811,8 +1045,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...in(\theta_{4})\mult (\cos(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.55 ...- \sin\theta_{4}\mult (\cos\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -820,8 +1054,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...cos(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.55 ...t (\cos\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -829,8 +1063,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...t \sin(\theta_{3}) - \cos(\theta_{1})\mult
-                                                   \cos(\theta_{2})\mult \co...
+l.55 ...\mult \sin\theta_{3} - \cos\theta_{1}\mult
+                                                   \cos\theta_{2}\mult \cos\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -838,8 +1072,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.17 ...cos(\theta_{1})\mult \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3})))
+l.55 ... - \cos\theta_{1}\mult \cos\theta_{2}\mult
+                                                   \cos\theta_{3}))
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -849,49 +1083,42 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.19 
+l.57 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-Overfull \hbox (68.91025pt too wide) in paragraph at lines 15--19
-[]\OT1/cmr/m/n/10 s$[] =$$[](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/
-m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/c
-mm/m/it/10 []\OT1/cmr/m/n/10 ) + [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\
-OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [
-](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\
-OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [
-](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ))) +$
- []
-
-
-Overfull \hbox (1.25049pt too wide) in paragraph at lines 15--19
-$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 ) + [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m
-/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ))) \OMS/cms
-y/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm
-/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cms
-y/m/n/10  $
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--19
-
- []
+! Missing } inserted.
+<inserted text> 
+                }
+l.57 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.20 a_
-       {x} =
+l.59 \bf{a_
+           {x}} =
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Extra }, or forgotten $.
+l.59 \bf{a_{x}}
+                =
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ! Undefined control sequence.
-l.22 \sin(\theta_{5})\mult
-                           (\sin(\theta_{1})\mult \sin(\theta_{4}) + \cos(\t...
+l.61 \sin\theta_{5}\mult
+                         (\sin\theta_{1}\mult \sin\theta_{4} + \cos\theta_{4...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -899,8 +1126,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 \sin(\theta_{5})\mult (\sin(\theta_{1})\mult
-                                                  \sin(\theta_{4}) + \cos(\t...
+l.61 \sin\theta_{5}\mult (\sin\theta_{1}\mult
+                                              \sin\theta_{4} + \cos\theta_{4...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -908,8 +1135,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ...t \sin(\theta_{4}) + \cos(\theta_{4})\mult
-                                                   (\cos(\theta_{1})\mult \s...
+l.61 ...\mult \sin\theta_{4} + \cos\theta_{4}\mult
+                                                   (\cos\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -917,8 +1144,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ...os(\theta_{4})\mult (\cos(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.61 ...+ \cos\theta_{4}\mult (\cos\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -926,8 +1153,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ...cos(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.61 ...t (\cos\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -935,8 +1162,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ...t \sin(\theta_{3}) - \cos(\theta_{1})\mult
-                                                   \cos(\theta_{2})\mult \co...
+l.61 ...\mult \sin\theta_{3} - \cos\theta_{1}\mult
+                                                   \cos\theta_{2}\mult \cos\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -944,8 +1171,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ...cos(\theta_{1})\mult \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3}))) - \cos...
+l.61 ... - \cos\theta_{1}\mult \cos\theta_{2}\mult
+                                                   \cos\theta_{3})) - \cos\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -953,8 +1180,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ...\cos(\theta_{3}))) - \cos(\theta_{5})\mult
-                                                   (\cos(\theta_{1})\mult \c...
+l.61 ...ult \cos\theta_{3})) - \cos\theta_{5}\mult
+                                                   (\cos\theta_{1}\mult \cos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -962,8 +1189,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ...os(\theta_{5})\mult (\cos(\theta_{1})\mult
-                                                   \cos(\theta_{2})\mult \si...
+l.61 ...- \cos\theta_{5}\mult (\cos\theta_{1}\mult
+                                                   \cos\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -971,8 +1198,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ...cos(\theta_{1})\mult \cos(\theta_{2})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
+l.61 ...t (\cos\theta_{1}\mult \cos\theta_{2}\mult
+                                                   \sin\theta_{3} + \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -980,8 +1207,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ...t \sin(\theta_{3}) + \cos(\theta_{1})\mult
-                                                   \cos(\theta_{3})\mult \si...
+l.61 ...\mult \sin\theta_{3} + \cos\theta_{1}\mult
+                                                   \cos\theta_{3}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -989,8 +1216,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ...cos(\theta_{1})\mult \cos(\theta_{3})\mult
-                                                   \sin(\theta_{2}))
+l.61 ... + \cos\theta_{1}\mult \cos\theta_{3}\mult
+                                                   \sin\theta_{2})
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1000,38 +1227,42 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.24 
+l.63 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-Overfull \hbox (35.72964pt too wide) in paragraph at lines 20--24
-[]\OT1/cmr/m/n/10 a$[] =$$[](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/
-m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) + [](\OML
-/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\
-OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \
-OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\
-OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )))
- \OMS/cmsy/m/n/10  $
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--24
-
- []
+! Missing } inserted.
+<inserted text> 
+                }
+l.63 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.25 p_
-       {x} =
+l.64 \bf{p_
+           {x}} =
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Extra }, or forgotten $.
+l.64 \bf{p_{x}}
+                =
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ! Undefined control sequence.
-l.27 100\mult
-              \cos(\theta_{1}) + 250\mult \cos(\theta_{1})\mult \cos(\theta_...
+l.66 100\mult
+              \cos\theta_{1} + 250\mult \cos\theta_{1}\mult \cos\theta_{2} -...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1039,8 +1270,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 100\mult \cos(\theta_{1}) + 250\mult
-                                          \cos(\theta_{1})\mult \cos(\theta_...
+l.66 100\mult \cos\theta_{1} + 250\mult
+                                        \cos\theta_{1}\mult \cos\theta_{2} -...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1048,8 +1279,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...heta_{1}) + 250\mult \cos(\theta_{1})\mult
-                                                   \cos(\theta_{2}) - 250\mu...
+l.66 ...s\theta_{1} + 250\mult \cos\theta_{1}\mult
+                                                   \cos\theta_{2} - 250\mult...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1057,8 +1288,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...heta_{1})\mult \cos(\theta_{2}) - 250\mult
-                                                   \sin(\theta_{1})\mult \si...
+l.66 ...s\theta_{1}\mult \cos\theta_{2} - 250\mult
+                                                   \sin\theta_{1}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1066,8 +1297,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...heta_{2}) - 250\mult \sin(\theta_{1})\mult
-                                                   \sin(\theta_{4}) - 250\mu...
+l.66 ...s\theta_{2} - 250\mult \sin\theta_{1}\mult
+                                                   \sin\theta_{4} - 250\mult...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1075,8 +1306,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...heta_{1})\mult \sin(\theta_{4}) - 250\mult
-                                                   \sin(\theta_{6})\mult (\c...
+l.66 ...n\theta_{1}\mult \sin\theta_{4} - 250\mult
+                                                   \sin\theta_{6}\mult (\cos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1084,8 +1315,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...heta_{4}) - 250\mult \sin(\theta_{6})\mult
-                                                   (\cos(\theta_{4})\mult \s...
+l.66 ...n\theta_{4} - 250\mult \sin\theta_{6}\mult
+                                                   (\cos\theta_{4}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1093,8 +1324,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...in(\theta_{6})\mult (\cos(\theta_{4})\mult
-                                                   \sin(\theta_{1}) - \sin(\...
+l.66 ...t \sin\theta_{6}\mult (\cos\theta_{4}\mult
+                                                   \sin\theta_{1} - \sin\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1102,8 +1333,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...t \sin(\theta_{1}) - \sin(\theta_{4})\mult
-                                                   (\cos(\theta_{1})\mult \s...
+l.66 ...\mult \sin\theta_{1} - \sin\theta_{4}\mult
+                                                   (\cos\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1111,8 +1342,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...in(\theta_{4})\mult (\cos(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.66 ...- \sin\theta_{4}\mult (\cos\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1120,8 +1351,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...cos(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.66 ...t (\cos\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1129,8 +1360,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...t \sin(\theta_{3}) - \cos(\theta_{1})\mult
-                                                   \cos(\theta_{2})\mult \co...
+l.66 ...\mult \sin\theta_{3} - \cos\theta_{1}\mult
+                                                   \cos\theta_{2}\mult \cos\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1138,8 +1369,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...cos(\theta_{1})\mult \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3}))) - 250\...
+l.66 ... - \cos\theta_{1}\mult \cos\theta_{2}\mult
+                                                   \cos\theta_{3})) - 250\mu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1147,8 +1378,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...ta_{2})\mult \cos(\theta_{3}))) - 250\mult
-                                                   \cos(\theta_{6})\mult (\c...
+l.66 ...theta_{2}\mult \cos\theta_{3})) - 250\mult
+                                                   \cos\theta_{6}\mult (\cos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1156,8 +1387,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...ta_{3}))) - 250\mult \cos(\theta_{6})\mult
-                                                   (\cos(\theta_{5})\mult (\...
+l.66 ...theta_{3})) - 250\mult \cos\theta_{6}\mult
+                                                   (\cos\theta_{5}\mult (\si...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1165,8 +1396,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...os(\theta_{6})\mult (\cos(\theta_{5})\mult
-                                                   (\sin(\theta_{1})\mult \s...
+l.66 ...t \cos\theta_{6}\mult (\cos\theta_{5}\mult
+                                                   (\sin\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1174,8 +1405,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...os(\theta_{5})\mult (\sin(\theta_{1})\mult
-                                                   \sin(\theta_{4}) + \cos(\...
+l.66 ... (\cos\theta_{5}\mult (\sin\theta_{1}\mult
+                                                   \sin\theta_{4} + \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1183,8 +1414,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...t \sin(\theta_{4}) + \cos(\theta_{4})\mult
-                                                   (\cos(\theta_{1})\mult \s...
+l.66 ...\mult \sin\theta_{4} + \cos\theta_{4}\mult
+                                                   (\cos\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1192,8 +1423,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...os(\theta_{4})\mult (\cos(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.66 ...+ \cos\theta_{4}\mult (\cos\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1201,8 +1432,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...cos(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.66 ...t (\cos\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1210,8 +1441,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...t \sin(\theta_{3}) - \cos(\theta_{1})\mult
-                                                   \cos(\theta_{2})\mult \co...
+l.66 ...\mult \sin\theta_{3} - \cos\theta_{1}\mult
+                                                   \cos\theta_{2}\mult \cos\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1219,8 +1450,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...cos(\theta_{1})\mult \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3}))) + \sin...
+l.66 ... - \cos\theta_{1}\mult \cos\theta_{2}\mult
+                                                   \cos\theta_{3})) + \sin\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1228,8 +1459,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...\cos(\theta_{3}))) + \sin(\theta_{5})\mult
-                                                   (\cos(\theta_{1})\mult \c...
+l.66 ...ult \cos\theta_{3})) + \sin\theta_{5}\mult
+                                                   (\cos\theta_{1}\mult \cos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1237,8 +1468,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...in(\theta_{5})\mult (\cos(\theta_{1})\mult
-                                                   \cos(\theta_{2})\mult \si...
+l.66 ...+ \sin\theta_{5}\mult (\cos\theta_{1}\mult
+                                                   \cos\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1246,8 +1477,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...cos(\theta_{1})\mult \cos(\theta_{2})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
+l.66 ...t (\cos\theta_{1}\mult \cos\theta_{2}\mult
+                                                   \sin\theta_{3} + \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1255,8 +1486,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...t \sin(\theta_{3}) + \cos(\theta_{1})\mult
-                                                   \cos(\theta_{3})\mult \si...
+l.66 ...\mult \sin\theta_{3} + \cos\theta_{1}\mult
+                                                   \cos\theta_{3}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1264,8 +1495,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...cos(\theta_{1})\mult \cos(\theta_{3})\mult
-                                                   \sin(\theta_{2}))) - 250\...
+l.66 ... + \cos\theta_{1}\mult \cos\theta_{3}\mult
+                                                   \sin\theta_{2})) - 250\mu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1273,8 +1504,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...ta_{3})\mult \sin(\theta_{2}))) - 250\mult
-                                                   \cos(\theta_{4})\mult (\c...
+l.66 ...theta_{3}\mult \sin\theta_{2})) - 250\mult
+                                                   \cos\theta_{4}\mult (\cos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1282,8 +1513,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...ta_{2}))) - 250\mult \cos(\theta_{4})\mult
-                                                   (\cos(\theta_{1})\mult \s...
+l.66 ...theta_{2})) - 250\mult \cos\theta_{4}\mult
+                                                   (\cos\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1291,8 +1522,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...os(\theta_{4})\mult (\cos(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.66 ...t \cos\theta_{4}\mult (\cos\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1300,8 +1531,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...cos(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.66 ...t (\cos\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1309,8 +1540,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...t \sin(\theta_{3}) - \cos(\theta_{1})\mult
-                                                   \cos(\theta_{2})\mult \co...
+l.66 ...\mult \sin\theta_{3} - \cos\theta_{1}\mult
+                                                   \cos\theta_{2}\mult \cos\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1318,8 +1549,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27 ...cos(\theta_{1})\mult \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3}))
+l.66 ... - \cos\theta_{1}\mult \cos\theta_{2}\mult
+                                                   \cos\theta_{3})
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1329,70 +1560,42 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.29 
+l.68 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-Overfull \hbox (36.14629pt too wide) in paragraph at lines 25--29
-[]\OT1/cmr/m/n/10 p$[] =$$100 [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) + 250 []
-(\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )
- \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 250 [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 
-) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 2
-50 [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n
-/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10  $
- []
-
-
-Overfull \hbox (51.04224pt too wide) in paragraph at lines 25--29
-$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 ))) \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 250 [](\OML/cmm/m/i
-t/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/
-m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) +$
- []
-
-
-Overfull \hbox (33.26439pt too wide) in paragraph at lines 25--29
-$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 ))) + [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm
-/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/
-cmm/m/it/10 []\OT1/cmr/m/n/10 ) +$
- []
-
-
-Overfull \hbox (12.91708pt too wide) in paragraph at lines 25--29
-$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ))) \OMS/cmsy/m/n/10
-   \OT1/cmr/m/n/10 250 [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/i
-t/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/
-m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/i
-t/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/
-m/it/10 []\OT1/cmr/m/n/10 ))$$[] $
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--29
-
- []
+! Missing } inserted.
+<inserted text> 
+                }
+l.68 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.30 n_
-       {y} =
+l.69 \bf{n_
+           {y}} =
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Extra }, or forgotten $.
+l.69 \bf{n_{y}}
+                =
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ! Undefined control sequence.
-l.32 \sin(\theta_{6})\mult
-                           (\cos(\theta_{1})\mult \cos(\theta_{4}) + \sin(\t...
+l.71 \sin\theta_{6}\mult
+                         (\cos\theta_{1}\mult \cos\theta_{4} + \sin\theta_{4...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1400,8 +1603,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 \sin(\theta_{6})\mult (\cos(\theta_{1})\mult
-                                                  \cos(\theta_{4}) + \sin(\t...
+l.71 \sin\theta_{6}\mult (\cos\theta_{1}\mult
+                                              \cos\theta_{4} + \sin\theta_{4...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1409,8 +1612,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...t \cos(\theta_{4}) + \sin(\theta_{4})\mult
-                                                   (\sin(\theta_{1})\mult \s...
+l.71 ...\mult \cos\theta_{4} + \sin\theta_{4}\mult
+                                                   (\sin\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1418,8 +1621,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...in(\theta_{4})\mult (\sin(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.71 ...+ \sin\theta_{4}\mult (\sin\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1427,8 +1630,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...sin(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.71 ...t (\sin\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1436,8 +1639,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...t \sin(\theta_{3}) - \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3})\mult \si...
+l.71 ...\mult \sin\theta_{3} - \cos\theta_{2}\mult
+                                                   \cos\theta_{3}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1445,8 +1648,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...cos(\theta_{2})\mult \cos(\theta_{3})\mult
-                                                   \sin(\theta_{1}))) + \cos...
+l.71 ... - \cos\theta_{2}\mult \cos\theta_{3}\mult
+                                                   \sin\theta_{1})) + \cos\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1454,8 +1657,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...\sin(\theta_{1}))) + \cos(\theta_{6})\mult
-                                                   (\cos(\theta_{5})\mult (\...
+l.71 ...ult \sin\theta_{1})) + \cos\theta_{6}\mult
+                                                   (\cos\theta_{5}\mult (\co...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1463,8 +1666,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...os(\theta_{6})\mult (\cos(\theta_{5})\mult
-                                                   (\cos(\theta_{1})\mult \s...
+l.71 ...+ \cos\theta_{6}\mult (\cos\theta_{5}\mult
+                                                   (\cos\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1472,8 +1675,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...os(\theta_{5})\mult (\cos(\theta_{1})\mult
-                                                   \sin(\theta_{4}) - \cos(\...
+l.71 ... (\cos\theta_{5}\mult (\cos\theta_{1}\mult
+                                                   \sin\theta_{4} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1481,8 +1684,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...t \sin(\theta_{4}) - \cos(\theta_{4})\mult
-                                                   (\sin(\theta_{1})\mult \s...
+l.71 ...\mult \sin\theta_{4} - \cos\theta_{4}\mult
+                                                   (\sin\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1490,8 +1693,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...os(\theta_{4})\mult (\sin(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.71 ...- \cos\theta_{4}\mult (\sin\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1499,8 +1702,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...sin(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.71 ...t (\sin\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1508,8 +1711,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...t \sin(\theta_{3}) - \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3})\mult \si...
+l.71 ...\mult \sin\theta_{3} - \cos\theta_{2}\mult
+                                                   \cos\theta_{3}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1517,8 +1720,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...cos(\theta_{2})\mult \cos(\theta_{3})\mult
-                                                   \sin(\theta_{1}))) - \sin...
+l.71 ... - \cos\theta_{2}\mult \cos\theta_{3}\mult
+                                                   \sin\theta_{1})) - \sin\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1526,8 +1729,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...\sin(\theta_{1}))) - \sin(\theta_{5})\mult
-                                                   (\cos(\theta_{2})\mult \s...
+l.71 ...ult \sin\theta_{1})) - \sin\theta_{5}\mult
+                                                   (\cos\theta_{2}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1535,8 +1738,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...in(\theta_{5})\mult (\cos(\theta_{2})\mult
-                                                   \sin(\theta_{1})\mult \si...
+l.71 ...- \sin\theta_{5}\mult (\cos\theta_{2}\mult
+                                                   \sin\theta_{1}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1544,8 +1747,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...cos(\theta_{2})\mult \sin(\theta_{1})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
+l.71 ...t (\cos\theta_{2}\mult \sin\theta_{1}\mult
+                                                   \sin\theta_{3} + \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1553,8 +1756,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...t \sin(\theta_{3}) + \cos(\theta_{3})\mult
-                                                   \sin(\theta_{1})\mult \si...
+l.71 ...\mult \sin\theta_{3} + \cos\theta_{3}\mult
+                                                   \sin\theta_{1}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1562,8 +1765,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.32 ...cos(\theta_{3})\mult \sin(\theta_{1})\mult
-                                                   \sin(\theta_{2})))
+l.71 ... + \cos\theta_{3}\mult \sin\theta_{1}\mult
+                                                   \sin\theta_{2}))
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1573,50 +1776,42 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.34 
+l.73 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-Overfull \hbox (34.94612pt too wide) in paragraph at lines 30--34
-[]\OT1/cmr/m/n/10 n$[] =$$[](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/
-m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) + [](\OML
-/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\
-OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \
-OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\
-OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )))
- +$
- []
-
-
-Overfull \hbox (34.37556pt too wide) in paragraph at lines 30--34
-$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/1
-0   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ))) \OMS/cmsy/m/n
-/10  $
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--34
-
- []
+! Missing } inserted.
+<inserted text> 
+                }
+l.73 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.36 s_
-       {y} =
+l.76 \bf{s_
+           {y}} =
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Extra }, or forgotten $.
+l.76 \bf{s_{y}}
+                =
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ! Undefined control sequence.
-l.38 \cos(\theta_{6})\mult
-                           (\cos(\theta_{1})\mult \cos(\theta_{4}) + \sin(\t...
+l.78 \cos\theta_{6}\mult
+                         (\cos\theta_{1}\mult \cos\theta_{4} + \sin\theta_{4...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1624,8 +1819,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 \cos(\theta_{6})\mult (\cos(\theta_{1})\mult
-                                                  \cos(\theta_{4}) + \sin(\t...
+l.78 \cos\theta_{6}\mult (\cos\theta_{1}\mult
+                                              \cos\theta_{4} + \sin\theta_{4...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1633,8 +1828,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...t \cos(\theta_{4}) + \sin(\theta_{4})\mult
-                                                   (\sin(\theta_{1})\mult \s...
+l.78 ...\mult \cos\theta_{4} + \sin\theta_{4}\mult
+                                                   (\sin\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1642,8 +1837,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...in(\theta_{4})\mult (\sin(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.78 ...+ \sin\theta_{4}\mult (\sin\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1651,8 +1846,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...sin(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.78 ...t (\sin\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1660,8 +1855,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...t \sin(\theta_{3}) - \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3})\mult \si...
+l.78 ...\mult \sin\theta_{3} - \cos\theta_{2}\mult
+                                                   \cos\theta_{3}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1669,8 +1864,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...cos(\theta_{2})\mult \cos(\theta_{3})\mult
-                                                   \sin(\theta_{1}))) - \sin...
+l.78 ... - \cos\theta_{2}\mult \cos\theta_{3}\mult
+                                                   \sin\theta_{1})) - \sin\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1678,8 +1873,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...\sin(\theta_{1}))) - \sin(\theta_{6})\mult
-                                                   (\cos(\theta_{5})\mult (\...
+l.78 ...ult \sin\theta_{1})) - \sin\theta_{6}\mult
+                                                   (\cos\theta_{5}\mult (\co...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1687,8 +1882,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...in(\theta_{6})\mult (\cos(\theta_{5})\mult
-                                                   (\cos(\theta_{1})\mult \s...
+l.78 ...- \sin\theta_{6}\mult (\cos\theta_{5}\mult
+                                                   (\cos\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1696,8 +1891,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...os(\theta_{5})\mult (\cos(\theta_{1})\mult
-                                                   \sin(\theta_{4}) - \cos(\...
+l.78 ... (\cos\theta_{5}\mult (\cos\theta_{1}\mult
+                                                   \sin\theta_{4} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1705,8 +1900,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...t \sin(\theta_{4}) - \cos(\theta_{4})\mult
-                                                   (\sin(\theta_{1})\mult \s...
+l.78 ...\mult \sin\theta_{4} - \cos\theta_{4}\mult
+                                                   (\sin\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1714,8 +1909,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...os(\theta_{4})\mult (\sin(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.78 ...- \cos\theta_{4}\mult (\sin\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1723,8 +1918,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...sin(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.78 ...t (\sin\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1732,8 +1927,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...t \sin(\theta_{3}) - \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3})\mult \si...
+l.78 ...\mult \sin\theta_{3} - \cos\theta_{2}\mult
+                                                   \cos\theta_{3}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1741,8 +1936,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...cos(\theta_{2})\mult \cos(\theta_{3})\mult
-                                                   \sin(\theta_{1}))) - \sin...
+l.78 ... - \cos\theta_{2}\mult \cos\theta_{3}\mult
+                                                   \sin\theta_{1})) - \sin\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1750,8 +1945,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...\sin(\theta_{1}))) - \sin(\theta_{5})\mult
-                                                   (\cos(\theta_{2})\mult \s...
+l.78 ...ult \sin\theta_{1})) - \sin\theta_{5}\mult
+                                                   (\cos\theta_{2}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1759,8 +1954,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...in(\theta_{5})\mult (\cos(\theta_{2})\mult
-                                                   \sin(\theta_{1})\mult \si...
+l.78 ...- \sin\theta_{5}\mult (\cos\theta_{2}\mult
+                                                   \sin\theta_{1}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1768,8 +1963,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...cos(\theta_{2})\mult \sin(\theta_{1})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
+l.78 ...t (\cos\theta_{2}\mult \sin\theta_{1}\mult
+                                                   \sin\theta_{3} + \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1777,8 +1972,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...t \sin(\theta_{3}) + \cos(\theta_{3})\mult
-                                                   \sin(\theta_{1})\mult \si...
+l.78 ...\mult \sin\theta_{3} + \cos\theta_{3}\mult
+                                                   \sin\theta_{1}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1786,8 +1981,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.38 ...cos(\theta_{3})\mult \sin(\theta_{1})\mult
-                                                   \sin(\theta_{2})))
+l.78 ... + \cos\theta_{3}\mult \sin\theta_{1}\mult
+                                                   \sin\theta_{2}))
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1797,50 +1992,42 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.40 
+l.80 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-Overfull \hbox (34.44609pt too wide) in paragraph at lines 36--40
-[]\OT1/cmr/m/n/10 s$[] =$$[](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/
-m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) + [](\OML
-/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\
-OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \
-OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\
-OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )))
- \OMS/cmsy/m/n/10  $
- []
-
-
-Overfull \hbox (33.26447pt too wide) in paragraph at lines 36--40
-$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/1
-0   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ))) \OMS/cmsy/m/n
-/10  $
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--40
-
- []
+! Missing } inserted.
+<inserted text> 
+                }
+l.80 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.41 a_
-       {y} =
+l.81 \bf{a_
+           {y}} =
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Extra }, or forgotten $.
+l.81 \bf{a_{y}}
+                =
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ! Undefined control sequence.
-l.43 - \sin(\theta_{5})\mult
-                             (\cos(\theta_{1})\mult \sin(\theta_{4}) - \cos(...
+l.83 - \sin\theta_{5}\mult
+                           (\cos\theta_{1}\mult \sin\theta_{4} - \cos\theta_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1848,8 +2035,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.43 ...in(\theta_{5})\mult (\cos(\theta_{1})\mult
-                                                   \sin(\theta_{4}) - \cos(\...
+l.83 - \sin\theta_{5}\mult (\cos\theta_{1}\mult
+                                                \sin\theta_{4} - \cos\theta_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1857,8 +2044,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.43 ...t \sin(\theta_{4}) - \cos(\theta_{4})\mult
-                                                   (\sin(\theta_{1})\mult \s...
+l.83 ...\mult \sin\theta_{4} - \cos\theta_{4}\mult
+                                                   (\sin\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1866,8 +2053,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.43 ...os(\theta_{4})\mult (\sin(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.83 ...- \cos\theta_{4}\mult (\sin\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1875,8 +2062,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.43 ...sin(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.83 ...t (\sin\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1884,8 +2071,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.43 ...t \sin(\theta_{3}) - \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3})\mult \si...
+l.83 ...\mult \sin\theta_{3} - \cos\theta_{2}\mult
+                                                   \cos\theta_{3}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1893,8 +2080,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.43 ...cos(\theta_{2})\mult \cos(\theta_{3})\mult
-                                                   \sin(\theta_{1}))) - \cos...
+l.83 ... - \cos\theta_{2}\mult \cos\theta_{3}\mult
+                                                   \sin\theta_{1})) - \cos\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1902,8 +2089,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.43 ...\sin(\theta_{1}))) - \cos(\theta_{5})\mult
-                                                   (\cos(\theta_{2})\mult \s...
+l.83 ...ult \sin\theta_{1})) - \cos\theta_{5}\mult
+                                                   (\cos\theta_{2}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1911,8 +2098,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.43 ...os(\theta_{5})\mult (\cos(\theta_{2})\mult
-                                                   \sin(\theta_{1})\mult \si...
+l.83 ...- \cos\theta_{5}\mult (\cos\theta_{2}\mult
+                                                   \sin\theta_{1}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1920,8 +2107,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.43 ...cos(\theta_{2})\mult \sin(\theta_{1})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
+l.83 ...t (\cos\theta_{2}\mult \sin\theta_{1}\mult
+                                                   \sin\theta_{3} + \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1929,8 +2116,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.43 ...t \sin(\theta_{3}) + \cos(\theta_{3})\mult
-                                                   \sin(\theta_{1})\mult \si...
+l.83 ...\mult \sin\theta_{3} + \cos\theta_{3}\mult
+                                                   \sin\theta_{1}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1938,8 +2125,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.43 ...cos(\theta_{3})\mult \sin(\theta_{1})\mult
-                                                   \sin(\theta_{2}))
+l.83 ... + \cos\theta_{3}\mult \sin\theta_{1}\mult
+                                                   \sin\theta_{2})
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1949,39 +2136,42 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.45 
+l.85 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-Overfull \hbox (43.83499pt too wide) in paragraph at lines 41--45
-[]\OT1/cmr/m/n/10 a$[] =$$\OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/i
-t/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/i
-t/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/
-n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/i
-t/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ))) \OMS/cmsy/
-m/n/10  $
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
-
- []
+! Missing } inserted.
+<inserted text> 
+                }
+l.85 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.46 p_
-       {y} =
+l.86 \bf{p_
+           {y}} =
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Extra }, or forgotten $.
+l.86 \bf{p_{y}}
+                =
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ! Undefined control sequence.
-l.48 100\mult
-              \sin(\theta_{1}) + 250\mult \cos(\theta_{2})\mult \sin(\theta_...
+l.88 100\mult
+              \sin\theta_{1} + 250\mult \cos\theta_{2}\mult \sin\theta_{1} +...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1989,8 +2179,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 100\mult \sin(\theta_{1}) + 250\mult
-                                          \cos(\theta_{2})\mult \sin(\theta_...
+l.88 100\mult \sin\theta_{1} + 250\mult
+                                        \cos\theta_{2}\mult \sin\theta_{1} +...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1998,8 +2188,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...heta_{1}) + 250\mult \cos(\theta_{2})\mult
-                                                   \sin(\theta_{1}) + 250\mu...
+l.88 ...n\theta_{1} + 250\mult \cos\theta_{2}\mult
+                                                   \sin\theta_{1} + 250\mult...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2007,8 +2197,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...heta_{2})\mult \sin(\theta_{1}) + 250\mult
-                                                   \cos(\theta_{1})\mult \si...
+l.88 ...s\theta_{2}\mult \sin\theta_{1} + 250\mult
+                                                   \cos\theta_{1}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2016,8 +2206,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...heta_{1}) + 250\mult \cos(\theta_{1})\mult
-                                                   \sin(\theta_{4}) + 250\mu...
+l.88 ...n\theta_{1} + 250\mult \cos\theta_{1}\mult
+                                                   \sin\theta_{4} + 250\mult...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2025,8 +2215,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...heta_{1})\mult \sin(\theta_{4}) + 250\mult
-                                                   \sin(\theta_{6})\mult (\c...
+l.88 ...s\theta_{1}\mult \sin\theta_{4} + 250\mult
+                                                   \sin\theta_{6}\mult (\cos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2034,8 +2224,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...heta_{4}) + 250\mult \sin(\theta_{6})\mult
-                                                   (\cos(\theta_{1})\mult \c...
+l.88 ...n\theta_{4} + 250\mult \sin\theta_{6}\mult
+                                                   (\cos\theta_{1}\mult \cos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2043,8 +2233,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...in(\theta_{6})\mult (\cos(\theta_{1})\mult
-                                                   \cos(\theta_{4}) + \sin(\...
+l.88 ...t \sin\theta_{6}\mult (\cos\theta_{1}\mult
+                                                   \cos\theta_{4} + \sin\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2052,8 +2242,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...t \cos(\theta_{4}) + \sin(\theta_{4})\mult
-                                                   (\sin(\theta_{1})\mult \s...
+l.88 ...\mult \cos\theta_{4} + \sin\theta_{4}\mult
+                                                   (\sin\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2061,8 +2251,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...in(\theta_{4})\mult (\sin(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.88 ...+ \sin\theta_{4}\mult (\sin\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2070,8 +2260,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...sin(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.88 ...t (\sin\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2079,8 +2269,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...t \sin(\theta_{3}) - \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3})\mult \si...
+l.88 ...\mult \sin\theta_{3} - \cos\theta_{2}\mult
+                                                   \cos\theta_{3}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2088,8 +2278,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...cos(\theta_{2})\mult \cos(\theta_{3})\mult
-                                                   \sin(\theta_{1}))) - 250\...
+l.88 ... - \cos\theta_{2}\mult \cos\theta_{3}\mult
+                                                   \sin\theta_{1})) - 250\mu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2097,8 +2287,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...ta_{3})\mult \sin(\theta_{1}))) - 250\mult
-                                                   \cos(\theta_{4})\mult (\s...
+l.88 ...theta_{3}\mult \sin\theta_{1})) - 250\mult
+                                                   \cos\theta_{4}\mult (\sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2106,8 +2296,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...ta_{1}))) - 250\mult \cos(\theta_{4})\mult
-                                                   (\sin(\theta_{1})\mult \s...
+l.88 ...theta_{1})) - 250\mult \cos\theta_{4}\mult
+                                                   (\sin\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2115,8 +2305,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...os(\theta_{4})\mult (\sin(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.88 ...t \cos\theta_{4}\mult (\sin\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2124,8 +2314,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...sin(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.88 ...t (\sin\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2133,8 +2323,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...t \sin(\theta_{3}) - \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3})\mult \si...
+l.88 ...\mult \sin\theta_{3} - \cos\theta_{2}\mult
+                                                   \cos\theta_{3}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2142,8 +2332,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...cos(\theta_{2})\mult \cos(\theta_{3})\mult
-                                                   \sin(\theta_{1})) + 250\m...
+l.88 ... - \cos\theta_{2}\mult \cos\theta_{3}\mult
+                                                   \sin\theta_{1}) + 250\mul...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2151,8 +2341,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...eta_{3})\mult \sin(\theta_{1})) + 250\mult
-                                                   \cos(\theta_{6})\mult (\c...
+l.88 ...\theta_{3}\mult \sin\theta_{1}) + 250\mult
+                                                   \cos\theta_{6}\mult (\cos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2160,8 +2350,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...eta_{1})) + 250\mult \cos(\theta_{6})\mult
-                                                   (\cos(\theta_{5})\mult (\...
+l.88 ...\theta_{1}) + 250\mult \cos\theta_{6}\mult
+                                                   (\cos\theta_{5}\mult (\co...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2169,8 +2359,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...os(\theta_{6})\mult (\cos(\theta_{5})\mult
-                                                   (\cos(\theta_{1})\mult \s...
+l.88 ...t \cos\theta_{6}\mult (\cos\theta_{5}\mult
+                                                   (\cos\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2178,8 +2368,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...os(\theta_{5})\mult (\cos(\theta_{1})\mult
-                                                   \sin(\theta_{4}) - \cos(\...
+l.88 ... (\cos\theta_{5}\mult (\cos\theta_{1}\mult
+                                                   \sin\theta_{4} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2187,8 +2377,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...t \sin(\theta_{4}) - \cos(\theta_{4})\mult
-                                                   (\sin(\theta_{1})\mult \s...
+l.88 ...\mult \sin\theta_{4} - \cos\theta_{4}\mult
+                                                   (\sin\theta_{1}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2196,8 +2386,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...os(\theta_{4})\mult (\sin(\theta_{1})\mult
-                                                   \sin(\theta_{2})\mult \si...
+l.88 ...- \cos\theta_{4}\mult (\sin\theta_{1}\mult
+                                                   \sin\theta_{2}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2205,8 +2395,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...sin(\theta_{1})\mult \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3}) - \cos(\...
+l.88 ...t (\sin\theta_{1}\mult \sin\theta_{2}\mult
+                                                   \sin\theta_{3} - \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2214,8 +2404,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...t \sin(\theta_{3}) - \cos(\theta_{2})\mult
-                                                   \cos(\theta_{3})\mult \si...
+l.88 ...\mult \sin\theta_{3} - \cos\theta_{2}\mult
+                                                   \cos\theta_{3}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2223,8 +2413,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...cos(\theta_{2})\mult \cos(\theta_{3})\mult
-                                                   \sin(\theta_{1}))) - \sin...
+l.88 ... - \cos\theta_{2}\mult \cos\theta_{3}\mult
+                                                   \sin\theta_{1})) - \sin\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2232,8 +2422,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...\sin(\theta_{1}))) - \sin(\theta_{5})\mult
-                                                   (\cos(\theta_{2})\mult \s...
+l.88 ...ult \sin\theta_{1})) - \sin\theta_{5}\mult
+                                                   (\cos\theta_{2}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2241,8 +2431,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...in(\theta_{5})\mult (\cos(\theta_{2})\mult
-                                                   \sin(\theta_{1})\mult \si...
+l.88 ...- \sin\theta_{5}\mult (\cos\theta_{2}\mult
+                                                   \sin\theta_{1}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2250,8 +2440,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...cos(\theta_{2})\mult \sin(\theta_{1})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
+l.88 ...t (\cos\theta_{2}\mult \sin\theta_{1}\mult
+                                                   \sin\theta_{3} + \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2259,8 +2449,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...t \sin(\theta_{3}) + \cos(\theta_{3})\mult
-                                                   \sin(\theta_{1})\mult \si...
+l.88 ...\mult \sin\theta_{3} + \cos\theta_{3}\mult
+                                                   \sin\theta_{1}\mult \sin\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2268,8 +2458,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 ...cos(\theta_{3})\mult \sin(\theta_{1})\mult
-                                                   \sin(\theta_{2})))
+l.88 ... + \cos\theta_{3}\mult \sin\theta_{1}\mult
+                                                   \sin\theta_{2}))
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2279,59 +2469,42 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.50 
+l.90 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-Overfull \hbox (35.9183pt too wide) in paragraph at lines 46--50
-[]\OT1/cmr/m/n/10 p$[] =$$100 [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) + 250 []
-(\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )
- + 250 [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr
-/m/n/10 ) + 250 [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 [
-]\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) +$
- []
-
-
-Overfull \hbox (45.48666pt too wide) in paragraph at lines 46--50
-$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 ))) \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 250 [](\OML/cmm/m/i
-t/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/
-m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy
-/m/n/10  $
- []
-
-
-Overfull \hbox (47.15334pt too wide) in paragraph at lines 46--50
-$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )) + 250 [](\OML/cmm
-/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/
-cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/
-cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/
-cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\O
-ML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10  $
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--50
-
- []
+! Missing } inserted.
+<inserted text> 
+                }
+l.90 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.51 n_
-       {z} =
+l.91 \bf{n_
+           {z}} =
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Extra }, or forgotten $.
+l.91 \bf{n_{z}}
+                =
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ! Undefined control sequence.
-l.53 \cos(\theta_{6})\mult
-                           (\sin(\theta_{5})\mult (\cos(\theta_{2})\mult \co...
+l.93 \cos\theta_{6}\mult
+                         (\sin\theta_{5}\mult (\cos\theta_{2}\mult \cos\thet...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2339,8 +2512,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.53 \cos(\theta_{6})\mult (\sin(\theta_{5})\mult
-                                                  (\cos(\theta_{2})\mult \co...
+l.93 \cos\theta_{6}\mult (\sin\theta_{5}\mult
+                                              (\cos\theta_{2}\mult \cos\thet...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2348,8 +2521,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.53 ...in(\theta_{5})\mult (\cos(\theta_{2})\mult
-                                                   \cos(\theta_{3}) - \sin(\...
+l.93 ... (\sin\theta_{5}\mult (\cos\theta_{2}\mult
+                                                   \cos\theta_{3} - \sin\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2357,8 +2530,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.53 ...t \cos(\theta_{3}) - \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3})) + \cos(...
+l.93 ...\mult \cos\theta_{3} - \sin\theta_{2}\mult
+                                                   \sin\theta_{3}) + \cos\th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2366,8 +2539,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.53 ... \sin(\theta_{3})) + \cos(\theta_{4})\mult
-                                                   \cos(\theta_{5})\mult (\c...
+l.93 ...mult \sin\theta_{3}) + \cos\theta_{4}\mult
+                                                   \cos\theta_{5}\mult (\cos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2375,8 +2548,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.53 ...cos(\theta_{4})\mult \cos(\theta_{5})\mult
-                                                   (\cos(\theta_{2})\mult \s...
+l.93 ... + \cos\theta_{4}\mult \cos\theta_{5}\mult
+                                                   (\cos\theta_{2}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2384,8 +2557,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.53 ...os(\theta_{5})\mult (\cos(\theta_{2})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
+l.93 ...t \cos\theta_{5}\mult (\cos\theta_{2}\mult
+                                                   \sin\theta_{3} + \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2393,8 +2566,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.53 ...t \sin(\theta_{3}) + \cos(\theta_{3})\mult
-                                                   \sin(\theta_{2}))) - \sin...
+l.93 ...\mult \sin\theta_{3} + \cos\theta_{3}\mult
+                                                   \sin\theta_{2})) - \sin\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2402,8 +2575,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.53 ...\sin(\theta_{2}))) - \sin(\theta_{4})\mult
-                                                   \sin(\theta_{6})\mult (\c...
+l.93 ...ult \sin\theta_{2})) - \sin\theta_{4}\mult
+                                                   \sin\theta_{6}\mult (\cos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2411,8 +2584,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.53 ...sin(\theta_{4})\mult \sin(\theta_{6})\mult
-                                                   (\cos(\theta_{2})\mult \s...
+l.93 ... - \sin\theta_{4}\mult \sin\theta_{6}\mult
+                                                   (\cos\theta_{2}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2420,8 +2593,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.53 ...in(\theta_{6})\mult (\cos(\theta_{2})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
+l.93 ...t \sin\theta_{6}\mult (\cos\theta_{2}\mult
+                                                   \sin\theta_{3} + \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2429,8 +2602,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.53 ...t \sin(\theta_{3}) + \cos(\theta_{3})\mult
-                                                   \sin(\theta_{2}))
+l.93 ...\mult \sin\theta_{3} + \cos\theta_{3}\mult
+                                                   \sin\theta_{2})
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2440,178 +2613,42 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.55 
+l.95 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-Overfull \hbox (35.30263pt too wide) in paragraph at lines 51--55
-[]\OT1/cmr/m/n/10 n$[] =$$[](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/
-m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/c
-mm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/
-m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )) + [](\OM
-L/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](
-\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) 
-+$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--55
-
- []
-
-! Missing $ inserted.
+! Missing } inserted.
 <inserted text> 
-                $
-l.56 s_
-       {z} =
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Undefined control sequence.
-l.58 - \sin(\theta_{6})\mult
-                             (\sin(\theta_{5})\mult (\cos(\theta_{2})\mult \...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.58 ...in(\theta_{6})\mult (\sin(\theta_{5})\mult
-                                                   (\cos(\theta_{2})\mult \c...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.58 ...in(\theta_{5})\mult (\cos(\theta_{2})\mult
-                                                   \cos(\theta_{3}) - \sin(\...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.58 ...t \cos(\theta_{3}) - \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3})) + \cos(...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.58 ... \sin(\theta_{3})) + \cos(\theta_{4})\mult
-                                                   \cos(\theta_{5})\mult (\c...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.58 ...cos(\theta_{4})\mult \cos(\theta_{5})\mult
-                                                   (\cos(\theta_{2})\mult \s...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.58 ...os(\theta_{5})\mult (\cos(\theta_{2})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.58 ...t \sin(\theta_{3}) + \cos(\theta_{3})\mult
-                                                   \sin(\theta_{2}))) - \cos...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.58 ...\sin(\theta_{2}))) - \cos(\theta_{6})\mult
-                                                   \sin(\theta_{4})\mult (\c...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.58 ...cos(\theta_{6})\mult \sin(\theta_{4})\mult
-                                                   (\cos(\theta_{2})\mult \s...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.58 ...in(\theta_{4})\mult (\cos(\theta_{2})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.58 ...t \sin(\theta_{3}) + \cos(\theta_{3})\mult
-                                                   \sin(\theta_{2}))
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.60 
+                }
+l.95 
      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (42.02483pt too wide) in paragraph at lines 56--60
-[]\OT1/cmr/m/n/10 s$[] =$$\OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
-0 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/i
-t/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/
-n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/i
-t/10 []\OT1/cmr/m/n/10 )) + [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/c
-mm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OM
-L/cmm/m/it/10 []\OT1/cmr/m/n/10 ) +$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--60
-
- []
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.61 a_
-       {z} =
+l.96 \bf{s_
+           {z}} =
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Extra }, or forgotten $.
+l.96 \bf{s_{z}}
+                =
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ! Undefined control sequence.
-l.63 \cos(\theta_{5})\mult
-                           (\cos(\theta_{2})\mult \cos(\theta_{3}) - \sin(\t...
+l.98 - \sin\theta_{6}\mult
+                           (\sin\theta_{5}\mult (\cos\theta_{2}\mult \cos\th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2619,8 +2656,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.63 \cos(\theta_{5})\mult (\cos(\theta_{2})\mult
-                                                  \cos(\theta_{3}) - \sin(\t...
+l.98 - \sin\theta_{6}\mult (\sin\theta_{5}\mult
+                                                (\cos\theta_{2}\mult \cos\th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2628,8 +2665,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.63 ...t \cos(\theta_{3}) - \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3})) - \cos(...
+l.98 ... (\sin\theta_{5}\mult (\cos\theta_{2}\mult
+                                                   \cos\theta_{3} - \sin\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2637,8 +2674,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.63 ... \sin(\theta_{3})) - \cos(\theta_{4})\mult
-                                                   \sin(\theta_{5})\mult (\c...
+l.98 ...\mult \cos\theta_{3} - \sin\theta_{2}\mult
+                                                   \sin\theta_{3}) + \cos\th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2646,8 +2683,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.63 ...cos(\theta_{4})\mult \sin(\theta_{5})\mult
-                                                   (\cos(\theta_{2})\mult \s...
+l.98 ...mult \sin\theta_{3}) + \cos\theta_{4}\mult
+                                                   \cos\theta_{5}\mult (\cos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2655,8 +2692,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.63 ...in(\theta_{5})\mult (\cos(\theta_{2})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
+l.98 ... + \cos\theta_{4}\mult \cos\theta_{5}\mult
+                                                   (\cos\theta_{2}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2664,8 +2701,53 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.63 ...t \sin(\theta_{3}) + \cos(\theta_{3})\mult
-                                                   \sin(\theta_{2}))
+l.98 ...t \cos\theta_{5}\mult (\cos\theta_{2}\mult
+                                                   \sin\theta_{3} + \cos\the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.98 ...\mult \sin\theta_{3} + \cos\theta_{3}\mult
+                                                   \sin\theta_{2})) - \cos\t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.98 ...ult \sin\theta_{2})) - \cos\theta_{6}\mult
+                                                   \sin\theta_{4}\mult (\cos...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.98 ... - \cos\theta_{6}\mult \sin\theta_{4}\mult
+                                                   (\cos\theta_{2}\mult \sin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.98 ...t \sin\theta_{4}\mult (\cos\theta_{2}\mult
+                                                   \sin\theta_{3} + \cos\the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.98 ...\mult \sin\theta_{3} + \cos\theta_{3}\mult
+                                                   \sin\theta_{2})
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2675,38 +2757,42 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.65 
-     
+l.100 
+      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.100 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Overfull \hbox (0.5109pt too wide) in paragraph at lines 61--65
-[]\OT1/cmr/m/n/10 a$[] =$$[](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/
-m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy
-/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/
-m/it/10 []\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/
-it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm
-/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) +$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--65
-
- []
-
-[8]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.66 p_
-       {z} =
+l.101 \bf{a_
+            {z}} =
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Extra }, or forgotten $.
+l.101 \bf{a_{z}}
+                 =
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ! Undefined control sequence.
-l.68 250\mult
-              \sin(\theta_{2}) + 250\mult \cos(\theta_{6})\mult (\sin(\theta...
+l.103 \cos\theta_{5}\mult
+                          (\cos\theta_{2}\mult \cos\theta_{3} - \sin\theta_{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2714,8 +2800,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.68 250\mult \sin(\theta_{2}) + 250\mult
-                                          \cos(\theta_{6})\mult (\sin(\theta...
+l.103 \cos\theta_{5}\mult (\cos\theta_{2}\mult
+                                               \cos\theta_{3} - \sin\theta_{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2723,8 +2809,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.68 ...heta_{2}) + 250\mult \cos(\theta_{6})\mult
-                                                   (\sin(\theta_{5})\mult (\...
+l.103 ...mult \cos\theta_{3} - \sin\theta_{2}\mult
+                                                   \sin\theta_{3}) - \cos\th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2732,8 +2818,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.68 ...os(\theta_{6})\mult (\sin(\theta_{5})\mult
-                                                   (\cos(\theta_{2})\mult \c...
+l.103 ...ult \sin\theta_{3}) - \cos\theta_{4}\mult
+                                                   \sin\theta_{5}\mult (\cos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2741,8 +2827,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.68 ...in(\theta_{5})\mult (\cos(\theta_{2})\mult
-                                                   \cos(\theta_{3}) - \sin(\...
+l.103 ...- \cos\theta_{4}\mult \sin\theta_{5}\mult
+                                                   (\cos\theta_{2}\mult \sin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2750,8 +2836,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.68 ...t \cos(\theta_{3}) - \sin(\theta_{2})\mult
-                                                   \sin(\theta_{3})) + \cos(...
+l.103 ... \sin\theta_{5}\mult (\cos\theta_{2}\mult
+                                                   \sin\theta_{3} + \cos\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2759,198 +2845,286 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.68 ... \sin(\theta_{3})) + \cos(\theta_{4})\mult
-                                                   \cos(\theta_{5})\mult (\c...
+l.103 ...mult \sin\theta_{3} + \cos\theta_{3}\mult
+                                                   \sin\theta_{2})
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.68 ...cos(\theta_{4})\mult \cos(\theta_{5})\mult
-                                                   (\cos(\theta_{2})\mult \s...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 ...os(\theta_{5})\mult (\cos(\theta_{2})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 ...t \sin(\theta_{3}) + \cos(\theta_{3})\mult
-                                                   \sin(\theta_{2}))) + 250\...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 ...ta_{3})\mult \sin(\theta_{2}))) + 250\mult
-                                                   \cos(\theta_{4})\mult (\c...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 ...ta_{2}))) + 250\mult \cos(\theta_{4})\mult
-                                                   (\cos(\theta_{2})\mult \s...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 ...os(\theta_{4})\mult (\cos(\theta_{2})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 ...t \sin(\theta_{3}) + \cos(\theta_{3})\mult
-                                                   \sin(\theta_{2})) - 250\m...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 ...eta_{3})\mult \sin(\theta_{2})) - 250\mult
-                                                   \sin(\theta_{4})\mult \si...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 ...eta_{2})) - 250\mult \sin(\theta_{4})\mult
-                                                   \sin(\theta_{6})\mult (\c...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 ...sin(\theta_{4})\mult \sin(\theta_{6})\mult
-                                                   (\cos(\theta_{2})\mult \s...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 ...in(\theta_{6})\mult (\cos(\theta_{2})\mult
-                                                   \sin(\theta_{3}) + \cos(\...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 ...t \sin(\theta_{3}) + \cos(\theta_{3})\mult
-                                                   \sin(\theta_{2})) + 67
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) ("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\Question4.tex
-"
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1 \section
-            {Question 4}
+l.105 
+      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.105 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Overfull \hbox (105.64995pt too wide) in paragraph at lines 66--1
-[]\OT1/cmr/m/n/10 p$[] =$$250 [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) + 250 []
-(\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )
-([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/1
-0 ) \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )
- [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )) + [](\OML/cmm/m/it/10 []\OT1/cmr/m/
-n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr
-/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) +$
- []
+! Missing $ inserted.
+<inserted text> 
+                $
+l.106 \bf{p_
+            {z}} =
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
+! Extra }, or forgotten $.
+l.106 \bf{p_{z}}
+                 =
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-Overfull \hbox (74.37561pt too wide) in paragraph at lines 66--1
-$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 ))) + 250 [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cm
-m/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) + [](\O
-ML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )) \
-OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 250 [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) 
-[](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )([](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10
- ) [](\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) +$
- []
+! Undefined control sequence.
+l.108 250\mult
+               \sin\theta_{2} + 250\mult \cos\theta_{6}\mult (\sin\theta_{5}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+l.108 250\mult \sin\theta_{2} + 250\mult
+                                         \cos\theta_{6}\mult (\sin\theta_{5}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--1
+! Undefined control sequence.
+l.108 ...\theta_{2} + 250\mult \cos\theta_{6}\mult
+                                                   (\sin\theta_{5}\mult (\co...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- []
+! Undefined control sequence.
+l.108 ... \cos\theta_{6}\mult (\sin\theta_{5}\mult
+                                                   (\cos\theta_{2}\mult \cos...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-) ("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\Question5.tex
-") ("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\Question6.te
-x")
-("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\Question7.tex")
-("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\Question8.tex")
-[9]
-("C:\Users\Kausthub\Documents\Fourth Year\MTRX5700\Assignment 1\Assignment 1.au
-x") ) 
+! Undefined control sequence.
+l.108 ...(\sin\theta_{5}\mult (\cos\theta_{2}\mult
+                                                   \cos\theta_{3} - \sin\the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...mult \cos\theta_{3} - \sin\theta_{2}\mult
+                                                   \sin\theta_{3}) + \cos\th...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...ult \sin\theta_{3}) + \cos\theta_{4}\mult
+                                                   \cos\theta_{5}\mult (\cos...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...+ \cos\theta_{4}\mult \cos\theta_{5}\mult
+                                                   (\cos\theta_{2}\mult \sin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ... \cos\theta_{5}\mult (\cos\theta_{2}\mult
+                                                   \sin\theta_{3} + \cos\the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...mult \sin\theta_{3} + \cos\theta_{3}\mult
+                                                   \sin\theta_{2})) + 250\mu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...heta_{3}\mult \sin\theta_{2})) + 250\mult
+                                                   \cos\theta_{4}\mult (\cos...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...heta_{2})) + 250\mult \cos\theta_{4}\mult
+                                                   (\cos\theta_{2}\mult \sin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ... \cos\theta_{4}\mult (\cos\theta_{2}\mult
+                                                   \sin\theta_{3} + \cos\the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...mult \sin\theta_{3} + \cos\theta_{3}\mult
+                                                   \sin\theta_{2}) - 250\mul...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...theta_{3}\mult \sin\theta_{2}) - 250\mult
+                                                   \sin\theta_{4}\mult \sin\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...theta_{2}) - 250\mult \sin\theta_{4}\mult
+                                                   \sin\theta_{6}\mult (\cos...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...t \sin\theta_{4}\mult \sin\theta_{6}\mult
+                                                   (\cos\theta_{2}\mult \sin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ... \sin\theta_{6}\mult (\cos\theta_{2}\mult
+                                                   \sin\theta_{3} + \cos\the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.108 ...mult \sin\theta_{3} + \cos\theta_{3}\mult
+                                                   \sin\theta_{2}) + 67
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.110 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.110 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\Question4.tex")
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\Question5.tex")
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\Question6.tex")
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\Question7.tex")
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\Question8.tex") [9] [10]
+("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
+ent 1\Assignment 1.aux") ) 
 Here is how much of TeX's memory you used:
- 4513 strings out of 493921
- 61493 string characters out of 3147273
- 349353 words of memory out of 3000000
- 7708 multiletter control sequences out of 15000+200000
+ 5018 strings out of 493921
+ 70399 string characters out of 3144867
+ 477602 words of memory out of 3000000
+ 8194 multiletter control sequences out of 15000+200000
  14873 words of font info for 55 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,7n,42p,960b,1547s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Kausthub\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi600\tcrm1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/s
-ymbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
-ols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
-
-Output written on "Assignment 1.pdf" (10 pages, 228410 bytes).
+ 34i,11n,42p,880b,1547s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm
+-super/cm-super-ts1.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/font
+name/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc
+10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on "Assignment 1.pdf" (11 pages, 364729 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
+ 124 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

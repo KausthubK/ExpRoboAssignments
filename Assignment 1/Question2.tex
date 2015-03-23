@@ -1,7 +1,10 @@
 \newpage
 \section{Question 2}
 	\lstinputlisting{./MATLABFiles/q2.m}
-	\includegraphics{q2Axes}
+	\begin{figure}
+		\includegraphics{q2Axes}
+		\caption[\textit{RPYAxes}]{Roll Pitch and Yaw definitions (relative to axis names)}
+	\end{figure}
 	\subsection{Validity Check}
 	We need to prove that the determinant of the matrix is equal to 1 and that the inverse of the matrix is equal to the transpose to prove validity.
 		\subsubsection{$R_{1}$}
@@ -131,9 +134,9 @@
 					
 	\newpage
 	\subsection{Roll/Pitch/Yaw Angles}
-		Roll Angle is $\alpha$
-		Pitch Angle is $\beta$
-		Yaw Angle is $\gamma$
+		Roll Angle is $\alpha$,
+		Pitch Angle is $\beta$,
+		Yaw Angle is $\gamma$.\\
 	Assumption: The believability of the angles can be determined purely mathematically. In reality these angles may not necessarily be believable depending on the application at hand. However, we cannot account for this without further information about the system.
 		\subsubsection{$R_{1}$}
 		The following values are believable\\
