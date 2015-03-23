@@ -1,0 +1,74 @@
+\newpage
+\section{Question 1}
+	The following MATLAB code was used to generate the homogeneous transformation matrices required.
+
+	\lstinputlisting{./MATLABFiles/q1.m}
+	
+	\subsection{}	%a
+		The homogeneous transformation matrix for\\
+		$\alpha$ = 10\degree, 
+		$\beta$ = 20\degree, 
+		$\gamma$ = 30\degree, $^{A}P_{B} =$ \{1 2 3\}$^{T}$\\
+		looks like:\\
+	
+		$$
+		A =
+		\begin{pmatrix}
+			0.9254 & 0.0180 & 0.3785 & 1.0000\\
+			0.1632 & 0.8826 & -0.4410 & 2.0000\\
+			-0.3420  & 0.4698  & 0.8138 & 3.0000\\
+			0 & 0 & 0 & 1
+		\end{pmatrix}
+		$$
+		
+	\subsection{}	%b
+		The homogeneous transformation matrix for\newline
+		$\alpha$ = 10\degree, 
+		$\beta$ = 30\degree, 
+		$\gamma$ = 30\degree, $^{A}P_{B} =$ \{3 0 0\}$^{T}$\\
+		looks like:\\
+		
+		$$
+		B =
+		\begin{pmatrix}
+			0.8529 & 0.0958 & 0.5133 & 3.0000\\
+			0.1504 & 0.8963 & -0.4172 & 0\\
+			-0.5000  & 0.4330  & 0.7500 & 0\\
+			0 & 0 & 0 & 1
+		\end{pmatrix}
+		$$		
+	\subsection{}	%c
+		The homogeneous transformation matrix for\newline
+		$\alpha$ = 90\degree, 
+		$\beta$ = 180\degree, 
+		$\gamma$ = -90\degree, $^{A}P_{B} =$ \{0 0 1\}$^{T}$\newline
+		looks like:\\
+		
+		$$
+		C_{1} =
+		\begin{pmatrix}
+			0 & 0 & -1 & 0\\
+			-1 & 0 & 0 & 0\\
+			0  & 1  & 0 & 1\\
+			0 & 0 & 0 & 1
+		\end{pmatrix}
+		$$		
+		\\
+		In Comparison:
+		The homogeneous transformation matrix for\newline
+		$\alpha$ = 90\degree, 
+		$\beta$ = 180\degree, 
+		$\gamma$ = 270\degree, $^{A}P_{B} =$ \{0 0 1\}$^{T}$\newline
+		looks like:\\
+		
+		$$
+		C_{2} =
+		\begin{pmatrix}
+			0 & 0 & -1 & 0\\
+			-1 & 0 & 0 & 0\\
+			0  & 1  & 0 & 1\\
+			0 & 0 & 0 & 1
+		\end{pmatrix}
+		$$		
+		\\
+		Comparing these two we find that there is no difference between the two generated matrices.

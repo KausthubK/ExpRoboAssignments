@@ -1,0 +1,28 @@
+\documentclass{article}
+\renewcommand{\thesubsection}{\thesection.\alph{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\roman{subsubsection}}
+\usepackage{subfiles}
+\usepackage{gensymb}
+\usepackage[numbered, framed]{mcode}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+
+\lstset{
+	caption={MTRX5700 A1Q1 MATLAB Code}, 
+	breaklines = true,
+	postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}}
+	}
+
+\begin{document}
+	\input{./AssignmentCoverSheet.tex}
+	\input{./Question1.tex}
+	\input{./Question2.tex}
+	\input{./Question3.tex}	
+	\input{./Question4.tex}
+	\input{./Question5.tex}
+	\input{./Question6.tex}
+	\input{./Question7.tex}
+	\input{./Question8.tex}	
+\end{document}
