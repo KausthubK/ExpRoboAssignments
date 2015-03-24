@@ -1,0 +1,3 @@
+LIBRARY q8b_sfun.mexw64
+EXPORTS
+mexFunction

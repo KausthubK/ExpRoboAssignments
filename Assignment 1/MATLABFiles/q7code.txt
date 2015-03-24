@@ -1,0 +1,86 @@
+''''''''''''''''''''''''''''''''''''''''''''
+' Wrapper Functions...                     '
+' Don 't change anything in this section...'
+''''''''''''''''''''''''''''''''''''''''''''	
+#define MoveBlockHeight (40)
+#define BlockWidth (80)
+Function SetupArm()
+	Motor On
+	If (0) Then
+	    Power High
+		SpeedS 2000 ' 80
+		AccelS 500 ' 50
+		Accel 50, 50 ' 15, 15
+		Speed 15
+		SpeedR 75
+		AccelR 200
+	Else
+	    Power Low
+		SpeedS 80
+		AccelS 50
+		Accel 15, 15
+		Speed 3
+	EndIf
+	TLSet 1, XY(0, 0, 180, 0, 0, 0)
+	Tool 1
+Fend
+Function GoHome()
+	Move LJM(Here :Z(MoveBlockHeight + BlockWidth))
+	Move LJM(Here :U(90) :V(0) :W(180)) ROT
+	Move LJM(XY(0, 360, MoveBlockHeight + BlockWidth, 90, 0, 180))
+Fend
+Function CloseGripper
+	On 10
+	Wait 0.2
+Fend
+Function OpenGripper
+	Off 10
+	Wait 0.2
+Fend
+Function SetToolHeight(Height As Real)
+	If (Height < 0) Then
+		Height = 0
+	EndIf
+	'Go Here :Z(MoveBlockHeight + Height * BlockWidth) LJM
+	Move LJM(Here :Z(MoveBlockHeight + Height * BlockWidth))
+Fend
+Function PositionTool(XPos As Real, YPos As Real)
+	P1 = Here
+	Real z
+	z = CZ(P1)
+    'Go LJM(Here :X(XPos) :Y(YPos))
+	Move LJM(Here :X(XPos) :Y(YPos))
+Fend
+Function SetToolAngle(Angle As Real)
+	If (Angle < 0) Then
+		Angle = 0
+	EndIf
+	If (Angle > 180) Then
+		Angle = 180
+	EndIf
+	Move LJM(Here :U(90 + Angle) :V(0) :W(180)) ROT
+Fend
+' ... end wrapper functions                '
+''''''''''''''''''''''''''''''''''''''''''''
+
+Function BuildBlock(x As Real, y As Real, BlockNumber As Integer)
+	SetToolHeight(4)
+	PositionTool(x, y)
+	SetToolHeight(0)
+	CloseGripper
+	SetToolHeight(4 + 0.1)
+	PositionTool(0, 490)
+	SetToolHeight((BlockNumber - 1))
+	OpenGripper
+Fend
+
+Function main
+	SetupArm()
+	GoHome
+	BuildBlock(0, 290, 1)
+	BuildBlock(300, 290, 2)
+	BuildBlock(300, 390, 3)
+	BuildBlock(-300, 390, 4)
+	BuildBlock(-300, 290, 5)
+
+Fend
