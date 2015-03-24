@@ -14,22 +14,13 @@
 			$$
 			R_{1} =
 			\begin{pmatrix}
-				0.7500 & -0.4330 & -0.5000\\
-				0.2165 & 0.8750 & -0.4330\\
-				0.6250  & 0.2165  & 0.7500
+			0.7500 & -0.4330 & -0.5000\\
+			0.2165 & 0.8750 & -0.4330\\
+			0.6250  & 0.2165  & 0.7500
 			\end{pmatrix}
 			$$
 			\hspace{35mm}$det(R_{1}) = 1.0000$
 			\\
-			$$
-			R_{1}^{-1} =
-			\begin{pmatrix}
-				0.7500 & 0.2165 & 0.6250\\
-				-0.4330 & 0.8750 & 0.2165\\
-				-0.5000  & -0.4330  & 0.7500
-			\end{pmatrix}
-			$$
-			
 			$$
 			R_{1}^{T} =
 			\begin{pmatrix}
@@ -164,4 +155,6 @@
 	\subsection{Angle Estimation}
 	For a matrix such as $R_{2}$ we can adjust our matrix values slightly (making them less accurate i.e. to fewer decimal values) to still get a reasonable estimation of our angles. We can realise this by seeing that the determinant is so close to 1.
 	$R_{4}$, however, cannot give us a reasonable estimate for the angles as the determinant is too far from the required value of 1.
-%%	for __ these estimated values would be more realistic
+	
+	\subsection*{Code Listing}
+	See Appendix A [9.2]
