@@ -1,9 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.7.24)  24 MAR 2015 07:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.20)  24 MAR 2015 11:52
 entering extended mode
 **Assignment*1.tex
-
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\Assignment 1.tex"
+("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\Assignment 1.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,9 +13,9 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -32,22 +30,22 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count87
@@ -63,41 +61,40 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfiles\subfiles.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfiles\subfiles.sty"
 Package: subfiles 2012/05/23 Federico Garcia
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks16
 \verbatim@line=\toks17
 \verbatim@in@stream=\read1
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\was\gensymb.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\was\gensymb.sty"
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\mcode.sty"
+("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\mcode.sty"
 -- Package: `mcode' 2.5 <2014/03/06> --
 Package: mcode 2014/03/06 2.5
  - settings optimized for display (colour formating)
  - line numbering enabled
  - framed listings
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count90
@@ -112,7 +109,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count91
 \lst@gtempboxa=\box26
 \lst@token=\toks18
@@ -126,18 +123,18 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 \lst@lineno=\count96
 \lst@maxwidth=\dimen114
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count97
 \lst@skipnumbers=\count98
 \lst@framebox=\box27
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2014/03/04 1.5c listings configuration
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
-Package: listings 2014/03/04 1.5c (Carsten Heinz)
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -152,7 +149,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -218,24 +215,24 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks19
 \ex@=\dimen115
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen116
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count99
@@ -276,26 +273,26 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
@@ -303,8 +300,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen124
 \Gin@req@width=\dimen125
 )
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\Assignment 1.aux")
+("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\Assignment 1.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
@@ -320,7 +316,7 @@ LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 19.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 19.
@@ -370,7 +366,7 @@ erthousand on input line 19.
 LaTeX Info: Redefining \ohm on input line 19.
 Package gensymb Info: Using \textohm for \ohm on input line 19.
 Package gensymb Info: Using \textmu for \micro on input line 19.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count111
 \scratchdimen=\dimen126
@@ -386,37 +382,34 @@ Package gensymb Info: Using \textmu for \micro on input line 19.
 )
 \c@lstlisting=\count117
 
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\AssignmentCoverSheet.tex"
+("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\AssignmentCoverSheet.te
+x"
 LaTeX Font Info:    Try loading font information for U+msa on input line 16.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\Question1.tex"
+("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\Question1.tex"
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 5.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\MATLABFiles\q1.m"
+("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\MATLABFiles\q1.m"
 LaTeX Font Info:    Try loading font information for TS1+pcr on input line 9.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
 LaTeX Font Info:    Try loading font information for OMS+pcr on input line 9.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspcr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspcr.fd"
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <8> not available
@@ -424,7 +417,7 @@ LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <8> not available
  [1])
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -449,17 +442,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--63
 
  []
 
-)
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\Question2.tex" [2]
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\MATLABFiles\q2.m") <images/q2Axes.png, id=26, 185.90506pt x 181.15047pt>
+) ("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\Question2.tex"
+[2] ("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\MATLABFiles\q2.m")
+<images/q2Axes.png, id=26, 185.90506pt x 181.15047pt>
 File: images/q2Axes.png Graphic file (type png)
-
-<use images/q2Axes.png>
+ <use images/q2Axes.png>
 Package pdftex.def Info: images/q2Axes.png used on input line 5.
 (pdftex.def)             Requested size: 185.9046pt x 181.15002pt.
- [3]
+
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
@@ -469,8 +460,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--53
 
  []
 
-[4 <C:/Users/Kausthub/Documents/Uni Stuff/Fourth Year/Semester 1/MTRX5700/Assig
-nment 1/images/q2Axes.png>]
+[4 <C:/Users/Kausthub/Documents/GitHub/KKGit/Assignment 1/images/q2Axes.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 81--84
 
  []
@@ -500,11 +490,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--161
 
  []
 
-)
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\Question3.tex" [6]
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\MATLABFiles\q2.m") [7]
+) ("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\Question3.tex"
+[6] ("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\MATLABFiles\q2.m")
+[7]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -560,8 +548,7 @@ File: images/q3.png Graphic file (type png)
  <use images/q3.png>
 Package pdftex.def Info: images/q3.png used on input line 28.
 (pdftex.def)             Requested size: 343.78354pt x 252.44249pt.
- [8 <C:/Users/Kausthub/Documents/Uni Stuff/Fourth Year/Semester 1/MTRX5700/Assi
-gnment 1/images/q3.png>]
+ [8 <C:/Users/Kausthub/Documents/GitHub/KKGit/Assignment 1/images/q3.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
@@ -3079,50 +3066,42 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-)
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\Question4.tex")
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\Question5.tex")
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\Question6.tex")
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\Question7.tex")
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\Question8.tex") [9] [10]
-("C:\Users\Kausthub\Documents\Uni Stuff\Fourth Year\Semester 1\MTRX5700\Assignm
-ent 1\Assignment 1.aux") ) 
+) ("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\Question4.tex")
+("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\Question5.tex")
+("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\Question6.tex")
+("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\Question7.tex")
+("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\Question8.tex")
+[9] [10]
+("C:\Users\Kausthub\Documents\GitHub\KKGit\Assignment 1\Assignment 1.aux") ) 
 Here is how much of TeX's memory you used:
  5018 strings out of 493921
- 70399 string characters out of 3144867
+ 68849 string characters out of 3147273
  477602 words of memory out of 3000000
  8194 multiletter control sequences out of 15000+200000
  14873 words of font info for 55 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,11n,42p,880b,1547s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm
--super/cm-super-ts1.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/font
-name/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc
-10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on "Assignment 1.pdf" (11 pages, 364729 bytes).
+ <C
+:\Users\Kausthub\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tc
+rm1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/m
+sam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on "Assignment 1.pdf" (11 pages, 363947 bytes).
 PDF statistics:
  124 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
