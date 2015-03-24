@@ -1,10 +1,13 @@
-\newpage
 \section{Question 2}
-	\lstinputlisting{./MATLABFiles/q2.m}
-	\begin{figure}
+	Refer to the MATLAB code in Appendix 9.a which was used to generate the homogeneous transformation matrices required.\\
+
+	\begin{figure}[position = here]
+		\begin{centering}
 		\includegraphics{q2Axes}
 		\caption[\textit{RPYAxes}]{Roll Pitch and Yaw definitions (relative to axis names)}
+		\end{centering}
 	\end{figure}
+	
 	\subsection{Validity Check}
 	We need to prove that the determinant of the matrix is equal to 1 and that the inverse of the matrix is equal to the transpose to prove validity.
 		\subsubsection{$R_{1}$}
@@ -38,7 +41,7 @@
 			
 			\hspace{30mm}$R_{1}^{-1} = R_{1}^{T}\therefore R_{1}$ is \emph{valid}
 			
-			
+		\pagebreak
 		\subsubsection{$R_{2}$}
 			$$
 			R_{2} =

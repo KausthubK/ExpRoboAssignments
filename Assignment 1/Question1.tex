@@ -1,8 +1,6 @@
 \newpage
 \section{Question 1}
-	The following MATLAB code was used to generate the homogeneous transformation matrices required.
-
-	\lstinputlisting{./MATLABFiles/q1.m}
+	Refer to the MATLAB code in Appendix 9.a which was used to generate the homogeneous transformation matrices required.
 	
 	\subsection{}	%a
 		The homogeneous transformation matrix for\\
@@ -47,9 +45,9 @@
 		$$
 		C_{1} =
 		\begin{pmatrix}
-			0 & 0 & -1 & 0\\
-			-1 & 0 & 0 & 0\\
-			0  & 1  & 0 & 1\\
+			-0 & -0 & -1 & 0\\
+			-1 & -0 & 0 & 0\\
+			-0  & 1  & -0 & 1\\
 			0 & 0 & 0 & 1
 		\end{pmatrix}
 		$$		
@@ -64,11 +62,11 @@
 		$$
 		C_{2} =
 		\begin{pmatrix}
-			0 & 0 & -1 & 0\\
-			-1 & 0 & 0 & 0\\
-			0  & 1  & 0 & 1\\
+			-0 & 0 & -1 & 0\\
+			-1 & -0 & 0 & 0\\
+			-0  & 1  & 0 & 1\\
 			0 & 0 & 0 & 1
 		\end{pmatrix}
 		$$		
 		\\
-		Comparing these two we find that there is no difference between the two generated matrices.
+		Comparing these two we find that there is no functional difference between the two generated matrices. However we can notice that two of the zeroes are negative in $C_{1}$ but are positive in $C_{2}$ meaning that the approach to the orientation is different in $C_{1}$ and $C_{2}$ even if they result in the same thing.

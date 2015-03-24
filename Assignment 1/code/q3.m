@@ -44,29 +44,3 @@ A_56 = [cos(th(6)) -sin(th(6))*cos(al(6)) sin(th(6))*sin(al(6)) r(6)*cos(th(6));
 %%transformation matrix for end effector pose with respect to coordinate
 %%system zero
 T_06 = A_01*A_12*A_23*A_34*A_45*A_56
-
-%%%%used to print individual elements (just to make my life easier for the
-%%%%report write up)
-% T11 = T_06(1, 1);
-% T12 = T_06(1, 2);
-% T13 = T_06(1, 3);
-% T14 = T_06(1, 4);
-% T21 = T_06(2, 1);
-% T22 = T_06(2, 2);
-% T23 = T_06(2, 3);
-% T24 = T_06(2, 4);
-% T31 = T_06(3, 1);
-% T32 = T_06(3, 2);
-% T33 = T_06(3, 3);
-% T34 = T_06(3, 4);
-% T41 = T_06(4, 1);
-% T42 = T_06(4, 2);
-% T43 = T_06(4, 3);
-% T44 = T_06(4, 4);
-% 
-% 
-% for(i = 1:4)
-%     for(j = 1:4)
-%         disp(T_06(i,j));
-%     end
-% end
