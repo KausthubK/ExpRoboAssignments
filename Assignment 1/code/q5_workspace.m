@@ -1,26 +1,31 @@
-%q5 - workspace
-%http://au.mathworks.com/help/fuzzy/examples/modeling-inverse-kinematics-in-a-robotic-arm.html
-close all
-clear
-clc
+%%Q5 - Determine the workspace of the system
+close all;clear;clc
 
+%Declare constants
 mm = 10^-3;
-DEGREES = pi/180;
-RADIANS = 180/pi;
-
 L1 = 250*mm;
 L2= 250*mm;
 L3 = 315*mm;
 
-t1 = linspace(-pi/3,pi/3);
-t2 = linspace(-2*pi/3, 2*pi/3);
-t3 = linspace(-pi/2, pi/2);
+%Generate an array of 100 values for each boundary conditions
+theta1 = linspace(-pi/3,pi/3,100);
+theta2 = linspace(-2*pi/3, 2*pi/3,100);
+theta3 = linspace(-pi/2, pi/2,100);
 
-[T1, T2, T3] = meshgrid(t1,t2,t3);
+%Create a grid matrix of the boundary values
+[THETA1, THETA2, THETA3] = meshgrid(theta1,theta2,theta3);
 
-X = L1*cos(T1)+L2*cos(T1+T2)+L3*cos(T1+T2+T3);  %typo here put in final
-Y = L1*sin(T1)+L2*sin(T1+T2)+L3*sin(T1+T2+T3);
+%Using the above grid matrix, find X and Y
+X = L1*cos(THETA1)+L2*cos(THETA1+THETA2)+L3*cos(THETA1+THETA2+THETA3);
+Y = L1*sin(THETA1)+L2*sin(THETA1+THETA2)+L3*sin(THETA1+THETA2+THETA3);
 
-plot(X(:), Y(:), 'r.'); %last column of X and Y
+%Take the final column of the resulting X and Y matrices
+%These are the coordinates for a scatter plot
+plot(X(:), Y(:), 'r.');
 axis equal
 grid
+xlabel('x');
+ylabel('y');
+title('Workspace of the System');
+
+%http://au.mathworks.com/help/fuzzy/examples/modeling-inverse-kinematics-in-a-robotic-arm.html
