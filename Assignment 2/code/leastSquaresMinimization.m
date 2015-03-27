@@ -1,4 +1,0 @@
-function leastSquaresMinimization(scanPoints)
-
-
-end
