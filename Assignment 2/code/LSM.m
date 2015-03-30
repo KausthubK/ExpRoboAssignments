@@ -1,4 +1,4 @@
-function [a,b] = LSM(xpoint,ypoint)
+function ab = LSM(xpoint,ypoint)
 
 Mx=mean(xpoint);
 My=mean(ypoint);
@@ -13,6 +13,6 @@ a=Mxy/(Mxx+Mx);
 
 b=My/(Mx+1);
 
-
+ab = [a, b];
 
 end
