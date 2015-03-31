@@ -22,7 +22,7 @@ xy=times(xpoint,ypoint);
 Mxy=mean(xy);
 
 xx=times(xpoint,xpoint);
-Mxx=mean(xx)
+Mxx=mean(xx);
 
 %assebles our matrices A and Vector x
 A_mat = [Mxx , Mx; Mx, 1];
