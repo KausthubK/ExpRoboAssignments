@@ -1,8 +1,8 @@
 function rsq = r_sq_lin_test(xPoints, yPoints)
 %     from standard matlab functions
-     pFit = polyfit(xPoints, yPoints, 1);
-%     pFit = LSM(xPoints, yPoints);
-%     p(1) is the slope and p(2) is the intercept for 
+%      pFit = polyfit(xPoints, yPoints, 1);
+     pFit = LSM(xPoints, yPoints);
+%   p(1) is the slope and p(2) is the intercept for 
 %     y = p(1)*x+p(2);
     yFit = polyval(pFit, xPoints);
     plot(yFit);
