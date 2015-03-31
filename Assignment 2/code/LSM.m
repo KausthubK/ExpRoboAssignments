@@ -1,4 +1,4 @@
-function ab = LSM(xpoint,ypoint)
+function [ab, d] = LSM(xpoint,ypoint)
 
 Mx=mean(xpoint);
 My=mean(ypoint);
@@ -6,13 +6,15 @@ My=mean(ypoint);
 xy=times(xpoint,ypoint);
 Mxy=mean(xy);
 
-xx=times(xpoint,ypoint);
-Mxx=mean(xx);
+xx=times(xpoint,xpoint);
+Mxx=mean(xx)
 
-a=Mxy/(Mxx+Mx);
+A_mat = [Mxx , Mx; Mx, 1];
+x_vec = [Mxy; My];
 
-b=My/(Mx+1);
+d = det(A_mat);
 
-ab = [a, b];
+ab = pinv(A_mat)*x_vec;
+ab = ab';
 
 end
