@@ -18,4 +18,10 @@ hold on
 plot(centroids(:,1),centroids(:,2),'b*') %plot centorids with boxes
 hold off
 
+%matching x,y in the world cordinates
+x=centroids(:,1);
+y=centroids(:,2);
+
+Y=x*(523-220)/(724.1845-291.9483)+15.3426; %Y cordinate in the world cordinate
+X=(y-480)*(540/(876.9374-85.0221)); %X cordinate in the world cordinate
 
