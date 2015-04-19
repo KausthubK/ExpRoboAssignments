@@ -2,7 +2,7 @@ close all
 clear
 clc
 
-I=imread('tt3.png');
+I=imread('tt2.png');
 
 %remove shadow
 I2=rgb2hsv(I); %convert rgb to high saturation version
