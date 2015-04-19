@@ -139,6 +139,9 @@ for i = 1:length(p)
 %     sides = p(i).Extrema(BL,:) - p(i).Extrema(TR,:);
 %     sides = p(i).Extrema(BR,:) - p(i).Extrema(TL,:);
     sides = p(i).Extrema(TR,:) - p(i).Extrema(LT,:);
+    plot(p(i).Extrema(LT,1),p(i).Extrema(LT,2),'rx','MarkerSize',20);
+    plot(p(i).Extrema(TR,1),p(i).Extrema(TR,2),'rx','MarkerSize',20);
+    
     OrientationAngle(i) = rad2deg(atan(-sides(2)/sides(1)));  % Note the 'minus' sign compensates for the inverted y-values in image coordinates
 
 %     disp(OrientationAngle(i));
