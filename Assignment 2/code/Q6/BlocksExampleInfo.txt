@@ -1,0 +1,30 @@
+As stated in the assignment handout, the goal of this exercise is to estimate the positions and orientations of five blocks using visual input, using the resulting estimates to drive the robot arm to construct a tower.
+
+You are being provided with the following example images:
+ThreeFiducialsOnly.png
+Example_KnownBlocks1.png
+Example_KnownBlocks2.png
+Example_UnknownBlocks1.png
+
+In all images three fiducial blocks will be present at the same, known locations. These are seen in ThreeFiducialsOnly.png. The fiducial positions, in mm and in arm coordinates, are:
+-270, 220
+-270, 523
+280, 220 
+
+For the demo, five additional blocks will be placed on the board, leaving space at 0,460 for a tower to be built. Example_KnownBlocks1.png and Example_KnownBlocks2.png are being provided to assist you in developing a solution. Both images have blocks at the following known locations, again in mm and in arm coordinates:
+0,300
+-130,360
+0,590
+280,515
+130,460
+
+In Example_KnownBlocks1.png, all blocks are at 0 degrees, while in Example_KnownBlocks.png, the two angled blocks closest to the arm are at 30 degrees, the two furthest from the arm are at 70 degrees, and the remaining block is at 50 degrees.
+
+Example_UnknownBlocks1.png is provided for the report writeup: please include in your report estimates of the positions and orientations of all blocks (including fiducials) in all three example images. Ideally, you will include both a list of coordinates and angles, and a graphical depiction of the estimates.
+
+A number of greyscale test images are also provided, taken using the same camera that will be used for the demonstration. Ideally, your solution should be able to run on both sets of images, with minimal to no changes to parameters within your code.
+
+You will drive the robot arm directly from the control computer using the MATLAB code provided, which allows you to close the loop between the visual block detection and the commands you send to the robot. The commands are in the form of text strings sent over a network connection to the arm computer. The code also includes a new function to set the tool angle. Keep in mind that its parameter is forced to the range 0 to 180 degrees. To test your solution prior to the demonstration, you will need to copy/paste estimated block positions and orientations directly into a SPEL+ script to be run in the simulator. 
+
+Good luck!
+---

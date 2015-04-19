@@ -2,7 +2,7 @@ close all
 clear
 clc
 
-I=imread('tt2.png');
+I=imread('tt3.png');
 
 %remove shadow
 I2=rgb2hsv(I); %convert rgb to high saturation version
@@ -83,6 +83,36 @@ Xr=p_dist_q6(B1,B3,x1,y1);  %distance from line going along centroids of box1 & 
 Yreal=((Yr*303)/433.3300)+220;    %REAL Y CORDINATE 
 Xreal=((Xr*540)/792.8691)-270;    %REAL x CORDINATE
 
-subplot(2,2,1), imshow(I); title 'Original' 
-subplot(2,2,2), imshow(C4); title 'with centroids', hold on, plot(centroids(:,1),centroids(:,2),'b*'); hold off 
-subplot(2,2,3), imshow(T1); title 'shadow'
+% subplot(2,2,1), imshow(I); title 'Original' 
+imshow(C4); title 'with centroids', hold on, plot(centroids(:,1),centroids(:,2),'b*'); hold off 
+% subplot(2,2,3), imshow(T1); title 'shadow'
+
+
+b = regionprops(C4, 'BoundingBox');
+for k = 1 : length(b)
+  thisBB = b(k).BoundingBox;
+  rectangle('Position', [thisBB(1),thisBB(2),thisBB(3),thisBB(4)],...
+  'EdgeColor','r','LineWidth',2 )
+end
+
+o=regionprops(C4,'orientation');
+p = regionprops(C4, 'Extrema');
+for i = 1:length(p)
+%     sides = p(i).Extrema(4,:) - p(i).Extrema(6,:); % Returns the sides of the square triangle that completes the two chosen extrema: Bottom-Right and Left-Bottom
+    sides = p(i).Extrema(6,:) - p(i).Extrema(2,:);
+%     OrientationAngle(i) = rad2deg(atan(-sides(2)/sides(1)));  % Note the 'minus' sign compensates for the inverted y-values in image coordinates
+% 
+%     disp(OrientationAngle(i));
+% 
+%     disp(o(i).Orientation);
+end
+
+
+% 
+% boxPixelSize = 80*(792.8691/540)
+% boxDiagonal = sqrt(2*boxPixelSize^2)
+% m = regionprops(C4, 'MajorAxisLength');
+% disp('MajorAxisLength');
+% for i = 1:length(m)
+%     disp(m(i).MajorAxisLength);
+% end
