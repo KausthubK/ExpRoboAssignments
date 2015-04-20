@@ -2,7 +2,7 @@ close all
 clear
 clc
 
-I=imread('tt.png'); % read image
+I=imread('tt3.png'); % read image
 
 I2=imcrop(I,[68.5 4.5 491 472]); %isolate the workingspace
 I3=double(I2)/255;  %convert to double
@@ -104,7 +104,7 @@ LT = 8;
 
 o=regionprops(C4,'orientation');
 p = regionprops(C4, 'Extrema');
-c = regionprops(C4, 'Centroid');
+
 m = regionprops(C4, 'MajorAxisLength');
 
 hold on
@@ -133,58 +133,41 @@ for i = 1:length(p)
     plot(X,Y,'g');
 end
 
+ext1 = TR;
+ext2 = LT;
+boxPixelWidth = 80*(540/792.8691)
+for k = 1:8
+    for i = 1:length(p)
+                
+        ext1 = ext1 + (k - 1);
+        ext2 = ext2 + (k - 1);
+        
+        if ext1 > 8
+            ext1 = 1;
+        end
+        
+        if ext2 > 8
+            ext2 = 1;
+        end
+        
+        %TR to LT  -    Best so far
+        sides = p(i).Extrema(ext1,:) - p(i).Extrema(ext2,:); % Returns the sides of the square triangle that completes the two chosen extrema:
+%         plot(p(i).Extrema(LT,1),p(i).Extrema(LT,2),'bx','MarkerSize',20);
+%         plot(p(i).Extrema(TR,1),p(i).Extrema(TR,2),'bx','MarkerSize',20);
+        sideLength(k,i) = sqrt( (p(i).Extrema(ext1,1) - p(i).Extrema(ext2,1))^2 + (p(i).Extrema(ext1,2) - p(i).Extrema(ext2,2))^2);
+        if sideLength(k,i) > boxPixelWidth
+            sideLength(k,i) = -1;
+        end
+        OrientationAngle(k,i) = rad2deg(atan(-sides(2)/sides(1)));  % Note the 'minus' sign compensates for the inverted y-values in image coordinates
 
-boxPixelWidth = 80*(540/792.8691);
-for i = 1:length(p)
-
-    %TR to LT  -    Best so far
-    sides1 = p(i).Extrema(TR,:) - p(i).Extrema(LT,:); % Returns the sides of the square triangle that completes the two chosen extrema:
-    plot(p(i).Extrema(LT,1),p(i).Extrema(LT,2),'bx','MarkerSize',20);
-    plot(p(i).Extrema(TR,1),p(i).Extrema(TR,2),'bx','MarkerSize',20);
-%     length(i) = sqrt( (p(i).Extrema(TR,1) - p(i).Extrema(LT,1))^2 + (p(i).Extrema(TR,2) - p(i).Extrema(LT,2))^2);
-
-    OrientationAngle1(i) = rad2deg(atan(-sides1(2)/sides1(1)));  % Note the 'minus' sign compensates for the inverted y-values in image coordinates
-
-%     %TL to LB - Good
-%     sides = p(i).Extrema(TL,:) - p(i).Extrema(LB,:);
-%     plot(p(i).Extrema(LB,1),p(i).Extrema(LB,2),'rx','MarkerSize',20);
-%     plot(p(i).Extrema(TL,1),p(i).Extrema(TL,2),'rx','MarkerSize',20);
-    
-%     %LT to BL - mediocre
-%     sides = p(i).Extrema(LT,:) - p(i).Extrema(BL,:);
-%     plot(p(i).Extrema(BL,1),p(i).Extrema(BL,2),'rx','MarkerSize',20);
-%     plot(p(i).Extrema(LT,1),p(i).Extrema(LT,2),'rx','MarkerSize',20);
-    
-% %     LB to BR - Good
-%     sides = p(i).Extrema(LB,:) - p(i).Extrema(BR,:);
-%     plot(p(i).Extrema(BR,1),p(i).Extrema(BR,2),'rx','MarkerSize',20);
-%     plot(p(i).Extrema(LB,1),p(i).Extrema(LB,2),'rx','MarkerSize',20);
-    
-    %BL to RB - Decent
-    sides2 = p(i).Extrema(BL,:) - p(i).Extrema(RB,:);
-    plot(p(i).Extrema(RB,1),p(i).Extrema(RB,2),'rx','MarkerSize',20);
-    plot(p(i).Extrema(BL,1),p(i).Extrema(BL,2),'rx','MarkerSize',20);
-    
-%     %BR to RT - ok ish
-%     sides = p(i).Extrema(BR,:) - p(i).Extrema(RT,:);
-%     plot(p(i).Extrema(RT,1),p(i).Extrema(RT,2),'rx','MarkerSize',20);
-%     plot(p(i).Extrema(BR,1),p(i).Extrema(BR,2),'rx','MarkerSize',20);
-    
-%     %RT to TL - BAD
-%     sides = p(i).Extrema(RT,:) - p(i).Extrema(TL,:);
-%     plot(p(i).Extrema(TL,1),p(i).Extrema(TL,2),'rx','MarkerSize',20);
-%     plot(p(i).Extrema(RT,1),p(i).Extrema(RT,2),'rx','MarkerSize',20);
-    
-    OrientationAngle2(i) = rad2deg(atan(-sides2(2)/sides2(1)));  % Note the 'minus' sign compensates for the inverted y-values in image coordinates
-    Average(i) = (OrientationAngle1(i) + OrientationAngle2(i))/2;
-%     disp(OrientationAngle(i));
-    fprintf('%d -->\tExt1: %f\t\tExt2: %f\t\tAvg: %f\n\t\tX: %f\t\tY: %f\n', i,  OrientationAngle1(i), OrientationAngle2(i), Average(i), c(i).Centroid(1), -c(i).Centroid(2));
-%     disp(o(i).Orientation);
+    %     disp(OrientationAngle(i));
+    %     fprintf('%d --> Ori: %f\t\tExt: %f\n', i, o(i).Orientation, OrientationAngle(i));
+    %     disp(o(i).Orientation);
+    end
 end
 
-
 % 
-boxPixelWidth = 80*(540/792.8691);
+boxPixelWidth = 80*(540/792.8691);       %unsure about conversions....
 % boxDiagonal = sqrt(2*boxPixelWidth^2)
 % m = regionprops(C4, 'MajorAxisLength');
 % disp('MajorAxisLength');
@@ -192,6 +175,4 @@ boxPixelWidth = 80*(540/792.8691);
 %     disp(m(i).MajorAxisLength);
 % end
 
-%%consider Harris?
-harris = detectHarrisFeatures(C4);
-plot(harris)
+
