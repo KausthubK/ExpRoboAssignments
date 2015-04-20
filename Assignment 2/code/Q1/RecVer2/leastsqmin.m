@@ -1,12 +1,19 @@
-function lineDetails = leastsqmin(xpoint,ypoint)
+function lineDetails = leastsqmin(xpoint,ypoint, iStart, iEnd)
 
-Mx=mean(xpoint);
-My=mean(ypoint);
+%input: xset, yset, index Start, index End
+%output: grad, yint, xint, vertFlag
 
-xy=times(xpoint,ypoint);
+tempX = xpoint(iStart:iEnd);
+tempY = ypoint(iStart:iEnd);
+
+Mx=mean(tempX);
+
+My=mean(tempY);
+
+xy=times(tempX,tempY);
 Mxy=mean(xy);
 
-xx=times(xpoint,xpoint);
+xx=times(tempX,tempX);
 Mxx=mean(xx);
 
 %assebles our matrices A and Vector x
@@ -20,15 +27,15 @@ ab = pinv(A_mat)*x_vec;
 ab = ab';
 
 if d == 0
-	x-int = Mx;
+	x_int = Mx;
 	vertFlag = 1;
 else
-	x-int = (-1*ab(2))/ab(1);
+	x_int = (-1*ab(2))/ab(1);
 	vertFlag = 0;
 end
 
 
-lineDetails = cat(2, ab, x-point);
+lineDetails = cat(2, ab, x_int);
 lineDetails  = cat(2, lineDetails, vertFlag);
 
 end
