@@ -2,7 +2,7 @@ close all
 clear
 clc
 
-I=imread('tt2.png'); % read image
+I=imread('tt.png'); % read image
 
 I2=imcrop(I,[68.5 4.5 491 472]); %isolate the workingspace
 I3=double(I2)/255;  %convert to double
