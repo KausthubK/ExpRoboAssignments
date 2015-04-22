@@ -1,0 +1,391 @@
+test11: corner finder test on perpendicular zigzag test (no error)
+no corners
+test11: corner finder test on perpendicular zigzag test (no error)
+
+vertices =
+
+         0         0
+    2.5000    2.5000
+    5.0000         0
+    7.5000    2.5000
+   10.0000         0
+
+
+vectors =
+
+    2.5000    2.5000
+    2.5000   -2.5000
+    2.5000    2.5000
+    2.5000   -2.5000
+
+no corners
+test11: corner finder test on perpendicular zigzag test (no error)
+
+vertices =
+
+         0         0
+    2.5000    2.5000
+    5.0000         0
+    7.5000    2.5000
+   10.0000         0
+
+
+vectors =
+
+    2.5000    2.5000
+    2.5000   -2.5000
+    2.5000    2.5000
+    2.5000   -2.5000
+
+
+dp =
+
+    6.2500
+
+
+dp =
+
+    6.2500
+
+
+dp =
+
+    6.2500
+
+no corners
+test11: corner finder test on perpendicular zigzag test (no error)
+
+vertices =
+
+         0         0
+    2.5000    2.5000
+    5.0000         0
+    7.5000    2.5000
+   10.0000         0
+
+
+vectors =
+
+    2.5000    2.5000
+    2.5000   -2.5000
+    2.5000    2.5000
+    2.5000   -2.5000
+
+
+ans =
+
+    2.5000
+
+
+ans =
+
+    2.5000
+
+
+dp =
+
+    6.2500
+
+
+ans =
+
+    2.5000
+
+
+ans =
+
+    2.5000
+
+
+dp =
+
+    6.2500
+
+
+ans =
+
+    2.5000
+
+
+ans =
+
+    2.5000
+
+
+dp =
+
+    6.2500
+
+no corners
+test11: corner finder test on perpendicular zigzag test (no error)
+
+vertices =
+
+         0         0
+    2.5000    2.5000
+    5.0000         0
+    7.5000    2.5000
+   10.0000         0
+
+
+vectors =
+
+    2.5000    2.5000
+    2.5000   -2.5000
+    2.5000    2.5000
+    2.5000   -2.5000
+
+
+v1 =
+
+    2.5000    2.5000
+
+
+v2 =
+
+    2.5000   -2.5000
+
+
+dp =
+
+     0
+
+
+cornerCount =
+
+     1
+
+
+corners =
+
+    2.5000
+
+
+v1 =
+
+    2.5000   -2.5000
+
+
+v2 =
+
+    2.5000    2.5000
+
+
+dp =
+
+     0
+
+
+cornerCount =
+
+     2
+
+
+corners =
+
+    2.5000    5.0000
+
+
+v1 =
+
+    2.5000    2.5000
+
+
+v2 =
+
+    2.5000   -2.5000
+
+
+dp =
+
+     0
+
+
+cornerCount =
+
+     3
+
+
+corners =
+
+    2.5000    5.0000    7.5000
+
+test11: corner finder test on perpendicular zigzag test (no error)
+
+vertices =
+
+         0         0
+    2.5000    2.5000
+    5.0000         0
+    7.5000    2.5000
+   10.0000         0
+
+
+vectors =
+
+    2.5000    2.5000
+    2.5000   -2.5000
+    2.5000    2.5000
+    2.5000   -2.5000
+
+
+v1 =
+
+    2.5000    2.5000
+
+
+v2 =
+
+    2.5000   -2.5000
+
+
+dp =
+
+     0
+
+
+cornerCount =
+
+     1
+
+
+corners =
+
+    2.5000
+
+
+corners =
+
+    2.5000    2.5000
+
+
+v1 =
+
+    2.5000   -2.5000
+
+
+v2 =
+
+    2.5000    2.5000
+
+
+dp =
+
+     0
+
+
+cornerCount =
+
+     2
+
+
+corners =
+
+    2.5000    2.5000
+    5.0000         0
+
+
+corners =
+
+    2.5000    2.5000
+    5.0000         0
+
+
+v1 =
+
+    2.5000    2.5000
+
+
+v2 =
+
+    2.5000   -2.5000
+
+
+dp =
+
+     0
+
+
+cornerCount =
+
+     3
+
+
+corners =
+
+    2.5000    2.5000
+    5.0000         0
+    7.5000         0
+
+
+corners =
+
+    2.5000    2.5000
+    5.0000         0
+    7.5000    2.5000
+
+test11: corner finder test on perpendicular zigzag test (no error)
+
+vertices =
+
+         0         0
+    2.5000    2.5000
+    5.0000         0
+    7.5000    2.5000
+   10.0000         0
+
+
+vectors =
+
+    2.5000    2.5000
+    2.5000   -2.5000
+    2.5000    2.5000
+    2.5000   -2.5000
+
+
+cornerCount =
+
+     1
+
+
+cornerCount =
+
+     2
+
+
+cornerCount =
+
+     3
+
+
+corners =
+
+    2.5000    2.5000
+    5.0000         0
+    7.5000    2.5000
+
+test11: corner finder test on perpendicular zigzag test (no error)
+
+vertices =
+
+         0         0
+    2.5000    2.5000
+    5.0000         0
+    7.5000    2.5000
+   10.0000         0
+
+
+vectors =
+
+    2.5000    2.5000
+    2.5000   -2.5000
+    2.5000    2.5000
+    2.5000   -2.5000
+
+
+corners =
+
+    2.5000    2.5000
+    5.0000         0
+    7.5000    2.5000
+

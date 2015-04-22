@@ -22,33 +22,33 @@
 % The University of Sydney
 % kkri3182@uni.sydney.edu.au
 % April 2015
-function vertices = lineseg(xPoints, yPoints, linThres)
+function verti = lineseg(xPoints, yPoints, linThres)
 	%set up indices
     iStart = 1;
 	iEnd = length(xPoints);
     
-	vertexInds = [1];%first corner will always be the first data point
+	cornerInds = [1];%first corner will always be the first data point
     
     %call to recursive function
 	newInds = lineseg_recurs(iStart, iEnd, xPoints, yPoints, linThres);
     
     %appends generated corner values to list
-	vertexInds = [vertexInds, newInds];
+	cornerInds = [cornerInds, newInds];
     
     %sorts list of corner value (not strictly necessary as it should
         %naturally concatenate from left to right
-	vertexInds = sort(vertexInds);
+	cornerInds = sort(cornerInds);
     
     %reformat from index values to x & values
-    numVertices = length(vertexInds);
-    vertices = zeros(numVertices, 2);
-    for i = 1:numVertices
-            vertices(i, 1) = xPoints(vertexInds(i));
-            vertices(i, 2) = yPoints(vertexInds(i));
+    numCorners = length(cornerInds);
+    corners = zeros(numCorners, 2);
+    for i = 1:numCorners
+            corners(i, 1) = xPoints(cornerInds(i));
+            corners(i, 2) = yPoints(cornerInds(i));
     end
     
     %call to plotter based on corner values
-    plotLSEG(vertices, numVertices);   
+    plotLSEG(corners, numCorners);   
 end
 
 %% LINESEG_RECURS -  Recursive Line Segmentation Algorithm
@@ -124,10 +124,10 @@ end
 % The University of Sydney
 % kkri3182@uni.sydney.edu.au
 % April 2015
-function plotLSEG(vrts, n)
+function plotLSEG(cnr, n)
     for i = 1: n-1
-        xEnds = [vrts(i,1) vrts(i+1,1)];
-        yEnds = [vrts(i,2) vrts(i+1,2)];
+        xEnds = [cnr(i,1) cnr(i+1,1)];
+        yEnds = [cnr(i,2) cnr(i+1,2)];
         line(xEnds, yEnds);
     end
 end
