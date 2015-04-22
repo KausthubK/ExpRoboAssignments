@@ -30,9 +30,10 @@ hold on
 plot(I1_harris(:,1),I1_harris(:,2),'r*');
 title('Harris corners');
 
-%c. Sift Corners
-[image, descrips, locs] = sift('tt.png');
+%c. Sift Corners for I1
+imwrite(BW1,'BW1.png') %writing gray image of I1 as 'BW1.png'
+[image, descrips, locs] = sift('BW1.png'); 
 showkeys(image, locs);
 
-%d. Matching Features algorithom (Have used the example code given)
+%d. Matching Features using given match function
 match('whitehouse.left.png','whitehouse.right.png');
