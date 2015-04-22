@@ -1,0 +1,35 @@
+% newFeatures.txt
+%
+% This file contains a list of the laser feature positions in which the vehicle operates.  These
+% can be matched against observations of the laser for giving triangulation based estimates of the
+% vehicle position or pose.
+%
+% X(m) Y(m)
+-2.531 -9.854
+-5.869 -5.964
+3.830 -5.523
+6.550 -5.283
+-2.370 4.884
+-1.935 -0.832
+-0.723 -2.635
+-2.041 -4.395
+9.274 -8.231
+6.350 -0.843
+2.654 0.966
+1.591 -9.814
+-0.931 2.586
+3.530 4.706
+11.749 -6.254
+-5.807 0.014
+-2.624 7.752
+2.429 6.746
+-5.733 -9.672
+13.839 -3.754
+7.689 9.768
+5.709 -2.682
+13.774 6.596
+0.422 4.340
+8.276 3.814
+10.988 -1.037
+2.402 -4.071
+13.761 9.761
