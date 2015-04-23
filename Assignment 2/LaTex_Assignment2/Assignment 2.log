@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.3)  23 APR 2015 14:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.3)  23 APR 2015 15:21
 entering extended mode
 **Assignment*2.tex
 
@@ -841,16 +841,166 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--154
  []
 
 [16 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
-x_Assignment2/images/q3b_scan300.png (PNG copy)>])
+x_Assignment2/images/q3b_scan300.png (PNG copy)>]) [17]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\Question4.tex" [17])
+ssignment2\Question4.tex")
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\Question5.tex" [18] [19])
+ssignment2\Question5.tex" [18]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	\newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 	\newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+<images/q5_1.jpg, id=93, 427.5975pt x 332.24126pt>
+File: images/q5_1.jpg Graphic file (type jpg)
+ <use images/q5_1.jpg>
+Package pdftex.def Info: images/q5_1.jpg used on input line 10.
+(pdftex.def)             Requested size: 213.79822pt x 166.12021pt.
+
+<images/q5_2.jpg, id=94, 427.5975pt x 332.24126pt>
+File: images/q5_2.jpg Graphic file (type jpg)
+ <use images/q5_2.jpg>
+Package pdftex.def Info: images/q5_2.jpg used on input line 19.
+(pdftex.def)             Requested size: 213.79822pt x 166.12021pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--24
+
+ []
+
+[19 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+x_Assignment2/images/q5_1.jpg> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAs
+signments/Assignment 2/LaTex_Assignment2/images/q5_2.jpg>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 	\newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q5_3.jpg, id=98, 427.5975pt x 332.24126pt>
+File: images/q5_3.jpg Graphic file (type jpg)
+ <use images/q5_3.jpg>
+Package pdftex.def Info: images/q5_3.jpg used on input line 33.
+(pdftex.def)             Requested size: 213.79822pt x 166.12021pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--38
+
+ []
+
+<images/q5_4.jpg, id=99, 256.96pt x 240.9pt>
+File: images/q5_4.jpg Graphic file (type jpg)
+ <use images/q5_4.jpg>
+Package pdftex.def Info: images/q5_4.jpg used on input line 44.
+(pdftex.def)             Requested size: 128.47968pt x 120.44969pt.
+ [20 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaT
+ex_Assignment2/images/q5_3.jpg> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboA
+ssignments/Assignment 2/LaTex_Assignment2/images/q5_4.jpg>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 	\newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q5_5.jpg, id=103, 778.91pt x 389.455pt>
+File: images/q5_5.jpg Graphic file (type jpg)
+ <use images/q5_5.jpg>
+Package pdftex.def Info: images/q5_5.jpg used on input line 57.
+(pdftex.def)             Requested size: 389.45406pt x 194.72702pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--62
+
+ []
+
+<images/q5_6.jpg, id=104, 949.5475pt x 480.79625pt>
+File: images/q5_6.jpg Graphic file (type jpg)
+ <use images/q5_6.jpg>
+Package pdftex.def Info: images/q5_6.jpg used on input line 67.
+(pdftex.def)             Requested size: 474.77258pt x 240.39752pt.
+
+<images/q5_7.jpg, id=105, 684.5575pt x 332.24126pt>
+File: images/q5_7.jpg Graphic file (type jpg)
+ <use images/q5_7.jpg>
+Package pdftex.def Info: images/q5_7.jpg used on input line 75.
+(pdftex.def)             Requested size: 342.27791pt x 166.12021pt.
+
+<images/q5_8.jpg, id=106, 949.5475pt x 480.79625pt>
+File: images/q5_8.jpg Graphic file (type jpg)
+ <use images/q5_8.jpg>
+Package pdftex.def Info: images/q5_8.jpg used on input line 85.
+(pdftex.def)             Requested size: 474.77258pt x 240.39752pt.
+
+<images/q5_9.jpg, id=107, 684.5575pt x 332.24126pt>
+File: images/q5_9.jpg Graphic file (type jpg)
+ <use images/q5_9.jpg>
+Package pdftex.def Info: images/q5_9.jpg used on input line 93.
+(pdftex.def)             Requested size: 342.27791pt x 166.12021pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--98
+
+ []
+
+[21 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+x_Assignment2/images/q5_5.jpg> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAs
+signments/Assignment 2/LaTex_Assignment2/images/q5_6.jpg>] [22 <C:/Users/Primar
+ch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/images
+/q5_7.jpg> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment
+ 2/LaTex_Assignment2/images/q5_8.jpg>])
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\Question6.tex" [20]) [21]
+ssignment2\Question6.tex" [23 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAss
+ignments/Assignment 2/LaTex_Assignment2/images/q5_9.jpg>]) [24]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\AppendixA.tex" [22] [23]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 10.
+ssignment2\AppendixA.tex" [25] [26]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 12.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -876,13 +1026,13 @@ File: omlpcr.fd
 )
 LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 22.
-) [24]
+) [27]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\modified_showICP.m" [25]) [26]
+ssignment2\code\q3\modified_showICP.m" [28]) [29]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\laserShowACFR.m") [27]
+ssignment2\code\q3\laserShowACFR.m") [30]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\modified_laserShowACFR.m" [28]) [29]
+ssignment2\code\q3\modified_laserShowACFR.m" [31]) [32]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
 ssignment2\code\q3\ICPv4.m"
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 35.
@@ -894,19 +1044,31 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 35.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [30] [31])
-[32]
+) [33] [34])
+[35]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\XY2IJ.m") [33]
+ssignment2\code\q3\XY2IJ.m") [36]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\head2tail_no_theta.m") [34] [35] [36] [37])
+ssignment2\code\q3\head2tail_no_theta.m") [37] [38]
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\code\q5\appendimages.m") [39]
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\code\q5\feature_matching.m") [40]
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\code\q5\harris.m" [41]) [42]
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\code\q5\showkeys.m") [43]
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\code\q5\sift.m" [44]) [45]
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\code\q5\q5.m") [46] [47])
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
 ssignment2\Assignment 2.aux") ) 
 Here is how much of TeX's memory you used:
- 5232 strings out of 493921
- 74889 string characters out of 3144859
- 430148 words of memory out of 3000000
- 8373 multiletter control sequences out of 15000+200000
+ 5408 strings out of 493921
+ 78266 string characters out of 3144859
+ 499828 words of memory out of 3000000
+ 8519 multiletter control sequences out of 15000+200000
  16426 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,8n,42p,832b,1512s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -928,9 +1090,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "Assignment 2.pdf" (38 pages, 551554 bytes).
+Output written on "Assignment 2.pdf" (48 pages, 846396 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
+ 254 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
