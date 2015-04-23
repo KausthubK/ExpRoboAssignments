@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.3)  23 APR 2015 16:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.3)  23 APR 2015 16:36
 entering extended mode
 **Assignment*2.tex
 
@@ -843,9 +843,317 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--154
 [16 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
 x_Assignment2/images/q3b_scan300.png (PNG copy)>]) [17]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\Question4.tex")
+ssignment2\Question4.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.7 	\hspace{30}
+                 1.	Intrinsic parameters(camera model)\newline
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.9 	\hspace{30}
+                 2.	Extrinsic parameters\newline
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.14 	\hspace{30}
+                  1. Focal length: The focal length in pixels - ${f_c}$\newline
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.16 	\hspace{30}
+                  2. Principal point: The principle point coordinates â€“ ${...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.18 	\hspace{30}
+                  3. Skew coefficient: The skew coefficient defining the ang...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.20 	\hspace{30}
+                  4.	Distortions: The image distortion coefficients (radial ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.22 ...p://www.vision.caltech.edu/bouguetj/calib_
+                                                  doc/htmls/parameters.html)...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--24
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 	\newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q4_1.png, id=89, 304.63812pt x 71.26625pt>
+File: images/q4_1.png Graphic file (type png)
+ <use images/q4_1.png>
+Package pdftex.def Info: images/q4_1.png used on input line 30.
+(pdftex.def)             Requested size: 456.95604pt x 106.89908pt.
+
+<images/q4_2.jpg, id=91, 562.1pt x 421.575pt>
+File: images/q4_2.jpg Graphic file (type jpg)
+ <use images/q4_2.jpg>
+Package pdftex.def Info: images/q4_2.jpg used on input line 38.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+<images/q4_3.jpg, id=92, 562.1pt x 421.575pt>
+File: images/q4_3.jpg Graphic file (type jpg)
+ <use images/q4_3.jpg>
+Package pdftex.def Info: images/q4_3.jpg used on input line 44.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+ [18 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaT
+ex_Assignment2/images/q4_1.png>] [19 <C:/Users/Primarch IV/Documents/GitHub/Exp
+RoboAssignments/Assignment 2/LaTex_Assignment2/images/q4_2.jpg> <C:/Users/Prima
+rch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/image
+s/q4_3.jpg>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 	\newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q4_4.jpg, id=101, 562.1pt x 421.575pt>
+File: images/q4_4.jpg Graphic file (type jpg)
+ <use images/q4_4.jpg>
+Package pdftex.def Info: images/q4_4.jpg used on input line 55.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 	\newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+[20 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+x_Assignment2/images/q4_4.jpg>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 	\newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q4_5.png, id=105, 304.63812pt x 71.26625pt>
+File: images/q4_5.png Graphic file (type png)
+ <use images/q4_5.png>
+Package pdftex.def Info: images/q4_5.png used on input line 68.
+(pdftex.def)             Requested size: 456.95604pt x 106.89908pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--73
+
+ []
+
+<images/q4_6.jpg, id=106, 562.1pt x 421.575pt>
+File: images/q4_6.jpg Graphic file (type jpg)
+ <use images/q4_6.jpg>
+Package pdftex.def Info: images/q4_6.jpg used on input line 77.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 	\newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[21 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+x_Assignment2/images/q4_5.png> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAs
+signments/Assignment 2/LaTex_Assignment2/images/q4_6.jpg>]
+<images/q4_7.jpg, id=111, 562.1pt x 421.575pt>
+File: images/q4_7.jpg Graphic file (type jpg)
+ <use images/q4_7.jpg>
+Package pdftex.def Info: images/q4_7.jpg used on input line 84.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 	\newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+<images/q4_8.jpg, id=112, 562.1pt x 421.575pt>
+File: images/q4_8.jpg Graphic file (type jpg)
+ <use images/q4_8.jpg>
+Package pdftex.def Info: images/q4_8.jpg used on input line 94.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 	\newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[22 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+x_Assignment2/images/q4_7.jpg> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAs
+signments/Assignment 2/LaTex_Assignment2/images/q4_8.jpg>])
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\Question5.tex" [18]
+ssignment2\Question5.tex"
 
 ! LaTeX Error: There's no line here to end.
 
@@ -878,13 +1186,13 @@ Missing character: There is no ˜ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-<images/q5_1.jpg, id=93, 427.5975pt x 332.24126pt>
+<images/q5_1.jpg, id=116, 427.5975pt x 332.24126pt>
 File: images/q5_1.jpg Graphic file (type jpg)
  <use images/q5_1.jpg>
 Package pdftex.def Info: images/q5_1.jpg used on input line 10.
 (pdftex.def)             Requested size: 213.79822pt x 166.12021pt.
 
-<images/q5_2.jpg, id=94, 427.5975pt x 332.24126pt>
+<images/q5_2.jpg, id=117, 427.5975pt x 332.24126pt>
 File: images/q5_2.jpg Graphic file (type jpg)
  <use images/q5_2.jpg>
 Package pdftex.def Info: images/q5_2.jpg used on input line 19.
@@ -894,7 +1202,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--24
 
  []
 
-[19 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+[23 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
 x_Assignment2/images/q5_1.jpg> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAs
 signments/Assignment 2/LaTex_Assignment2/images/q5_2.jpg>]
 
@@ -910,7 +1218,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<images/q5_3.jpg, id=98, 427.5975pt x 332.24126pt>
+<images/q5_3.jpg, id=121, 427.5975pt x 332.24126pt>
 File: images/q5_3.jpg Graphic file (type jpg)
  <use images/q5_3.jpg>
 Package pdftex.def Info: images/q5_3.jpg used on input line 33.
@@ -920,12 +1228,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--38
 
  []
 
-<images/q5_4.jpg, id=99, 256.96pt x 240.9pt>
+<images/q5_4.jpg, id=122, 256.96pt x 240.9pt>
 File: images/q5_4.jpg Graphic file (type jpg)
  <use images/q5_4.jpg>
 Package pdftex.def Info: images/q5_4.jpg used on input line 44.
 (pdftex.def)             Requested size: 128.47968pt x 120.44969pt.
- [20 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaT
+ [24 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaT
 ex_Assignment2/images/q5_3.jpg> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboA
 ssignments/Assignment 2/LaTex_Assignment2/images/q5_4.jpg>]
 
@@ -941,7 +1249,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<images/q5_5.jpg, id=103, 778.91pt x 389.455pt>
+<images/q5_5.jpg, id=127, 778.91pt x 389.455pt>
 File: images/q5_5.jpg Graphic file (type jpg)
  <use images/q5_5.jpg>
 Package pdftex.def Info: images/q5_5.jpg used on input line 57.
@@ -951,25 +1259,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--62
 
  []
 
-<images/q5_6.jpg, id=104, 949.5475pt x 480.79625pt>
+<images/q5_6.jpg, id=128, 949.5475pt x 480.79625pt>
 File: images/q5_6.jpg Graphic file (type jpg)
  <use images/q5_6.jpg>
 Package pdftex.def Info: images/q5_6.jpg used on input line 67.
 (pdftex.def)             Requested size: 474.77258pt x 240.39752pt.
 
-<images/q5_7.jpg, id=105, 684.5575pt x 332.24126pt>
+<images/q5_7.jpg, id=129, 684.5575pt x 332.24126pt>
 File: images/q5_7.jpg Graphic file (type jpg)
  <use images/q5_7.jpg>
 Package pdftex.def Info: images/q5_7.jpg used on input line 75.
 (pdftex.def)             Requested size: 342.27791pt x 166.12021pt.
 
-<images/q5_8.jpg, id=106, 949.5475pt x 480.79625pt>
+<images/q5_8.jpg, id=130, 949.5475pt x 480.79625pt>
 File: images/q5_8.jpg Graphic file (type jpg)
  <use images/q5_8.jpg>
 Package pdftex.def Info: images/q5_8.jpg used on input line 85.
 (pdftex.def)             Requested size: 474.77258pt x 240.39752pt.
 
-<images/q5_9.jpg, id=107, 684.5575pt x 332.24126pt>
+<images/q5_9.jpg, id=131, 684.5575pt x 332.24126pt>
 File: images/q5_9.jpg Graphic file (type jpg)
  <use images/q5_9.jpg>
 Package pdftex.def Info: images/q5_9.jpg used on input line 93.
@@ -989,14 +1297,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--98
 
  []
 
-[21 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+[25 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
 x_Assignment2/images/q5_5.jpg> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAs
-signments/Assignment 2/LaTex_Assignment2/images/q5_6.jpg>] [22 <C:/Users/Primar
+signments/Assignment 2/LaTex_Assignment2/images/q5_6.jpg>] [26 <C:/Users/Primar
 ch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/images
 /q5_7.jpg> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment
  2/LaTex_Assignment2/images/q5_8.jpg>])
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\Question6.tex" [23 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAss
+ssignment2\Question6.tex" [27 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAss
 ignments/Assignment 2/LaTex_Assignment2/images/q5_9.jpg>]
 
 ! LaTeX Error: There's no line here to end.
@@ -1031,7 +1339,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[24]
+[28]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1046,19 +1354,19 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<images/q6_1.png, id=121, 179.67125pt x 71.26625pt>
+<images/q6_1.png, id=144, 179.67125pt x 71.26625pt>
 File: images/q6_1.png Graphic file (type png)
  <use images/q6_1.png>
 Package pdftex.def Info: images/q6_1.png used on input line 14.
 (pdftex.def)             Requested size: 179.67079pt x 71.26605pt.
 
-<images/q6_2.png, id=123, 301.125pt x 103.38625pt>
+<images/q6_2.png, id=145, 301.125pt x 103.38625pt>
 File: images/q6_2.png Graphic file (type png)
  <use images/q6_2.png>
 Package pdftex.def Info: images/q6_2.png used on input line 22.
 (pdftex.def)             Requested size: 301.12425pt x 103.38599pt.
 
-<images/q6_3.png, id=124, 494.59781pt x 420.82219pt>
+<images/q6_3.png, id=146, 494.59781pt x 420.82219pt>
 File: images/q6_3.png Graphic file (type png)
  <use images/q6_3.png>
 Package pdftex.def Info: images/q6_3.png used on input line 30.
@@ -1078,7 +1386,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--37
 
  []
 
-[25 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+[29 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
 x_Assignment2/images/q6_1.png> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAs
 signments/Assignment 2/LaTex_Assignment2/images/q6_2.png>]
 
@@ -1104,10 +1412,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-) [26 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/La
+) [30 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/La
 Tex_Assignment2/images/q6_3.png (PNG copy)>]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\AppendixA.tex" [27] [28]
+ssignment2\AppendixA.tex" [31] [32]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 12.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
@@ -1134,13 +1442,13 @@ File: omlpcr.fd
 )
 LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 22.
-) [29]
+) [33]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\modified_showICP.m" [30]) [31]
+ssignment2\code\q3\modified_showICP.m" [34]) [35]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\laserShowACFR.m") [32]
+ssignment2\code\q3\laserShowACFR.m") [36]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\modified_laserShowACFR.m" [33]) [34]
+ssignment2\code\q3\modified_laserShowACFR.m" [37]) [38]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
 ssignment2\code\q3\ICPv4.m"
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 35.
@@ -1152,39 +1460,39 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 35.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [35] [36])
-[37]
+) [39] [40])
+[41]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\XY2IJ.m") [38]
+ssignment2\code\q3\XY2IJ.m") [42]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\head2tail_no_theta.m") [39] [40]
+ssignment2\code\q3\head2tail_no_theta.m") [43] [44]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q5\appendimages.m") [41]
+ssignment2\code\q5\appendimages.m") [45]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q5\feature_matching.m") [42]
+ssignment2\code\q5\feature_matching.m") [46]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q5\harris.m" [43]) [44]
+ssignment2\code\q5\harris.m" [47]) [48]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q5\showkeys.m") [45]
+ssignment2\code\q5\showkeys.m") [49]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q5\sift.m" [46]) [47]
+ssignment2\code\q5\sift.m" [50]) [51]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q5\q5.m") [48]
+ssignment2\code\q5\q5.m") [52]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q6\ass2q6_connect.m" [49]) [50]
+ssignment2\code\q6\ass2q6_connect.m" [53]) [54]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q6\find_centroids_orientation_grey.m" [51]) [52]
+ssignment2\code\q6\find_centroids_orientation_grey.m" [55]) [56]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q6\p_dist_q6.m") [53]
+ssignment2\code\q6\p_dist_q6.m") [57]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q6\sendCommand.m") [54])
+ssignment2\code\q6\sendCommand.m") [58])
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
 ssignment2\Assignment 2.aux") ) 
 Here is how much of TeX's memory you used:
- 5506 strings out of 493921
- 80368 string characters out of 3144859
- 499996 words of memory out of 3000000
- 8600 multiletter control sequences out of 15000+200000
+ 5546 strings out of 493921
+ 81064 string characters out of 3144859
+ 500415 words of memory out of 3000000
+ 8632 multiletter control sequences out of 15000+200000
  16426 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,8n,42p,932b,1512s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1206,9 +1514,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "Assignment 2.pdf" (55 pages, 883944 bytes).
+Output written on "Assignment 2.pdf" (59 pages, 1106321 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
+ 305 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
