@@ -25,10 +25,12 @@ for i = 1:length(laser_scans)
          end
      end
      plot(xpoint(:), ypoint(:), '.');
-     axis equal;
-     axis([0 10 -5 5]);
-     xlabel('X (meter)')
-     ylabel('Y (meter)')
-     title(sprintf('ACFR indoor SICK data: scan %d',i))
-     drawnow
+%      axis equal;
+%      axis([0 10 -5 5]);
+%      xlabel('X (meter)')
+%      ylabel('Y (meter)')
+%      title(sprintf('ACFR indoor SICK data: scan %d',i))
+%      drawnow
 end
+
+vertices = lineseg(xpoint, ypoint, 0.1);
