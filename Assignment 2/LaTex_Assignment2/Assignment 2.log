@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.3)  23 APR 2015 14:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.3)  23 APR 2015 14:57
 entering extended mode
 **Assignment*2.tex
 
@@ -549,39 +549,388 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
+
+ []
+
 [6 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex
-_Assignment2/images/q3a_1_3.png (PNG copy)>])
+_Assignment2/images/q3a_1_3.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
+
+ []
+
+[7]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 		\newline
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+<images/q3b_scan1.png, id=42, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan1.png Graphic file (type png)
+
+<use images/q3b_scan1.png>
+Package pdftex.def Info: images/q3b_scan1.png used on input line 68.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 68--68
+ [][] 
+ []
+
+<images/q3b_scan20.png, id=43, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan20.png Graphic file (type png)
+
+<use images/q3b_scan20.png>
+Package pdftex.def Info: images/q3b_scan20.png used on input line 73.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 73--73
+ [][] 
+ []
+
+<images/q3b_scan40.png, id=44, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan40.png Graphic file (type png)
+
+<use images/q3b_scan40.png>
+Package pdftex.def Info: images/q3b_scan40.png used on input line 78.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 78--78
+ [][] 
+ []
+
+<images/q3b_scan60.png, id=45, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan60.png Graphic file (type png)
+
+<use images/q3b_scan60.png>
+Package pdftex.def Info: images/q3b_scan60.png used on input line 83.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 83--83
+ [][] 
+ []
+
+<images/q3b_scan80.png, id=46, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan80.png Graphic file (type png)
+
+<use images/q3b_scan80.png>
+Package pdftex.def Info: images/q3b_scan80.png used on input line 88.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 88--88
+ [][] 
+ []
+
+<images/q3b_scan100.png, id=47, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan100.png Graphic file (type png)
+
+<use images/q3b_scan100.png>
+Package pdftex.def Info: images/q3b_scan100.png used on input line 93.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 93--93
+ [][] 
+ []
+
+<images/q3b_scan120.png, id=48, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan120.png Graphic file (type png)
+
+<use images/q3b_scan120.png>
+Package pdftex.def Info: images/q3b_scan120.png used on input line 98.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 98--98
+ [][] 
+ []
+
+<images/q3b_scan140.png, id=49, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan140.png Graphic file (type png)
+
+<use images/q3b_scan140.png>
+Package pdftex.def Info: images/q3b_scan140.png used on input line 103.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 103--103
+ [][] 
+ []
+
+<images/q3b_scan160.png, id=50, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan160.png Graphic file (type png)
+
+<use images/q3b_scan160.png>
+Package pdftex.def Info: images/q3b_scan160.png used on input line 108.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 108--108
+ [][] 
+ []
+
+<images/q3b_scan180.png, id=51, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan180.png Graphic file (type png)
+
+<use images/q3b_scan180.png>
+Package pdftex.def Info: images/q3b_scan180.png used on input line 113.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 113--113
+ [][] 
+ []
+
+<images/q3b_scan200.png, id=52, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan200.png Graphic file (type png)
+
+<use images/q3b_scan200.png>
+Package pdftex.def Info: images/q3b_scan200.png used on input line 118.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 118--118
+ [][] 
+ []
+
+<images/q3b_scan220.png, id=53, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan220.png Graphic file (type png)
+
+<use images/q3b_scan220.png>
+Package pdftex.def Info: images/q3b_scan220.png used on input line 123.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 123--123
+ [][] 
+ []
+
+<images/q3b_scan240.png, id=54, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan240.png Graphic file (type png)
+
+<use images/q3b_scan240.png>
+Package pdftex.def Info: images/q3b_scan240.png used on input line 128.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 128--128
+ [][] 
+ []
+
+<images/q3b_scan260.png, id=55, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan260.png Graphic file (type png)
+
+<use images/q3b_scan260.png>
+Package pdftex.def Info: images/q3b_scan260.png used on input line 133.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 133--133
+ [][] 
+ []
+
+<images/q3b_scan280.png, id=56, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan280.png Graphic file (type png)
+
+<use images/q3b_scan280.png>
+Package pdftex.def Info: images/q3b_scan280.png used on input line 138.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 138--138
+ [][] 
+ []
+
+<images/q3b_scan300.png, id=57, 1084.80281pt x 637.63219pt>
+File: images/q3b_scan300.png Graphic file (type png)
+
+<use images/q3b_scan300.png>
+Package pdftex.def Info: images/q3b_scan300.png used on input line 143.
+(pdftex.def)             Requested size: 542.40009pt x 318.8153pt.
+
+Overfull \hbox (41.91609pt too wide) in paragraph at lines 143--143
+ [][] 
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 		\newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 		\newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[8 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex
+_Assignment2/images/q3b_scan1.png (PNG copy)>] [9 <C:/Users/Primarch IV/Documen
+ts/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/images/q3b_scan20.p
+ng (PNG copy)> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assign
+ment 2/LaTex_Assignment2/images/q3b_scan40.png (PNG copy)>] [10 <C:/Users/Prima
+rch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/image
+s/q3b_scan60.png (PNG copy)> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssi
+gnments/Assignment 2/LaTex_Assignment2/images/q3b_scan80.png (PNG copy)>]
+[11 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+x_Assignment2/images/q3b_scan100.png (PNG copy)> <C:/Users/Primarch IV/Document
+s/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/images/q3b_scan120.p
+ng (PNG copy)>] [12 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/A
+ssignment 2/LaTex_Assignment2/images/q3b_scan140.png (PNG copy)> <C:/Users/Prim
+arch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/imag
+es/q3b_scan160.png (PNG copy)>] [13 <C:/Users/Primarch IV/Documents/GitHub/ExpR
+oboAssignments/Assignment 2/LaTex_Assignment2/images/q3b_scan180.png (PNG copy)
+> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_
+Assignment2/images/q3b_scan200.png (PNG copy)>] [14 <C:/Users/Primarch IV/Docum
+ents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/images/q3b_scan22
+0.png (PNG copy)> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Ass
+ignment 2/LaTex_Assignment2/images/q3b_scan240.png (PNG copy)>] [15 <C:/Users/P
+rimarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/i
+mages/q3b_scan260.png (PNG copy)> <C:/Users/Primarch IV/Documents/GitHub/ExpRob
+oAssignments/Assignment 2/LaTex_Assignment2/images/q3b_scan280.png (PNG copy)>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--154
+
+ []
+
+[16 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+x_Assignment2/images/q3b_scan300.png (PNG copy)>])
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\Question4.tex" [7])
+ssignment2\Question4.tex" [17])
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\Question5.tex" [8] [9])
+ssignment2\Question5.tex" [18] [19])
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\Question6.tex" [10]) [11]
+ssignment2\Question6.tex" [20]) [21]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\AppendixA.tex" [12] [13] [14] [15] [16] [17] [18]) [19]
+ssignment2\AppendixA.tex" [22] [23]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 10.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\code\q3\showICP.m"
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 12.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 12.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspcr.fd"
+File: omspcr.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
+LaTeX Font Info:    Try loading font information for OML+pcr on input line 22.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlpcr.fd"
+File: omlpcr.fd 
+)
+LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 22.
+) [24]
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\code\q3\modified_showICP.m" [25]) [26]
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\code\q3\laserShowACFR.m") [27]
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\code\q3\modified_laserShowACFR.m" [28]) [29]
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\code\q3\ICPv4.m"
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 35.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 35.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [30] [31])
+[32]
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\code\q3\XY2IJ.m") [33]
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\code\q3\head2tail_no_theta.m") [34] [35] [36] [37])
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
 ssignment2\Assignment 2.aux") ) 
 Here is how much of TeX's memory you used:
- 4783 strings out of 493921
- 66875 string characters out of 3144859
- 126394 words of memory out of 3000000
- 7998 multiletter control sequences out of 15000+200000
- 9726 words of font info for 36 fonts, out of 3000000 for 9000
+ 5232 strings out of 493921
+ 74889 string characters out of 3144859
+ 430148 words of memory out of 3000000
+ 8373 multiletter control sequences out of 15000+200000
+ 16426 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 33i,8n,42p,499b,247s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-ti12.pfb>
-Output written on "Assignment 2.pdf" (20 pages, 182713 bytes).
+ 36i,8n,42p,832b,1512s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvi
+ps/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on "Assignment 2.pdf" (38 pages, 551554 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
+ 214 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
