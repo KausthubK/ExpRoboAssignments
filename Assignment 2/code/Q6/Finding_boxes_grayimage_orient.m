@@ -2,7 +2,7 @@ close all
 clear
 clc
 
-I=imread('tt.png'); % read image
+I=imread('tt1.png'); % read image
 
 I2=imcrop(I,[68.5 4.5 491 472]); %isolate the workingspace
 I3=double(I2)/255;  %convert to double
@@ -10,7 +10,7 @@ I4=adapthisteq(I3); %enhance contrast using adaptive histogram equalization
 I5=I4<0.10;%0.1 %0.11 % find boxes using a threshold
 
 C1=bwareaopen(I5,1000); %remove objects less than 1000 pixels/ Remove unnessosary regions
-se=strel('square',15);  %create a structuring element of size 15 square
+se=strel('square',25);  %create a structuring element of size 15 square
 C2=imclose(C1,se); %morphologicaly close image
 C4=imfill(C2,'holes'); %fill holes
 
@@ -37,6 +37,9 @@ for i=1:length(x1)
         B1=[x1(i),y1(i)];
     end
 end
+x1
+aaa = B1(1,1)==x1
+x1(B1(1,1)==x1)
 
 x1(B1(1,1)==x1)=[]; %remove cordinates of fiducial boxes
 y1(B1(1,2)==y1)=[];
@@ -47,7 +50,7 @@ for i=1:length(x1)
         B2=[x1(i),y1(i)];
     end
 end
-
+bbb =B2(1,1)==x1;
 x1(B2(1,1)==x1)=[];
 y1(B2(1,2)==y1)=[];
 
@@ -57,7 +60,7 @@ for i=1:length(x1)
         B3=[x1(i),y1(i)];
     end
 end
-
+ccc= B3(1,1)==x1;
 x1(B3(1,1)==x1)=[];
 y1(B3(1,2)==y1)=[];
 
@@ -137,53 +140,54 @@ end
 boxPixelWidth = 80*(540/792.8691);
 for i = 1:length(p)
 
-    %TR to LT  -    Best so far
+%     TR to LT  -    Best so far
     sides1 = p(i).Extrema(TR,:) - p(i).Extrema(LT,:); % Returns the sides of the square triangle that completes the two chosen extrema:
     plot(p(i).Extrema(LT,1),p(i).Extrema(LT,2),'bx','MarkerSize',20);
     plot(p(i).Extrema(TR,1),p(i).Extrema(TR,2),'bx','MarkerSize',20);
-%     length(i) = sqrt( (p(i).Extrema(TR,1) - p(i).Extrema(LT,1))^2 + (p(i).Extrema(TR,2) - p(i).Extrema(LT,2))^2);
+    length(i) = sqrt( (p(i).Extrema(TR,1) - p(i).Extrema(LT,1))^2 + (p(i).Extrema(TR,2) - p(i).Extrema(LT,2))^2);
 
-    OrientationAngle1(i) = rad2deg(atan(-sides1(2)/sides1(1)));  % Note the 'minus' sign compensates for the inverted y-values in image coordinates
-
-%     %TL to LB - Good
-%     sides = p(i).Extrema(TL,:) - p(i).Extrema(LB,:);
-%     plot(p(i).Extrema(LB,1),p(i).Extrema(LB,2),'rx','MarkerSize',20);
-%     plot(p(i).Extrema(TL,1),p(i).Extrema(TL,2),'rx','MarkerSize',20);
+    OrAn1(i) = rad2deg(atan(-sides1(2)/sides1(1)));  % Note the 'minus' sign compensates for the inverted y-values in image coordinates    
     
-%     %LT to BL - mediocre
-%     sides = p(i).Extrema(LT,:) - p(i).Extrema(BL,:);
-%     plot(p(i).Extrema(BL,1),p(i).Extrema(BL,2),'rx','MarkerSize',20);
-%     plot(p(i).Extrema(LT,1),p(i).Extrema(LT,2),'rx','MarkerSize',20);
-    
-% %     LB to BR - Good
-%     sides = p(i).Extrema(LB,:) - p(i).Extrema(BR,:);
-%     plot(p(i).Extrema(BR,1),p(i).Extrema(BR,2),'rx','MarkerSize',20);
-%     plot(p(i).Extrema(LB,1),p(i).Extrema(LB,2),'rx','MarkerSize',20);
-    
-    %BL to RB - Decent
+%     BL to RB - Decent
     sides2 = p(i).Extrema(BL,:) - p(i).Extrema(RB,:);
     plot(p(i).Extrema(RB,1),p(i).Extrema(RB,2),'rx','MarkerSize',20);
     plot(p(i).Extrema(BL,1),p(i).Extrema(BL,2),'rx','MarkerSize',20);
+        
+    OrAn2(i) = rad2deg(atan(-sides2(2)/sides2(1)));  % Note the 'minus' sign compensates for the inverted y-values in image coordinates
+       
+
+%     %TL to LB - Good
+    sides3 = p(i).Extrema(TL,:) - p(i).Extrema(LB,:);
+    plot(p(i).Extrema(LB,1),p(i).Extrema(LB,2),'mx','MarkerSize',20);
+    plot(p(i).Extrema(TL,1),p(i).Extrema(TL,2),'mx','MarkerSize',20);
+    
+    OrAn3(i) = rad2deg(atan(-sides3(2)/sides3(1)));  % Note the 'minus' sign compensates for the inverted y-values in image coordinates
+       
     
 %     %BR to RT - ok ish
-%     sides = p(i).Extrema(BR,:) - p(i).Extrema(RT,:);
-%     plot(p(i).Extrema(RT,1),p(i).Extrema(RT,2),'rx','MarkerSize',20);
-%     plot(p(i).Extrema(BR,1),p(i).Extrema(BR,2),'rx','MarkerSize',20);
+    sides4 = p(i).Extrema(BR,:) - p(i).Extrema(RT,:);
+    plot(p(i).Extrema(RT,1),p(i).Extrema(RT,2),'cx','MarkerSize',20);
+    plot(p(i).Extrema(BR,1),p(i).Extrema(BR,2),'cx','MarkerSize',20);
     
-%     %RT to TL - BAD
-%     sides = p(i).Extrema(RT,:) - p(i).Extrema(TL,:);
-%     plot(p(i).Extrema(TL,1),p(i).Extrema(TL,2),'rx','MarkerSize',20);
-%     plot(p(i).Extrema(RT,1),p(i).Extrema(RT,2),'rx','MarkerSize',20);
-    
-    OrientationAngle2(i) = rad2deg(atan(-sides2(2)/sides2(1)));  % Note the 'minus' sign compensates for the inverted y-values in image coordinates
-    Average(i) = (OrientationAngle1(i) + OrientationAngle2(i))/2;
-%     disp(OrientationAngle(i));
-    fprintf('%d -->\tExt1: %f\t\tExt2: %f\t\tAvg: %f\n\t\tX: %f\t\tY: %f\n', i,  OrientationAngle1(i), OrientationAngle2(i), Average(i), c(i).Centroid(1), -c(i).Centroid(2));
-%     disp(o(i).Orientation);
+    OrAn4(i) = rad2deg(atan(-sides4(2)/sides4(1)));  % Note the 'minus' sign compensates for the inverted y-values in image coordinates
+           
 end
 
+OrAn1(aaa) = []
+OrAn1(bbb) = []
+OrAn1(ccc) = []
 
+
+for i = 1:length(OrAn1)
+    
+    Average1(i) = (OrAn1(i) + OrAn2(i))/2;
+    Average2(i) = (OrAn3(i) + OrAn4(i))/2;
+    fprintf('%d -->\tExt1: %f\t\tExt2: %f\t\tAvg1: %f\n', i,  OrAn1(i), OrAn2(i), Average1(i));
+    fprintf('\t\t\tExt3: %f\t\tExt4: %f\t\tAvg2: %f\n\t\tX: %f\t\tY: %f\n', OrAn3(i), OrAn2(i), Average2(i), c(i).Centroid(1), -c(1).Centroid(2));
+
+end
 % 
+
 boxPixelWidth = 80*(540/792.8691);
 % boxDiagonal = sqrt(2*boxPixelWidth^2)
 % m = regionprops(C4, 'MajorAxisLength');
@@ -193,5 +197,5 @@ boxPixelWidth = 80*(540/792.8691);
 % end
 
 %%consider Harris?
-harris = detectHarrisFeatures(C4);
-plot(harris)
+% harris = detectHarrisFeatures(C4);
+% plot(harris)

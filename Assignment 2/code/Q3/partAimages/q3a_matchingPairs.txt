@@ -1,0 +1,37 @@
+%no. of matching pairs in each ICP iteration
+
+max_iter = 40
+
+%0.05
+
+Inside ICPv4: iter 1, match pairs 362
+Inside ICPv4: iter 2, match pairs 362
+Inside ICPv4: iter 3, match pairs 362
+Inside ICPv4: iter 4, match pairs 362
+Inside ICPv4: iter 5, match pairs 362
+Inside ICPv4: iter 6, match pairs 362
+Inside ICPv4: iter 7, match pairs 362
+Inside ICPv4: iter 8, match pairs 362
+Inside ICPv4: iter 9, match pairs 362
+
+%0.01
+
+Inside ICPv4: iter 1, match pairs 362
+Inside ICPv4: iter 2, match pairs 362
+Inside ICPv4: iter 3, match pairs 362
+Inside ICPv4: iter 4, match pairs 362
+Inside ICPv4: iter 5, match pairs 362
+Inside ICPv4: iter 6, match pairs 362
+Inside ICPv4: iter 7, match pairs 362
+Inside ICPv4: iter 8, match pairs 362
+
+%0.1
+
+Inside ICPv4: iter 1, match pairs 362
+Inside ICPv4: iter 2, match pairs 362
+Inside ICPv4: iter 3, match pairs 362
+Inside ICPv4: iter 4, match pairs 362
+Inside ICPv4: iter 5, match pairs 362
+Inside ICPv4: iter 6, match pairs 362
+Inside ICPv4: iter 7, match pairs 362
+Inside ICPv4: iter 8, match pairs 362
