@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.3)  23 APR 2015 16:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.3)  23 APR 2015 16:58
 entering extended mode
 **Assignment*2.tex
 
@@ -1007,9 +1007,278 @@ or  <return>  to continue without it.
 
 )
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\Question2.tex" [17] [18] [19])
+ssignment2\Question2.tex" [17]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\Question3.tex" [20]
+ssignment2\code\Q2\q2a.m" [18])
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 
+    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/wallWindow.jpg, id=94, 4288.02pt x 2858.68pt>
+File: images/wallWindow.jpg Graphic file (type jpg)
+
+<use images/wallWindow.jpg>
+Package pdftex.def Info: images/wallWindow.jpg used on input line 12.
+(pdftex.def)             Requested size: 214.41356pt x 142.94237pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--17
+
+ []
+
+<images/q2a1.png, id=95, 774.64406pt x 500.62032pt>
+File: images/q2a1.png Graphic file (type png)
+ <use images/q2a1.png>
+Package pdftex.def Info: images/q2a1.png used on input line 20.
+(pdftex.def)             Requested size: 387.32108pt x 250.30954pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 	\newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q2a2.png, id=96, 774.64406pt x 500.62032pt>
+File: images/q2a2.png Graphic file (type png)
+ <use images/q2a2.png>
+Package pdftex.def Info: images/q2a2.png used on input line 28.
+(pdftex.def)             Requested size: 387.32108pt x 250.30954pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 	\newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q2a3.png, id=97, 421.575pt x 316.18124pt>
+File: images/q2a3.png Graphic file (type png)
+ <use images/q2a3.png>
+Package pdftex.def Info: images/q2a3.png used on input line 36.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 	\newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q2a4.png, id=98, 421.575pt x 316.18124pt>
+File: images/q2a4.png Graphic file (type png)
+ <use images/q2a4.png>
+Package pdftex.def Info: images/q2a4.png used on input line 44.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 	\newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q2a5.png, id=99, 529.98pt x 624.83438pt>
+File: images/q2a5.png Graphic file (type png)
+ <use images/q2a5.png>
+Package pdftex.def Info: images/q2a5.png used on input line 52.
+(pdftex.def)             Requested size: 264.98933pt x 312.41643pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 	\newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[19 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+x_Assignment2/images/wallWindow.jpg> <C:/Users/Primarch IV/Documents/GitHub/Exp
+RoboAssignments/Assignment 2/LaTex_Assignment2/images/q2a1.png (PNG copy)>]
+[20 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+x_Assignment2/images/q2a2.png (PNG copy)> <C:/Users/Primarch IV/Documents/GitHu
+b/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/images/q2a3.png (PNG copy)>
+ <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_A
+ssignment2/images/q2a4.png (PNG copy)>]
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\code\Q2\q2b.m" [21 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAss
+ignments/Assignment 2/LaTex_Assignment2/images/q2a5.png (PNG copy)>] [22])
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q2b1.png, id=112, 529.98pt x 624.83438pt>
+File: images/q2b1.png Graphic file (type png)
+ <use images/q2b1.png>
+Package pdftex.def Info: images/q2b1.png used on input line 66.
+(pdftex.def)             Requested size: 264.98933pt x 312.41643pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q2b2.png, id=113, 238.64156pt x 178.41656pt>
+File: images/q2b2.png Graphic file (type png)
+ <use images/q2b2.png>
+Package pdftex.def Info: images/q2b2.png used on input line 74.
+(pdftex.def)             Requested size: 238.64096pt x 178.4161pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q2b3.png, id=114, 238.64156pt x 178.41656pt>
+File: images/q2b3.png Graphic file (type png)
+ <use images/q2b3.png>
+Package pdftex.def Info: images/q2b3.png used on input line 82.
+(pdftex.def)             Requested size: 238.64096pt x 178.4161pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q2b4.png, id=115, 421.575pt x 316.18124pt>
+File: images/q2b4.png Graphic file (type png)
+ <use images/q2b4.png>
+Package pdftex.def Info: images/q2b4.png used on input line 91.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q2b5.png, id=116, 421.575pt x 316.18124pt>
+File: images/q2b5.png Graphic file (type png)
+ <use images/q2b5.png>
+Package pdftex.def Info: images/q2b5.png used on input line 100.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/q2b6.png, id=117, 238.64156pt x 178.41656pt>
+File: images/q2b6.png Graphic file (type png)
+ <use images/q2b6.png>
+Package pdftex.def Info: images/q2b6.png used on input line 109.
+(pdftex.def)             Requested size: 238.64096pt x 178.4161pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
+ssignment2\Question3.tex" [23 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAss
+ignments/Assignment 2/LaTex_Assignment2/images/q2b1.png (PNG copy)>] [24 <C:/Us
+ers/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignme
+nt2/images/q2b2.png (PNG copy)> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboA
+ssignments/Assignment 2/LaTex_Assignment2/images/q2b3.png (PNG copy)> <C:/Users
+/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2
+/images/q2b4.png (PNG copy)>] [25 <C:/Users/Primarch IV/Documents/GitHub/ExpRob
+oAssignments/Assignment 2/LaTex_Assignment2/images/q2b5.png (PNG copy)> <C:/Use
+rs/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignmen
+t2/images/q2b6.png (PNG copy)>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1023,7 +1292,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<images/q3a_1_1.png, id=102, 1084.80281pt x 637.63219pt>
+<images/q3a_1_1.png, id=128, 1084.80281pt x 637.63219pt>
 File: images/q3a_1_1.png Graphic file (type png)
 
 <use images/q3a_1_1.png>
@@ -1039,7 +1308,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--18
 
  []
 
-<images/q3a_1_2.png, id=103, 1084.80281pt x 637.63219pt>
+<images/q3a_1_2.png, id=129, 1084.80281pt x 637.63219pt>
 File: images/q3a_1_2.png Graphic file (type png)
 
 <use images/q3a_1_2.png>
@@ -1063,15 +1332,15 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[21 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
-x_Assignment2/images/q3a_1_1.png (PNG copy)>] [22 <C:/Users/Primarch IV/Documen
+[26 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+x_Assignment2/images/q3a_1_1.png (PNG copy)>] [27 <C:/Users/Primarch IV/Documen
 ts/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/images/q3a_1_2.png 
 (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-<images/q3a_1_3.png, id=110, 1084.80281pt x 637.63219pt>
+<images/q3a_1_3.png, id=136, 1084.80281pt x 637.63219pt>
 File: images/q3a_1_3.png Graphic file (type png)
 
 <use images/q3a_1_3.png>
@@ -1168,7 +1437,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
  []
 
-[23 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+[28 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
 x_Assignment2/images/q3a_1_3.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
@@ -1179,7 +1448,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  []
 
-[24]
+[29]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1203,7 +1472,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<images/q3b_scan1.png, id=122, 1084.80281pt x 637.63219pt>
+<images/q3b_scan1.png, id=148, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan1.png Graphic file (type png)
 
 <use images/q3b_scan1.png>
@@ -1214,7 +1483,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 68--68
  [][] 
  []
 
-<images/q3b_scan20.png, id=123, 1084.80281pt x 637.63219pt>
+<images/q3b_scan20.png, id=149, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan20.png Graphic file (type png)
 
 <use images/q3b_scan20.png>
@@ -1225,7 +1494,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 73--73
  [][] 
  []
 
-<images/q3b_scan40.png, id=124, 1084.80281pt x 637.63219pt>
+<images/q3b_scan40.png, id=150, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan40.png Graphic file (type png)
 
 <use images/q3b_scan40.png>
@@ -1236,7 +1505,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 78--78
  [][] 
  []
 
-<images/q3b_scan60.png, id=125, 1084.80281pt x 637.63219pt>
+<images/q3b_scan60.png, id=151, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan60.png Graphic file (type png)
 
 <use images/q3b_scan60.png>
@@ -1247,7 +1516,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 83--83
  [][] 
  []
 
-<images/q3b_scan80.png, id=126, 1084.80281pt x 637.63219pt>
+<images/q3b_scan80.png, id=152, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan80.png Graphic file (type png)
 
 <use images/q3b_scan80.png>
@@ -1258,7 +1527,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 88--88
  [][] 
  []
 
-<images/q3b_scan100.png, id=127, 1084.80281pt x 637.63219pt>
+<images/q3b_scan100.png, id=153, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan100.png Graphic file (type png)
 
 <use images/q3b_scan100.png>
@@ -1269,7 +1538,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 93--93
  [][] 
  []
 
-<images/q3b_scan120.png, id=128, 1084.80281pt x 637.63219pt>
+<images/q3b_scan120.png, id=154, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan120.png Graphic file (type png)
 
 <use images/q3b_scan120.png>
@@ -1280,7 +1549,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 98--98
  [][] 
  []
 
-<images/q3b_scan140.png, id=129, 1084.80281pt x 637.63219pt>
+<images/q3b_scan140.png, id=155, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan140.png Graphic file (type png)
 
 <use images/q3b_scan140.png>
@@ -1291,7 +1560,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 103--103
  [][] 
  []
 
-<images/q3b_scan160.png, id=130, 1084.80281pt x 637.63219pt>
+<images/q3b_scan160.png, id=156, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan160.png Graphic file (type png)
 
 <use images/q3b_scan160.png>
@@ -1302,7 +1571,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 108--108
  [][] 
  []
 
-<images/q3b_scan180.png, id=131, 1084.80281pt x 637.63219pt>
+<images/q3b_scan180.png, id=157, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan180.png Graphic file (type png)
 
 <use images/q3b_scan180.png>
@@ -1313,7 +1582,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 113--113
  [][] 
  []
 
-<images/q3b_scan200.png, id=132, 1084.80281pt x 637.63219pt>
+<images/q3b_scan200.png, id=158, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan200.png Graphic file (type png)
 
 <use images/q3b_scan200.png>
@@ -1324,7 +1593,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 118--118
  [][] 
  []
 
-<images/q3b_scan220.png, id=133, 1084.80281pt x 637.63219pt>
+<images/q3b_scan220.png, id=159, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan220.png Graphic file (type png)
 
 <use images/q3b_scan220.png>
@@ -1335,7 +1604,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 123--123
  [][] 
  []
 
-<images/q3b_scan240.png, id=134, 1084.80281pt x 637.63219pt>
+<images/q3b_scan240.png, id=160, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan240.png Graphic file (type png)
 
 <use images/q3b_scan240.png>
@@ -1346,7 +1615,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 128--128
  [][] 
  []
 
-<images/q3b_scan260.png, id=135, 1084.80281pt x 637.63219pt>
+<images/q3b_scan260.png, id=161, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan260.png Graphic file (type png)
 
 <use images/q3b_scan260.png>
@@ -1357,7 +1626,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 133--133
  [][] 
  []
 
-<images/q3b_scan280.png, id=136, 1084.80281pt x 637.63219pt>
+<images/q3b_scan280.png, id=162, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan280.png Graphic file (type png)
 
 <use images/q3b_scan280.png>
@@ -1368,7 +1637,7 @@ Overfull \hbox (41.91609pt too wide) in paragraph at lines 138--138
  [][] 
  []
 
-<images/q3b_scan300.png, id=137, 1084.80281pt x 637.63219pt>
+<images/q3b_scan300.png, id=163, 1084.80281pt x 637.63219pt>
 File: images/q3b_scan300.png Graphic file (type png)
 
 <use images/q3b_scan300.png>
@@ -1405,27 +1674,27 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[25 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
-x_Assignment2/images/q3b_scan1.png (PNG copy)>] [26 <C:/Users/Primarch IV/Docum
+[30 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+x_Assignment2/images/q3b_scan1.png (PNG copy)>] [31 <C:/Users/Primarch IV/Docum
 ents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/images/q3b_scan20
 .png (PNG copy)> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assi
-gnment 2/LaTex_Assignment2/images/q3b_scan40.png (PNG copy)>] [27 <C:/Users/Pri
+gnment 2/LaTex_Assignment2/images/q3b_scan40.png (PNG copy)>] [32 <C:/Users/Pri
 march IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/ima
 ges/q3b_scan60.png (PNG copy)> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAs
 signments/Assignment 2/LaTex_Assignment2/images/q3b_scan80.png (PNG copy)>]
-[28 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+[33 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
 x_Assignment2/images/q3b_scan100.png (PNG copy)> <C:/Users/Primarch IV/Document
 s/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/images/q3b_scan120.p
-ng (PNG copy)>] [29 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/A
+ng (PNG copy)>] [34 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/A
 ssignment 2/LaTex_Assignment2/images/q3b_scan140.png (PNG copy)> <C:/Users/Prim
 arch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/imag
-es/q3b_scan160.png (PNG copy)>] [30 <C:/Users/Primarch IV/Documents/GitHub/ExpR
+es/q3b_scan160.png (PNG copy)>] [35 <C:/Users/Primarch IV/Documents/GitHub/ExpR
 oboAssignments/Assignment 2/LaTex_Assignment2/images/q3b_scan180.png (PNG copy)
 > <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_
-Assignment2/images/q3b_scan200.png (PNG copy)>] [31 <C:/Users/Primarch IV/Docum
+Assignment2/images/q3b_scan200.png (PNG copy)>] [36 <C:/Users/Primarch IV/Docum
 ents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/images/q3b_scan22
 0.png (PNG copy)> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Ass
-ignment 2/LaTex_Assignment2/images/q3b_scan240.png (PNG copy)>] [32 <C:/Users/P
+ignment 2/LaTex_Assignment2/images/q3b_scan240.png (PNG copy)>] [37 <C:/Users/P
 rimarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/i
 mages/q3b_scan260.png (PNG copy)> <C:/Users/Primarch IV/Documents/GitHub/ExpRob
 oAssignments/Assignment 2/LaTex_Assignment2/images/q3b_scan280.png (PNG copy)>]
@@ -1444,8 +1713,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--154
 
  []
 
-[33 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
-x_Assignment2/images/q3b_scan300.png (PNG copy)>]) [34]
+[38 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+x_Assignment2/images/q3b_scan300.png (PNG copy)>]) [39]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
 ssignment2\Question4.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
@@ -1596,25 +1865,25 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<images/q4_1.png, id=169, 304.63812pt x 71.26625pt>
+<images/q4_1.png, id=196, 304.63812pt x 71.26625pt>
 File: images/q4_1.png Graphic file (type png)
  <use images/q4_1.png>
 Package pdftex.def Info: images/q4_1.png used on input line 30.
 (pdftex.def)             Requested size: 456.95604pt x 106.89908pt.
 
-<images/q4_2.jpg, id=171, 562.1pt x 421.575pt>
+<images/q4_2.jpg, id=198, 562.1pt x 421.575pt>
 File: images/q4_2.jpg Graphic file (type jpg)
  <use images/q4_2.jpg>
 Package pdftex.def Info: images/q4_2.jpg used on input line 38.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
-<images/q4_3.jpg, id=172, 562.1pt x 421.575pt>
+<images/q4_3.jpg, id=199, 562.1pt x 421.575pt>
 File: images/q4_3.jpg Graphic file (type jpg)
  <use images/q4_3.jpg>
 Package pdftex.def Info: images/q4_3.jpg used on input line 44.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
- [35 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaT
-ex_Assignment2/images/q4_1.png>] [36 <C:/Users/Primarch IV/Documents/GitHub/Exp
+ [40 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaT
+ex_Assignment2/images/q4_1.png>] [41 <C:/Users/Primarch IV/Documents/GitHub/Exp
 RoboAssignments/Assignment 2/LaTex_Assignment2/images/q4_2.jpg> <C:/Users/Prima
 rch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/image
 s/q4_3.jpg>]
@@ -1631,7 +1900,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<images/q4_4.jpg, id=181, 562.1pt x 421.575pt>
+<images/q4_4.jpg, id=207, 562.1pt x 421.575pt>
 File: images/q4_4.jpg Graphic file (type jpg)
  <use images/q4_4.jpg>
 Package pdftex.def Info: images/q4_4.jpg used on input line 55.
@@ -1655,7 +1924,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-[37 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+[42 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
 x_Assignment2/images/q4_4.jpg>]
 
 ! LaTeX Error: There's no line here to end.
@@ -1670,7 +1939,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<images/q4_5.png, id=185, 304.63812pt x 71.26625pt>
+<images/q4_5.png, id=212, 304.63812pt x 71.26625pt>
 File: images/q4_5.png Graphic file (type png)
  <use images/q4_5.png>
 Package pdftex.def Info: images/q4_5.png used on input line 68.
@@ -1680,7 +1949,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--73
 
  []
 
-<images/q4_6.jpg, id=186, 562.1pt x 421.575pt>
+<images/q4_6.jpg, id=213, 562.1pt x 421.575pt>
 File: images/q4_6.jpg Graphic file (type jpg)
  <use images/q4_6.jpg>
 Package pdftex.def Info: images/q4_6.jpg used on input line 77.
@@ -1699,10 +1968,10 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[38 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+[43 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
 x_Assignment2/images/q4_5.png> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAs
 signments/Assignment 2/LaTex_Assignment2/images/q4_6.jpg>]
-<images/q4_7.jpg, id=191, 562.1pt x 421.575pt>
+<images/q4_7.jpg, id=218, 562.1pt x 421.575pt>
 File: images/q4_7.jpg Graphic file (type jpg)
  <use images/q4_7.jpg>
 Package pdftex.def Info: images/q4_7.jpg used on input line 84.
@@ -1734,7 +2003,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
-<images/q4_8.jpg, id=192, 562.1pt x 421.575pt>
+<images/q4_8.jpg, id=219, 562.1pt x 421.575pt>
 File: images/q4_8.jpg Graphic file (type jpg)
  <use images/q4_8.jpg>
 Package pdftex.def Info: images/q4_8.jpg used on input line 94.
@@ -1753,7 +2022,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[39 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+[44 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
 x_Assignment2/images/q4_7.jpg> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAs
 signments/Assignment 2/LaTex_Assignment2/images/q4_8.jpg>])
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
@@ -1790,13 +2059,13 @@ Missing character: There is no ˜ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-<images/q5_1.jpg, id=196, 427.5975pt x 332.24126pt>
+<images/q5_1.jpg, id=223, 427.5975pt x 332.24126pt>
 File: images/q5_1.jpg Graphic file (type jpg)
  <use images/q5_1.jpg>
 Package pdftex.def Info: images/q5_1.jpg used on input line 10.
 (pdftex.def)             Requested size: 213.79822pt x 166.12021pt.
 
-<images/q5_2.jpg, id=197, 427.5975pt x 332.24126pt>
+<images/q5_2.jpg, id=224, 427.5975pt x 332.24126pt>
 File: images/q5_2.jpg Graphic file (type jpg)
  <use images/q5_2.jpg>
 Package pdftex.def Info: images/q5_2.jpg used on input line 19.
@@ -1806,7 +2075,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--24
 
  []
 
-[40 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+[45 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
 x_Assignment2/images/q5_1.jpg> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAs
 signments/Assignment 2/LaTex_Assignment2/images/q5_2.jpg>]
 
@@ -1822,7 +2091,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<images/q5_3.jpg, id=201, 427.5975pt x 332.24126pt>
+<images/q5_3.jpg, id=228, 427.5975pt x 332.24126pt>
 File: images/q5_3.jpg Graphic file (type jpg)
  <use images/q5_3.jpg>
 Package pdftex.def Info: images/q5_3.jpg used on input line 33.
@@ -1832,12 +2101,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--38
 
  []
 
-<images/q5_4.jpg, id=202, 256.96pt x 240.9pt>
+<images/q5_4.jpg, id=229, 256.96pt x 240.9pt>
 File: images/q5_4.jpg Graphic file (type jpg)
  <use images/q5_4.jpg>
 Package pdftex.def Info: images/q5_4.jpg used on input line 44.
 (pdftex.def)             Requested size: 128.47968pt x 120.44969pt.
- [41 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaT
+ [46 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaT
 ex_Assignment2/images/q5_3.jpg> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboA
 ssignments/Assignment 2/LaTex_Assignment2/images/q5_4.jpg>]
 
@@ -1853,7 +2122,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<images/q5_5.jpg, id=206, 778.91pt x 389.455pt>
+<images/q5_5.jpg, id=233, 778.91pt x 389.455pt>
 File: images/q5_5.jpg Graphic file (type jpg)
  <use images/q5_5.jpg>
 Package pdftex.def Info: images/q5_5.jpg used on input line 57.
@@ -1863,25 +2132,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--62
 
  []
 
-<images/q5_6.jpg, id=207, 949.5475pt x 480.79625pt>
+<images/q5_6.jpg, id=234, 949.5475pt x 480.79625pt>
 File: images/q5_6.jpg Graphic file (type jpg)
  <use images/q5_6.jpg>
 Package pdftex.def Info: images/q5_6.jpg used on input line 67.
 (pdftex.def)             Requested size: 474.77258pt x 240.39752pt.
 
-<images/q5_7.jpg, id=208, 684.5575pt x 332.24126pt>
+<images/q5_7.jpg, id=235, 684.5575pt x 332.24126pt>
 File: images/q5_7.jpg Graphic file (type jpg)
  <use images/q5_7.jpg>
 Package pdftex.def Info: images/q5_7.jpg used on input line 75.
 (pdftex.def)             Requested size: 342.27791pt x 166.12021pt.
 
-<images/q5_8.jpg, id=209, 949.5475pt x 480.79625pt>
+<images/q5_8.jpg, id=236, 949.5475pt x 480.79625pt>
 File: images/q5_8.jpg Graphic file (type jpg)
  <use images/q5_8.jpg>
 Package pdftex.def Info: images/q5_8.jpg used on input line 85.
 (pdftex.def)             Requested size: 474.77258pt x 240.39752pt.
 
-<images/q5_9.jpg, id=210, 684.5575pt x 332.24126pt>
+<images/q5_9.jpg, id=237, 684.5575pt x 332.24126pt>
 File: images/q5_9.jpg Graphic file (type jpg)
  <use images/q5_9.jpg>
 Package pdftex.def Info: images/q5_9.jpg used on input line 93.
@@ -1901,14 +2170,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--98
 
  []
 
-[42 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+[47 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
 x_Assignment2/images/q5_5.jpg> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAs
-signments/Assignment 2/LaTex_Assignment2/images/q5_6.jpg>] [43 <C:/Users/Primar
+signments/Assignment 2/LaTex_Assignment2/images/q5_6.jpg>] [48 <C:/Users/Primar
 ch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTex_Assignment2/images
 /q5_7.jpg> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment
  2/LaTex_Assignment2/images/q5_8.jpg>])
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\Question6.tex" [44 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAss
+ssignment2\Question6.tex" [49 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAss
 ignments/Assignment 2/LaTex_Assignment2/images/q5_9.jpg>]
 
 ! LaTeX Error: There's no line here to end.
@@ -1943,7 +2212,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[45]
+[50]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1958,19 +2227,19 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<images/q6_1.png, id=224, 179.67125pt x 71.26625pt>
+<images/q6_1.png, id=251, 179.67125pt x 71.26625pt>
 File: images/q6_1.png Graphic file (type png)
  <use images/q6_1.png>
 Package pdftex.def Info: images/q6_1.png used on input line 14.
 (pdftex.def)             Requested size: 179.67079pt x 71.26605pt.
 
-<images/q6_2.png, id=225, 301.125pt x 103.38625pt>
+<images/q6_2.png, id=252, 301.125pt x 103.38625pt>
 File: images/q6_2.png Graphic file (type png)
  <use images/q6_2.png>
 Package pdftex.def Info: images/q6_2.png used on input line 22.
 (pdftex.def)             Requested size: 301.12425pt x 103.38599pt.
 
-<images/q6_3.png, id=226, 494.59781pt x 420.82219pt>
+<images/q6_3.png, id=253, 494.59781pt x 420.82219pt>
 File: images/q6_3.png Graphic file (type png)
  <use images/q6_3.png>
 Package pdftex.def Info: images/q6_3.png used on input line 30.
@@ -1990,7 +2259,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--37
 
  []
 
-[46 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
+[51 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/LaTe
 x_Assignment2/images/q6_1.png> <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAs
 signments/Assignment 2/LaTex_Assignment2/images/q6_2.png>]
 
@@ -2016,79 +2285,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-) [47 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/La
+) [52 <C:/Users/Primarch IV/Documents/GitHub/ExpRoboAssignments/Assignment 2/La
 Tex_Assignment2/images/q6_3.png (PNG copy)>]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
 ssignment2\AppendixA.tex"
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\Q1\test\Q1test_scripts\linearDataSetGenerator.m" [48]) [49]
+ssignment2\code\Q1\test\Q1test_scripts\linearDataSetGenerator.m" [53]) [54]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\Q1\test\Q1test_scripts\test00.m") [50]
+ssignment2\code\Q1\test\Q1test_scripts\test00.m") [55]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\Q1\test\Q1test_scripts\test01.m") [51]
+ssignment2\code\Q1\test\Q1test_scripts\test01.m") [56]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\Q1\test\Q1test_scripts\test02.m") [52]
+ssignment2\code\Q1\test\Q1test_scripts\test02.m") [57]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\Q1\test\Q1test_scripts\test03.m") [53]
+ssignment2\code\Q1\test\Q1test_scripts\test03.m") [58]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\Q1\test\Q1test_scripts\test04.m") [54]
+ssignment2\code\Q1\test\Q1test_scripts\test04.m") [59]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\Q1\test\Q1test_scripts\test05.m") [55]
+ssignment2\code\Q1\test\Q1test_scripts\test05.m") [60]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\Q1\test\Q1test_scripts\test06.m") [56]
+ssignment2\code\Q1\test\Q1test_scripts\test06.m") [61]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\Q1\test\Q1test_scripts\test07.m") [57]
+ssignment2\code\Q1\test\Q1test_scripts\test07.m") [62]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\Q1\test\Q1test_scripts\test08.m") [58]
+ssignment2\code\Q1\test\Q1test_scripts\test08.m") [63]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\Q1\test\Q1test_scripts\test09.m") [59]
+ssignment2\code\Q1\test\Q1test_scripts\test09.m") [64]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\Q1\test\Q1test_scripts\test10.m") [60]
+ssignment2\code\Q1\test\Q1test_scripts\test10.m") [65]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\Q1\test\Q1test_scripts\test11.m") [61]
+ssignment2\code\Q1\test\Q1test_scripts\test11.m") [66]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\Q1\test\Q1test_scripts\test_results.txt" [62]) [63] [64]
+ssignment2\code\Q1\test\Q1test_scripts\test_results.txt" [67]) [68] [69]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\showICP.m") [65]
+ssignment2\code\q3\showICP.m") [70]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\modified_showICP.m" [66]) [67]
+ssignment2\code\q3\modified_showICP.m" [71]) [72]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\laserShowACFR.m") [68]
+ssignment2\code\q3\laserShowACFR.m") [73]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\modified_laserShowACFR.m" [69]) [70]
+ssignment2\code\q3\modified_laserShowACFR.m" [74]) [75]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\ICPv4.m" [71] [72]) [73]
+ssignment2\code\q3\ICPv4.m" [76] [77]) [78]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\XY2IJ.m") [74]
+ssignment2\code\q3\XY2IJ.m") [79]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q3\head2tail_no_theta.m") [75] [76]
+ssignment2\code\q3\head2tail_no_theta.m") [80] [81]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q5\appendimages.m") [77]
+ssignment2\code\q5\appendimages.m") [82]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q5\feature_matching.m") [78]
+ssignment2\code\q5\feature_matching.m") [83]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q5\harris.m" [79]) [80]
+ssignment2\code\q5\harris.m" [84]) [85]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q5\showkeys.m") [81]
+ssignment2\code\q5\showkeys.m") [86]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q5\sift.m" [82]) [83]
+ssignment2\code\q5\sift.m" [87]) [88]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q5\q5.m") [84]
+ssignment2\code\q5\q5.m") [89]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q6\ass2q6_connect.m" [85]) [86]
+ssignment2\code\q6\ass2q6_connect.m" [90]) [91]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q6\find_centroids_orientation_grey.m" [87]) [88]
+ssignment2\code\q6\find_centroids_orientation_grey.m" [92]) [93]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q6\p_dist_q6.m") [89]
+ssignment2\code\q6\p_dist_q6.m") [94]
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
-ssignment2\code\q6\sendCommand.m") [90])
+ssignment2\code\q6\sendCommand.m") [95])
 ("C:\Users\Primarch IV\Documents\GitHub\ExpRoboAssignments\Assignment 2\LaTex_A
 ssignment2\Assignment 2.aux") ) 
 Here is how much of TeX's memory you used:
- 5901 strings out of 493921
- 90892 string characters out of 3144859
- 875587 words of memory out of 3000000
- 8898 multiletter control sequences out of 15000+200000
+ 5986 strings out of 493921
+ 92643 string characters out of 3144859
+ 875247 words of memory out of 3000000
+ 8963 multiletter control sequences out of 15000+200000
  16426 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,8n,42p,932b,1516s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2103,16 +2372,15 @@ i7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
 pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "Assignment 2.pdf" (91 pages, 1623789 bytes).
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on "Assignment 2.pdf" (96 pages, 4512550 bytes).
 PDF statistics:
- 429 PDF objects out of 1000 (max. 8388607)
+ 452 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 301 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 361 words of extra memory for PDF output out of 10000 (max. 10000000)
 
