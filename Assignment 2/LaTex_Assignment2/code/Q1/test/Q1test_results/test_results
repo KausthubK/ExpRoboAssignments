@@ -1,0 +1,84 @@
+Q1 Test Result Corner Value outputs from LineSeg
+test00: horizontal line test (no error)
+test01: vertical line test (no error)
+test02: simple slope line test (no error)
+test03: slope line test (no error)
+test04: vertical inverse V LSM test (no error)
+test05: vertical inverse V LSM test (no error)
+{Maximum recursion limit of 500 reached. Use set(0,'RecursionLimit',N) to change the limit. Be aware that exceeding your available stack space can crash
+MATLAB and/or your computer.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mean')" style="font-weight:bold">mean</a>
+
+
+} 
+test06
+test06: horizontal zig zag test (no error)
+test07: broken horizontal zig zag test (no error)
+{Maximum recursion limit of 500 reached. Use set(0,'RecursionLimit',N) to change the limit. Be aware that exceeding your available stack space can crash
+MATLAB and/or your computer.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mean')" style="font-weight:bold">mean</a>
+
+
+} 
+test08
+test08: vertical zig zag test (no error)
+{Maximum recursion limit of 500 reached. Use set(0,'RecursionLimit',N) to change the limit. Be aware that exceeding your available stack space can crash
+MATLAB and/or your computer.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mean')" style="font-weight:bold">mean</a>
+
+
+} 
+test09
+test09: non-perpendicular zigzag tst (no error)
+test10: corner finder test on non-perpendicular zigzag test (no error)
+
+vertices =
+
+         0         0
+    2.5000    5.0000
+    5.0000         0
+    7.5000    5.0000
+   10.0000         0
+
+
+vectors =
+
+    2.5000    5.0000
+    2.5000   -5.0000
+    2.5000    5.0000
+    2.5000   -5.0000
+
+no corners
+
+corners =
+
+N/A
+
+test11: corner finder test on perpendicular zigzag test (no error)
+
+vertices =
+
+         0         0
+    2.5000    2.5000
+    5.0000         0
+    7.5000    2.5000
+   10.0000         0
+
+
+vectors =
+
+    2.5000    2.5000
+    2.5000   -2.5000
+    2.5000    2.5000
+    2.5000   -2.5000
+
+
+corners =
+
+    2.5000    2.5000
+    5.0000         0
+    7.5000    2.5000
+

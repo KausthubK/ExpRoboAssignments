@@ -1,0 +1,70 @@
+Q1 Test Result Corner Value outputs from LineSeg
+test00: horizontal line test (no error)
+test01: vertical line test (no error)
+test02: simple slope line test (no error)
+test03: slope line test (no error)
+test04: vertical inverse V LSM test (no error)
+test05: vertical inverse V LSM test (no error)
+test06: horizontal zig zag test (no error)
+test07: broken horizontal zig zag test (no error)
+test08: vertical zig zag test (no error)
+test09: non-perpendicular zigzag tst (no error)
+test10: corner finder test on non-perpendicular zigzag test (no error)
+
+vertices =
+
+         0         0
+    2.5000    5.0000
+    5.0000         0
+    7.5000    5.0000
+   10.0000         0
+
+
+vectors =
+
+    2.5000    5.0000
+    2.5000   -5.0000
+    2.5000    5.0000
+    2.5000   -5.0000
+
+no corners
+
+corners =
+
+N/A
+
+
+cornerCount =
+
+     0
+
+test11: corner finder test on perpendicular zigzag test (no error)
+
+vertices =
+
+         0         0
+    2.5000    2.5000
+    5.0000         0
+    7.5000    2.5000
+   10.0000         0
+
+
+vectors =
+
+    2.5000    2.5000
+    2.5000   -2.5000
+    2.5000    2.5000
+    2.5000   -2.5000
+
+
+corners =
+
+    2.5000    2.5000
+    5.0000         0
+    7.5000    2.5000
+
+
+cornerCount =
+
+     3
+
