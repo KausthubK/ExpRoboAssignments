@@ -1,0 +1,67 @@
+\documentclass[dvips,12pt]{article}
+
+% Any percent sign marks a comment to the end of the line
+
+% Every latex document starts with a documentclass declaration like this
+% The option dvips allows for graphics, 12pt is the font size, and article
+%   is the style
+
+\usepackage[pdftex]{graphicx}
+\usepackage{url}
+% These are additional packages for "pdflatex", graphics, and to include
+% hyperlinks inside a document.
+
+\setlength{\oddsidemargin}{0.5cm}
+\setlength{\textwidth}{16cm}
+\setlength{\topmargin}{0mm}
+\setlength{\textheight}{19cm}
+
+% These force using more of the margins that is the default style
+
+\begin{document}
+
+% Everything after this becomes content
+% Replace the text between curly brackets with your own
+
+\title{Major Project Proposal: Card Sorting}
+\author{James Ferris, Sachith Gunawardhana \& Kausthub Krishnamurthy}
+\date{\today}
+
+% You can leave out "date" and it will be added automatically for today
+% You can change the "\today" date to any text you like
+
+
+\maketitle
+
+% This command causes the title to be created in the document
+
+\section{Introduction}
+
+% An article style is separated into sections and subsections with 
+%   markup such as this.  Use \section*{Principles} for unnumbered sections.
+
+A standard pack of 52 playing cards has several different ways of being sorted. They can be sorted by colour, suit, or card value. Sorting by any of these methods requires the identification of a key feature, be it colour, symbol, number or letter, or a combination of all four.\newline
+
+We intend to design an automated system that can be given any common pattern and be capable of making optimal decisions to sort any given number of objects according to a given pattern. While for the basic case of a standard set of playing cards this has limited complexity, given that the relevant patterns are simple, distinct and that some can be inferred from the others (e.g. colour can be inferred if suit is known), we hope to be able to expand this concept to develop a machine that, given a set of objects with more abstract distinguishing features, can identify similar characteristics between the objects and sort them by these characteristics. 
+
+\section{System Requirements}
+	\subsection{Software Requirements}
+		On a software and analysis level the system will have to be able to see any new image, identify markers that make it unique and store this marker profile relating it to a specific point in space. The challenge on a software side would be choosing an optimal number of  identification markers such that mistakes are not made even with sets containing similar image pairs whilst not heavily compromising on how fast the job can be completed.
+	\subsection{Actuation Requirements}
+		On an actuation level it would require having to pick up cards which is a difficult job with a two-point girpper-style end effector and requires some level of task simplification. This simplification step can be done in a number of ways:
+		\newcounter{listcounter}
+		\begin{list}{\arabic{listcounter}:~}{\usecounter{listcounter}}
+			\item Having a customised spatula-esque tool on the gripper arm to be able to slide under any card and lift/flip it.
+			\item Pre-bending all the cards in order to form an arc that lifts off the table, giving the end effector enough room to get underneath it to grip it
+			\item Attach each card to a backing block (made of timber or sponge) which will be large enough for the gripper to easily pick up and place as necessary.
+		\end{list}
+		
+
+		
+		\newpage
+		\begin{thebibliography}{99}
+			
+						
+		\end{thebibliography}
+		
+\end{document}
