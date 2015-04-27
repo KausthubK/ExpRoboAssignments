@@ -1,0 +1,67 @@
+\documentclass[dvips,12pt]{article}
+
+% Any percent sign marks a comment to the end of the line
+
+% Every latex document starts with a documentclass declaration like this
+% The option dvips allows for graphics, 12pt is the font size, and article
+%   is the style
+
+\usepackage[pdftex]{graphicx}
+%\usepackage{url}
+% These are additional packages for "pdflatex", graphics, and to include
+% hyperlinks inside a document.
+
+\setlength{\oddsidemargin}{0.5cm}
+\setlength{\textwidth}{16cm}
+\setlength{\topmargin}{0mm}
+\setlength{\textheight}{19cm}
+
+% These force using more of the margins that is the default style
+
+\begin{document}
+
+% Everything after this becomes content
+% Replace the text between curly brackets with your own
+
+\title{Major Project Proposal: Concentration}
+\author{James Ferris, Sachith Gunawardhana \& Kausthub Krishnamurthy}
+\date{\today}
+
+% You can leave out "date" and it will be added automatically for today
+% You can change the "\today" date to any text you like
+
+
+\maketitle
+
+% This command causes the title to be created in the document
+
+\section{Introduction}
+
+% An article style is separated into sections and subsections with 
+%   markup such as this.  Use \section*{Principles} for unnumbered sections.
+
+Concentration is a popular children's flash card game based on pattern recognition with letters, numbers and various shapes that is designed to test not only a child's memory but also their ability to recognise patterns and images they have seen before. It is set up such that all the cards are face down and the child must look at only one card and, if it is identical tothe image on a card previously seen, must correctly identify the matching card by remembering the correct location of the other card. The easy version of this game would be one where the child has seen all of the cards beforehand and has some understanding of the content. An example of this would be simple shapes like squares, triangles and circles that the child is familiar with. A more complex version would be where it is a series of images that the child may not have seen before, thus requiring them to quickly focus on being able to familiarise themselves with new images.\\% as shown in Figure~\ref{pic1}.\\
+
+We intend to design an automated system that can be given a similar scenario and be capable of playing this game. While the simple version of this game would be far too simple a task for a machine it would be a significantly more interesting task to develop a machine that can look at a set of images that don't follow strict patterns like numbers and letters but can identify key features in more abstract images and store this as profile indicators of the images before then matching new profiles and removing them from the batch.
+
+\section{System Requirements}
+	\subsection{Software Requirements}
+		On a software and analysis level the system will have to be able to see any new image, identify markers that make it unique and store this marker profile relating it to a specific point in space. The challenge on a software side would be choosing an optimal number of  identification markers such that mistakes are not made even with sets containing similar image pairs whilst not heavily compromising on how fast the job can be completed.
+	\subsection{Actuation Requirements}
+		On an actuation level it would require having to pick up cards which is a difficult job with a two-point girpper-style end effector and requires some level of task simplification. This simplification step can be done in a number of ways:
+		\newcounter{listcounter}
+		\begin{list}{\arabic{listcounter}:~}{\usecounter{listcounter}}
+			\item Having a customised spatula-esque tool on the gripper arm to be able to slide under any card and lift/flip it.
+			\item Pre-bending all the cards in order to form an arc that lifts off the table, giving the end effector enough room to get underneath it to grip it
+			\item Attach each card to a backing block (made of timber or sponge) which will be large enough for the gripper to easily pick up and place as necessary.
+		\end{list}
+		
+		\begin{figure}[position = here]
+			\begin{center}
+				\resizebox{13cm}{!}{\includegraphics*{Concentration_Example1.png}}
+			\end{center}
+			
+			\caption{An Example of the game Concentration\label{pic1}}
+			
+		\end{figure}
+\end{document}
