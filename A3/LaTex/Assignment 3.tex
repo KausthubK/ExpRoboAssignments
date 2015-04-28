@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\renewcommand{\thesubsection}{\thesection.\alph{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\roman{subsubsection}}
+\usepackage{subfiles}
+\usepackage{gensymb}
+\usepackage[numbered, framed]{mcode}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+
+\lstset{
+	breaklines = true,
+	postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}}
+	}
+
+\begin{document}
+	\input{./AssignmentCoverSheet.tex}
+	\input{./Question1.tex}
+	\input{./Question2.tex}
+	\input{./Question3.tex}	
+	\input{./AppendixA.tex}
+\end{document}
