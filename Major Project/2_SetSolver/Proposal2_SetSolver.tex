@@ -40,13 +40,14 @@
 % An article style is separated into sections and subsections with 
 %   markup such as this.  Use \section*{Principles} for unnumbered sections.
 
-Set is a problem-solving and pattern-matching card game based on colours, numbers, shades, shapes and one's ability to identify combinations from within a selection of cards. In any given set of 12 cards there will usually be one or more possible set of three cards that can be considered a set as explained in the instruction manual \cite{setInstructions}.
+Set is a problem-solving and pattern-matching card game based on colours, numbers, shades, shapes and one's ability to identify combinations from within a selection of cards. In any given set of 12 cards there will usually be one or more possible selections of three card combinations that can be considered a set as explained in the instruction manual \cite{setInstructions}. However, since multiple combinations can be made the challenge will be to identify the selections that maintain exclusivity in the sets while aiming for the highest possible number of non-repetitive sets.\\
 
-We intend to design an automated system that can be given an in game scenario and be capable of making optimal decisions to yield maximum points. The cause for interest in this job is that while 
+We intend to design an automated system that can be given any in game scenario and be capable of making optimal decisions to yield maximum points. The cause for interest in this task is that while it incorporates pattern recognition and matching it also requires an added level of complexity with respect to weighted decision making with data sets based on preprogrammed rules.
+
 
 \section{System Requirements}
 	\subsection{Software Requirements}
-		On a software and analysis level the system will have to be able to see any new image, identify markers that make it unique and store this marker profile relating it to a specific point in space. The challenge on a software side would be choosing an optimal number of  identification markers such that mistakes are not made even with sets containing similar image pairs whilst not heavily compromising on how fast the job can be completed.
+		On a software and analysis level the system will have to be able to see any new set of patterns alien to the system, identify markers that make it unique and store this marker profile relating it to a specific point in space. The challenge on a software side would be choosing an optimal number of  identification markers such that mistakes are not made even with situations containing similar image profiles (i.e. maximise the discrimination resolution of the system so that it can tell apart similar but inidentical images) whilst not heavily compromising on how fast the job can be completed.
 	\subsection{Actuation Requirements}
 		On an actuation level it would require having to pick up cards which is a difficult job with a two-point girpper-style end effector and requires some level of task simplification. This simplification step can be done in a number of ways:
 		\newcounter{listcounter}
@@ -60,7 +61,7 @@ We intend to design an automated system that can be given an in game scenario an
 		\begin{figure}[position = here]
 			\begin{center}
 				\resizebox{15cm}{!}{\includegraphics*{SetSolver_Example2.png}}
-				\caption{An Example of the game Concentration\label{pic1}}
+				\caption{An Example of the game Set\label{pic1}}
 			\end{center}
 		\end{figure}
 		
