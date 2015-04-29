@@ -1,4 +1,4 @@
-function updateStage
+function [xKpre yKpre thetaKpre] = updateStage
 
 
 
