@@ -1,0 +1,7 @@
+function [xK, yK, thetaK] = predictionStage (deltaT, veloK, thetaK, thetaK_1, xK_1, yK_1)
+    xK = xK_1 + deltaT*
+
+
+
+
+end
