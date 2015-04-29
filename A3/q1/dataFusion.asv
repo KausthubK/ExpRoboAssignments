@@ -1,0 +1,12 @@
+clear
+close all
+clc
+
+
+
+velocityObs = load('velocityObs.txt');
+
+
+time = velocistyObs
+velocity = velocityObs(:,3);
+turnRate = velocityObs(:,4);
