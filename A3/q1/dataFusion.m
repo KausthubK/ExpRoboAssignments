@@ -2,6 +2,9 @@ clear
 close all
 clc
 
+DEGREES = 180/pi;
+RADIANS = pi/180;
+
 % % Prediction Stage
 
 velocityObs = load('velocityObs.txt');
@@ -17,6 +20,7 @@ end
 
 predictions = zeros(length(velocity),3);
 
+
 %check this
 for i = 2:length(velocity)
     
@@ -27,12 +31,19 @@ for i = 2:length(velocity)
     
 end
 
+%convert to world coordinates!
+%......
+%?????
+
+
 % % Observation Stage
 % 
-% beaconPosition = load('');
-% radii = load('');
-% angle = load('');
-% observations = zeros(length(predictions), 3);
+beaconPosition = load('laserFeatures.txt');
+% -pi/2 to pi/2, half *degree* increments
+% range then intensity
+rangeIntensity = load('laserObs.txt');
+angle = -pi/2:(0.5*DEGREES):pi/2;
+observations = zeros(length(predictions), 3);
 % 
 % for i = 1:length(radii)
 %     
