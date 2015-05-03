@@ -7,10 +7,11 @@ RADIANS = pi/180;
 
 % % Prediction Stage
 
-%Load data
+%Load observational data
 velocityObs = load('velocityObs.txt');
 positionObs = load('positionObs.txt');
 compassObs = load('compassObs.txt');
+laserObs = load('laserObs.txt');
 
 %Get velocity data
 time1 = (velocityObs(:,1)*10^6) + velocityObs(:,2); %get in microseconds
@@ -32,6 +33,27 @@ heading = compassObs(:,3);
 
 compObs = [time3 heading];
 
+% % %get laser data
+time4 = (laserObs(:,1)*10^6) + laserObs(:,2);
+% % i = 1;
+% % j = 4;
+% % sizeLas = size(laserObs);
+% % lasObs = zeros(sizeLas(1, 2));
+% % while(i <= sizeLas(1))
+% %     lasObs(i, 1) = [time4(i)];
+% %     while(j<=sizeLas(2))
+% %         lasObs(i, j) = laserObs(i, j);
+% %         lasObs(i, j-1) = laserObs(i, j-1);
+% %         
+% %         j = j + 2;
+% %     end
+% %     
+% %     i = i + 1;
+% % end
+% % size(time4)
+
+
+
 %%postInput parsing
 
 alphaP = 0.5;
@@ -44,16 +66,16 @@ deltaT = 0;
 latestVel = 0;
 latestTurnRate = 0;
 
-ourX;
-ourY;
-ourHeading;
-
+ourX = 0;
+ourY = 0;
+ourHeading = 0;
+i=1;
 %%for loop starts
-for i = i:length(velObs);    
+for i = i:length(velObs)    
    
 %if velocityobs 
-
-    if (velObs(i,1) <= posObs(i,1)) && (velObs(i,1) <= compObs(i,1))    %(velObs(i,1) <= laserObs(i,1))
+    
+%     if (velObs(i,1) <= posObs(i,1))%&& (velObs(i,1) <= compObs(i,1))    %(velObs(i,1) <= laserObs(i,1))
 
         currTime = velObs(i,1);
         
@@ -61,67 +83,73 @@ for i = i:length(velObs);
             deltaT = currTime - lastTime;
         end
                  
-        latestV = velObs(i,2);%
+        latestVel = velObs(i,2);%
         latestTurnRate = velObs(i,3);%
         pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
         ourX = pr(1);
         ourY = pr(2);
         ourHeading = pr(3);
         lastTime = velObs(i,1);%
-    end
+%     end
     
-%if GPS
-    
-    if (posObs(i,1) <= velObs(i,1)) && (posObs(i,1) <= compObs(i,1))    %(posObs(i,1) <= laserObs(i,1))
-        
-        currTime = posObs(i,1);
+% if GPS
+%     
+%     if (posObs(i,1) <= velObs(i,1))% && (posObs(i,1) <= compObs(i,1))    %(posObs(i,1) <= laserObs(i,1))
+%         
+%         currTime = posObs(i,1);
+% 
+%         if i ~= 1
+%             deltaT = currTime - lastTime;
+%         end
+% 
+%         pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
+%         gUpd = updateStageGPS(pr(1), pr(2), posObs(i,2), posObs(i,3), alphaP); %xvobs and yvobs need to come from the file
+%         ourX = gUpd(1);
+%         ourY = gUpd(2);
+%         ourHeading = pr(3);
+%         lastTime = posObs(i,1);%
+%     
+%     end
+% % if compass    
+% 
+%     if (compObs(i,1) <= velObs(i,1)) && (compObs(i,1) <= posObs(i,1))    %(compObs(i,1) <= laserObs(i,1))
+%         
+%         currTime = compObs(i,1);
+% 
+%         if i ~= 1
+%             deltaT = currTime - lastTime;
+%         end
+% 
+%         pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
+%         cUpd = updateStageCompass(pr(3), compObs(i,2), alphaTH);
+%         ourX = pr(1);
+%         ourY = pr(2);
+%         ourHeading = cUpd;
+%         lastTime = compObs(i,1);
+%     
+%     end
+% % if laser data
+%     %%fill this in Kausthub
 
-        if i ~= 1
-            deltaT = currTime - lastTime;
-        end
 
-        pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
-        gUpd = updateStageGPS(pr(1), pr(2), posObs(i,2), posObs(i,3), alphaP) %xvobs and yvobs need to come from the file
-        ourX = gUpd(1);
-        ourY = gUpd(2);
-        ourHeading = pr(3);
-        lastTime = posOBs(i,1);%
-    
-    end
-% if compass    
-
-    if (compObs(i,1) <= velObs(i,1)) && (compObs(i,1) <= posObs(i,1))    %(compObs(i,1) <= laserObs(i,1))
-        
-        currTime = compObs(i,1);
-
-        if i ~= 1
-            deltaT = currTime - lastTime;
-        end
-
-        pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
-        cUpd = updateStageCompass(pr(3), compObs(i,2), alphaTH);
-        ourX = pr(1);
-        ourY = pr(2);
-        ourHeading = cUpd;
-        lastTime = compObs(i,1);
-    
-    end
-% if laser data
-    %%fill this in Kausthub
-
+%plot stuff
+hold on
+plot(ourX, ourY, 'b.');
 end
+
+
 %%for loop ends
-
-
-
-velocityPtr;
-positionPtr;
-compassPtr;
-laserPtr;
-i = 0;
-j = 0;
-k = 0;
-l = 0;
+% % 
+% % 
+% % 
+% % velocityPtr;
+% % positionPtr;
+% % compassPtr;
+% % laserPtr;
+% % i = 0;
+% % j = 0;
+% % k = 0;
+% % l = 0;
 
 
 
