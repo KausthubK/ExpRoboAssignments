@@ -73,7 +73,7 @@ indLengths = [length(time1), length(time2), length(time3), length(time4)];
 maxIters = max(indLengths);
 
 % output = [lastTime, ourX, ourY, ourHeading];
-output = zeros(maxIters, 4);
+output = zeros(maxIters, 6);
 
 % deadreckonedpts = zeros(maxIters, 3);
 
@@ -179,11 +179,14 @@ ylabel('y-axis');
 % legend('')
 % drawnow
 
-plot(ourX, ourY, 'rx');
+plot(ourX, ourY, 'r.');
 output(loopCount, 1) = lastTime;
 output(loopCount, 2) = ourX;
 output(loopCount, 3) = ourY;
 output(loopCount, 4) = ourHeading;
+output(loopCount, 5) = latestVel;
+output(loopCount, 6) = latestTurnRate;
+
 end
 
 output(:,1) = output(:,1); %+ 1115116000;
