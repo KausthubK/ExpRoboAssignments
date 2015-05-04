@@ -83,12 +83,16 @@ while(loopFlag == 1)
 
     time = [time1(iters(1)), time2(iters(2)), time3(iters(3)), time4(iters(4)),];
     nextT = min(time);
+    
     for i = 1:4
         if time(i) == nextT
-            
+            runFlags(i) = 1;
+        else
+            runFlags(i) = 0;
         end
     end
-    %if velocityobs 
+    
+    %if velocityobs
     if(runFlags(1) == 1)
         deltaT = time1(iters(1)) - lastTime;              
         latestVel = velObs(iters(1),2);%
