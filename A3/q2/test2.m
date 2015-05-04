@@ -15,30 +15,74 @@ positions=load('posValues.txt');
 X=positions(:,1);
 Y=positions(:,2);
 heading=positions(:,3);
+ 
+f1=1;
+f2=3;
 
-f=1;
-i=1;
-j=3;
+
 range = zeros(length(laserObs), (size(laserObs,2)-2)/2);
 intensity = zeros(length(laserObs), (size(laserObs,2)-2)/2);
 % test_x=X(1,1);
 % test_y=Y(1,1);
 % test_heading=heading(1,1);
-while i<length(laserObs)
 
-   while j<size(laserObs,2)
-    range(i,f)=laserObs(i,j);
-    intensity(i,f)=laserObs(i,j+1);
-    f=f+1;  
-    j=j+2;
+%Extracting range & intensity data from LaserObs
+for i=1:length(laserObs)
+    
+   while f2<size(laserObs,2)
+    range(i,f1)=laserObs(i,f2);
+    intensity(i,f1)=laserObs(i,f2+1);
+    f1=f1+1;  
+    f2=f2+2;
    end
-   i = i + 1;
+   
 end
+
+%Transformation matrix
+x_f=zeros(length(range),size(range,2));
+y_f=zeros(length(range),size(range,2));
+
+for i=1:length(range)
+    
+    for colm=1:size(range,2)
+    
+        x_f(i,colm)=X(i)+range(i,colm)*cos((colm*0.5)-heading(i));
+        y_f(i,colm)=Y(i)+range(i,colm)*sin((colm*0.5)-heading(i));
+
+    end
+
+end
+
+x_f=x_f+7.999;
+y_f=y_f+8.2572;
 
 LabDim=100;
 workspace=zeros(LabDim);   %configure the workspace
 
+%Assume 10 values= 1m 
 
+% 
+% for i=1:length(x_f)
+%     for j=1:size(x_f,2)
+%         if range(i,j)<8
+%             hold on
+%             plot(x_f(i,j),y_f(i,j),'.');
+% 
+%         end
+%     end
+% end
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 %methodology
 
 % xReal=x_robot+distance*cos(angle_sensor-robot_orientation)
