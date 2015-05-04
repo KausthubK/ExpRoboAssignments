@@ -1,0 +1,20 @@
+close all
+clear
+clc
+
+positions=load('q2Output1.txt');
+
+X=positions(:,1);
+Y=positions(:,2);
+
+X=X-min(X);
+Y=Y-min(Y);
+
+Dim=1000;
+workspace=zeros(Dim);
+
+for i=1:length(X)
+  
+    workspace(round(X(i)*10),round(Y(i)*10))=1;
+    
+end
