@@ -78,11 +78,13 @@ ourHeading = 0;
 iters = [2, 2, 2, 2];
 runFlags = [0, 0, 0, 0];
 loopFlag = 1;
+loopCount = 2
 %%loop starts
 while(loopFlag == 1)
-
+    loopCount = loopCount + 1
     time = [time1(iters(1)), time2(iters(2)), time3(iters(3)), time4(iters(4)),];
     nextT = min(time);
+    
     
     for i = 1:4
         if time(i) == nextT
@@ -102,16 +104,16 @@ while(loopFlag == 1)
         ourY = pr(2);
         ourHeading = pr(3);
         lastTime = time1(iters(1));%
-            
+        runFlags(1) = 0;
         if iters(1) == length(time1)
-            iters(1) = 1.496*10^8;
+            time1(iters(1)) = 1.496*10^8;
         else
             iters(1) = iters(1) + 1;
         end
     end
     
 % % if GPS
-%     if(runFlags(2) == 1)
+     if(runFlags(2) == 1)
 %         deltaT = time2(iters(2)) - lastTime;
 %         pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
 %         gUpd = updateStageGPS(pr(1), pr(2), posObs(iters(2),2), posObs(iters(2),3), alphaP); %xvobs and yvobs need to come from the file
@@ -119,16 +121,16 @@ while(loopFlag == 1)
 %         ourY = gUpd(2);
 %         ourHeading = pr(3);
 %         lastTime = posObs(iters(2),1);%
-%         
-%         if iters(2) == length(time2)
-%             iters(2) = 1.496*10^8;
-%         else
-%             iters(2) = iters(2) + 1;
-%         end
-%     end
+         runFlags(2) = 0;
+         if iters(2) == length(time2)
+             time2(iters(2)) = 1.496*10^8;
+         else
+             iters(2) = iters(2) + 1;
+         end
+     end
 %     
 % % if compass    
-%     if(runFlags(3) == 1)
+     if(runFlags(3) == 1)
 %         deltaT = time3(iters(3)) - lastTime;
 %         pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
 %         cUpd = updateStageCompass(pr(3), compObs(iters(3),2), alphaTH);
@@ -136,30 +138,37 @@ while(loopFlag == 1)
 %         ourY = pr(2);
 %         ourHeading = cUpd;
 %         lastTime = compObs(iters(3),1);
-%         if iters(3) == length(time3)
-%             iters(3) = 1.496*10^8;
-%         else
-%             iters(3) = iters(3) + 1;
-%         end
-%     end
+        runFlags(3) = 0;
+        if iters(3) == length(time3)
+            time3(iters(3)) = 1.496*10^8;
+        else
+            iters(3) = iters(3) + 1;
+        end
+    end
 %     
 % % if laser data
-%     if(runFlags(4) == 1)
-% %           fill this in
-%     end
+    if(runFlags(4) == 1)
+% %       fill this in
+        runFlags(4) = 0;
+        time4(iters(4)) = 1.496*10^8;   %remove this line
+    end
 
 %check loop
-    if(iters(1) >= 1.496*10^8)
-%         if(iters(2) >= 1.496*10^8)
-%             if(iters(3) >= 1.496*10^8)
-%                 if(iters(4) >= 1.496*10^8)
-%                     loopFlag = 0;
-%                 end
-%             end
-%         end
+    if(time1(iters(1)) == 1.496*10^8)
+        if(time2(iters(2)) == 1.496*10^8)
+            if(time3(iters(3)) == 1.496*10^8)
+                if(time4(iters(4)) == 1.496*10^8)
+                     loopFlag = 0;
+                end
+            end
+        end
     end
     
 %plot stuff
 hold on
+title('Robot Path');
+xlabel('x-axis');
+ylabel('y-axis');
+% legend('')
 plot(ourX, ourY, 'b.');
 end
