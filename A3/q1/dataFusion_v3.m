@@ -178,7 +178,7 @@ xlabel('x-axis');
 ylabel('y-axis');
 % legend('')
 % drawnow
-plot(deadreckonedpts(1), deadreckonedpts(2), 'b.');
+
 plot(ourX, ourY, 'rx');
 output(loopCount, 1) = lastTime;
 output(loopCount, 2) = ourX;
