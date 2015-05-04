@@ -20,21 +20,21 @@ turnRate = velocityObs(:,4);
 
 velObs = [time1 velocity turnRate];
 
-% %Get GPS position data
-% time2 = positionObs(:,1) + (positionObs(:,2)*10^-6) - 1115116000;
-% xPos = positionObs(:,3);
-% yPos = positionObs(:,4);
-% 
-% posObs = [time2 xPos yPos];
-% 
-% %Get GPS compass data
-% time3 = compassObs(:,1) + (compassObs(:,2)*10^-6) - 1115116000;
-% heading = compassObs(:,3);
-% 
-% compObs = [time3 heading];
+%Get GPS position data
+time2 = positionObs(:,1) + (positionObs(:,2)*10^-6) - 1115116000;
+xPos = positionObs(:,3);
+yPos = positionObs(:,4);
+
+posObs = [time2 xPos yPos];
+
+%Get GPS compass data
+time3 = compassObs(:,1) + (compassObs(:,2)*10^-6) - 1115116000;
+heading = compassObs(:,3);
+
+compObs = [time3 heading];
 
 % % %get laser data
-% % time4 = (laserObs(:,1)*10^6) + laserObs(:,2);
+time4 = laserObs(:,1) + (laserObs(:,2)*10^-6) - 1115116000;
 % % i = 1;
 % % j = 4;
 % % sizeLas = size(laserObs);
@@ -69,152 +69,87 @@ latestTurnRate = 0;
 ourX = 0;
 ourY = 0;
 ourHeading = 0;
-i=2;
-%%for loop starts
-for i = i:length(velObs)    
-   
-%if velocityobs 
-    
-%     if (velObs(i,1) <= posObs(i,1))%&& (velObs(i,1) <= compObs(i,1))    %(velObs(i,1) <= laserObs(i,1))
 
-        currTime = velObs(i,1);
-        
-        if i ~= 1
-            deltaT = currTime - lastTime;
+% indLengths = [length(time1), length(time2), length(time3), length(time4)];
+% maxIters = max(indLengths);
+
+
+
+%iters [velInd, posInd, compInd, lasInd];
+iters = [2, 2, 2, 2];
+runFlags = [0, 0, 0, 0];
+loopFlag = 1;
+%%loop starts
+while(loopFlag == 1)
+
+%check loop
+    if(iters(1) >= 1.496*10^8)
+        if(iters(2) >= 1.496*10^8)
+            if(iters(3) >= 1.496*10^8)
+                if(iters(4) >= 1.496*10^8)
+                    loopFlag = 0;
+                end
+            end
         end
-                 
-        latestVel = velObs(i,2);%
-        latestTurnRate = velObs(i,3);%
+    end
+   
+    %if velocityobs 
+    if(runFlags(1) == 1)
+        deltaT = iters(1) - lastTime;              
+        latestVel = velObs(iters(1),2);%
+        latestTurnRate = velObs(iters(1),3);%
         pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
         ourX = pr(1);
         ourY = pr(2);
         ourHeading = pr(3);
-        lastTime = velObs(i,1);%
-%     end
+        lastTime = time1(iters(1));%
+            
+        if iters(1) == length(time1)
+            iters(1) = 1.496*10^8;
+        else
+            iters(1) = iters(1) + 1;
+        end
+    end
     
 % if GPS
-%     
-%     if (posObs(i,1) <= velObs(i,1))% && (posObs(i,1) <= compObs(i,1))    %(posObs(i,1) <= laserObs(i,1))
-%         
-%         currTime = posObs(i,1);
-% 
-%         if i ~= 1
-%             deltaT = currTime - lastTime;
-%         end
-% 
-%         pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
-%         gUpd = updateStageGPS(pr(1), pr(2), posObs(i,2), posObs(i,3), alphaP); %xvobs and yvobs need to come from the file
-%         ourX = gUpd(1);
-%         ourY = gUpd(2);
-%         ourHeading = pr(3);
-%         lastTime = posObs(i,1);%
-%     
-%     end
-% % if compass    
-% 
-%     if (compObs(i,1) <= velObs(i,1)) && (compObs(i,1) <= posObs(i,1))    %(compObs(i,1) <= laserObs(i,1))
-%         
-%         currTime = compObs(i,1);
-% 
-%         if i ~= 1
-%             deltaT = currTime - lastTime;
-%         end
-% 
-%         pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
-%         cUpd = updateStageCompass(pr(3), compObs(i,2), alphaTH);
-%         ourX = pr(1);
-%         ourY = pr(2);
-%         ourHeading = cUpd;
-%         lastTime = compObs(i,1);
-%     
-%     end
-% % if laser data
-%     %%fill this in Kausthub
+    if(runFlags(2) == 1)
+        deltaT = currTime - lastTime;
+        pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
+        gUpd = updateStageGPS(pr(1), pr(2), posObs(i,2), posObs(i,3), alphaP); %xvobs and yvobs need to come from the file
+        ourX = gUpd(1);
+        ourY = gUpd(2);
+        ourHeading = pr(3);
+        lastTime = posObs(i,1);%
+        
+        if iters(2) == length(time2)
+            iters(2) = 1.496*10^8;
+        else
+            iters(2) = iters(2) + 1;
+        end
+    end
+    
+% if compass    
+    if(runFlags(3) == 1)
+        currTime = compObs(i,1);
 
+        if i ~= 1
+            deltaT = currTime - lastTime;
+        end
 
+        pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
+        cUpd = updateStageCompass(pr(3), compObs(i,2), alphaTH);
+        ourX = pr(1);
+        ourY = pr(2);
+        ourHeading = cUpd;
+        lastTime = compObs(i,1);
+    end
+    
+% if laser data
+    %%fill this in Kausthub
+    if(runFlags(4) == 1)
+        
+    end
 %plot stuff
 hold on
 plot(ourX, ourY, 'b.');
 end
-
-
-%%for loop ends
-% % 
-% % 
-% % 
-% % velocityPtr;
-% % positionPtr;
-% % compassPtr;
-% % laserPtr;
-% % i = 0;
-% % j = 0;
-% % k = 0;
-% % l = 0;
-
-
-
-
-
-% deltaT = zeros(length(time),1);
-% 
-% for i = 2:length(time)
-%     deltaT(i) = time(i) - time(i-1);           
-% end
-% 
-% predictions = zeros(length(velocity),3);
-% 
-% 
-% %check this
-% for i = 2:length(velocity)
-%     
-%     [ XvPred, YvPred, THvPred ] = predictionStage(predictions(i-1,1), predictions(i-1,2), predictions(i-1,3), deltaT(i), turnRate(i), velocity(i));
-%     predictions(i,1) = XvPred;
-%     predictions(i,2) = YvPred;
-%     predictions(i,3) = THvPred;
-%     
-% end
-% 
-% velObs = [time deltaT predictions];
-% 
-% %convert to world coordinates!
-% %......
-% %?????
-% 
-% 
-% % % Observation Stage
-% % 
-% beaconPosition = load('laserFeatures.txt');
-% % -pi/2 to pi/2, half *degree* increments
-% % range then intensity
-% rangeIntensity = load('laserObs.txt');
-% angle = -pi/2:(0.5*DEGREES):pi/2;
-% observations = zeros(length(predictions), 3);
-% % 
-% % for i = 1:length(radii)
-% %     
-% %     [XvObs, YvObs, THvObs] = observationStage(beaconPosition(1,1), beaconPosition(2,1), beaconPosition(1,2), beaconPosition(2,2), radii(i,1), radii(i,2), angles(i,1), angles(i,2));
-% %     observations(i,1) = XvObs;
-% %     observations(i,2) = YvObs;
-% %     observations(i,3) = THvObs;
-% %     
-% % end
-% % 
-% 
-% 
-% % % Update Stage
-% % 
-% % 
-% % updated = zeros(length(predictions),3);
-% % 
-% % alphaP = 0.1;
-% % alphaTH = alphaP;
-% % 
-% % for i = 1:length(updated)
-% %     
-% %     [XvUpd, YvUpd, THvUpd] = updateStage(predictions(i,1), predictions(i,2), predictions(i,3), observations(i,1), observations(i,2), observations(i,3), alphaP, alphaTH);
-% %     updated(i,1) = XvUpd;
-% %     updated(i,2) = YvUpd;
-% %     updated(i,3) = THvUpd;
-% %     
-% % end
-% % 
