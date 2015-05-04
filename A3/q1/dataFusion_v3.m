@@ -6,7 +6,7 @@ DEGREES = 180/pi;
 RADIANS = pi/180;
 
 % % Prediction Stage
-
+diary './q1output'
 %Load observational data
 velocityObs = load('velocityObs.txt');
 positionObs = load('positionObs.txt');
@@ -81,10 +81,10 @@ output = zeros(maxIters, 6);
 iters = [2, 2, 2, 2];
 runFlags = [0, 0, 0, 0];
 loopFlag = 1;
-loopCount = 2
+loopCount = 2;
 %%loop starts
 while(loopFlag == 1)
-    loopCount = loopCount + 1
+    loopCount = loopCount + 1;
     time = [time1(iters(1)), time2(iters(2)), time3(iters(3)), time4(iters(4)),];
     nextT = min(time);
     
@@ -127,7 +127,7 @@ while(loopFlag == 1)
         ourX = gUpd(1);
         ourY = gUpd(2);
         ourHeading = pr(3);
-        lastTime = posObs(iters(2),1);%
+        lastTime = time2(iters(2));%
         runFlags(2) = 0;
         if iters(2) == length(time2)
             time2(iters(2)) = 1.496*10^8;
@@ -144,7 +144,7 @@ while(loopFlag == 1)
         ourX = pr(1);
         ourY = pr(2);
         ourHeading = cUpd;
-        lastTime = compObs(iters(3),1);
+        lastTime = time3(iters(3));
         runFlags(3) = 0;
         if iters(3) == length(time3)
             time3(iters(3)) = 1.496*10^8;
@@ -186,7 +186,10 @@ output(loopCount, 3) = ourY;
 output(loopCount, 4) = ourHeading;
 output(loopCount, 5) = latestVel;
 output(loopCount, 6) = latestTurnRate;
-
 end
+
+diary ON
+output
+diary OFF
 
 output(:,1) = output(:,1); %+ 1115116000;
