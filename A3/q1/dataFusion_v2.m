@@ -106,7 +106,7 @@ while(loopFlag == 1)
         lastTime = time1(iters(1));%
         runFlags(1) = 0;
         if iters(1) == length(time1)
-            iters(1) = -1;
+            time1(iters(1)) = 1.496*10^8;
         else
             iters(1) = iters(1) + 1;
         end
@@ -123,7 +123,7 @@ while(loopFlag == 1)
 %         lastTime = posObs(iters(2),1);%
          runFlags(2) = 0;
          if iters(2) == length(time2)
-             iters(2) = -1;
+             time2(iters(2)) = 1.496*10^8;
          else
              iters(2) = iters(2) + 1;
          end
@@ -140,7 +140,7 @@ while(loopFlag == 1)
 %         lastTime = compObs(iters(3),1);
         runFlags(3) = 0;
         if iters(3) == length(time3)
-            iters(3) = -1;
+            time3(iters(3)) = 1.496*10^8;
         else
             iters(3) = iters(3) + 1;
         end
@@ -150,14 +150,14 @@ while(loopFlag == 1)
     if(runFlags(4) == 1)
 % %       fill this in
         runFlags(4) = 0;
-        iters(4) = -1   %remove this line
+        time4(iters(4)) = 1.496*10^8;   %remove this line
     end
 
 %check loop
-    if(iters(1) == -1)
-        if(iters(2) == -1)
-            if(iters(3) == -1)
-                if(iters(4) >= -1)
+    if(time1(iters(1)) == 1.496*10^8)
+        if(time2(iters(2)) == 1.496*10^8)
+            if(time3(iters(3)) == 1.496*10^8)
+                if(time4(iters(4)) == 1.496*10^8)
                      loopFlag = 0;
                 end
             end
@@ -166,5 +166,10 @@ while(loopFlag == 1)
     
 %plot stuff
 hold on
+title('Robot Path');
+xlabel('x-axis');
+ylabel('y-axis');
+% legend('')
+drawnow
 plot(ourX, ourY, 'b.');
 end

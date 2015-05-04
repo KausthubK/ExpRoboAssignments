@@ -170,5 +170,6 @@ title('Robot Path');
 xlabel('x-axis');
 ylabel('y-axis');
 % legend('')
+drawnow
 plot(ourX, ourY, 'b.');
 end
