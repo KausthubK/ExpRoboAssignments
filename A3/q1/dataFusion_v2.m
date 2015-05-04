@@ -69,10 +69,11 @@ ourX = 0;
 ourY = 0;
 ourHeading = 0;
 
-% indLengths = [length(time1), length(time2), length(time3), length(time4)];
-% maxIters = max(indLengths);
+indLengths = [length(time1), length(time2), length(time3), length(time4)];
+maxIters = max(indLengths);
 
-
+% output = [lastTime, ourX, ourY, ourHeading];
+output = zeros(maxIters, 4);
 
 %iters [velInd, posInd, compInd, lasInd];
 iters = [2, 2, 2, 2];
@@ -114,19 +115,19 @@ while(loopFlag == 1)
     
 % % if GPS
      if(runFlags(2) == 1)
-%         deltaT = time2(iters(2)) - lastTime;
-%         pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
-%         gUpd = updateStageGPS(pr(1), pr(2), posObs(iters(2),2), posObs(iters(2),3), alphaP); %xvobs and yvobs need to come from the file
-%         ourX = gUpd(1);
-%         ourY = gUpd(2);
-%         ourHeading = pr(3);
-%         lastTime = posObs(iters(2),1);%
-         runFlags(2) = 0;
-         if iters(2) == length(time2)
-             time2(iters(2)) = 1.496*10^8;
-         else
-             iters(2) = iters(2) + 1;
-         end
+        deltaT = time2(iters(2)) - lastTime;
+        pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
+        gUpd = updateStageGPS(pr(1), pr(2), posObs(iters(2),2), posObs(iters(2),3), alphaP); %xvobs and yvobs need to come from the file
+        ourX = gUpd(1);
+        ourY = gUpd(2);
+        ourHeading = pr(3);
+        lastTime = posObs(iters(2),1);%
+        runFlags(2) = 0;
+        if iters(2) == length(time2)
+            time2(iters(2)) = 1.496*10^8;
+        else
+            iters(2) = iters(2) + 1;
+        end
      end
 %     
 % % if compass    
@@ -170,6 +171,12 @@ title('Robot Path');
 xlabel('x-axis');
 ylabel('y-axis');
 % legend('')
-drawnow
+% drawnow
 plot(ourX, ourY, 'b.');
+output(loopCount, 1) = lastTime;
+output(loopCount, 2) = ourX;
+output(loopCount, 3) = ourY;
+output(loopCount, 4) = ourHeading;
 end
+
+output(:,1) = output(:,1); %+ 1115116000;
