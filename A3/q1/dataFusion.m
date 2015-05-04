@@ -14,27 +14,27 @@ compassObs = load('compassObs.txt');
 laserObs = load('laserObs.txt');
 
 %Get velocity data
-time1 = (velocityObs(:,1)*10^6) + velocityObs(:,2); %get in microseconds
+time1 = velocityObs(:,1) + (velocityObs(:,2)*10^-6) - 1115116000;%get in microseconds
 velocity = velocityObs(:,3);
 turnRate = velocityObs(:,4);
 
 velObs = [time1 velocity turnRate];
 
-%Get GPS position data
-time2 = (positionObs(:,1)*10^6) + positionObs(:,2);
-xPos = positionObs(:,3);
-yPos = positionObs(:,4);
-
-posObs = [time2 xPos yPos];
-
-%Get GPS compass data
-time3 = (compassObs(:,1)*10^6) + compassObs(:,2);
-heading = compassObs(:,3);
-
-compObs = [time3 heading];
+% %Get GPS position data
+% time2 = positionObs(:,1) + (positionObs(:,2)*10^-6) - 1115116000;
+% xPos = positionObs(:,3);
+% yPos = positionObs(:,4);
+% 
+% posObs = [time2 xPos yPos];
+% 
+% %Get GPS compass data
+% time3 = compassObs(:,1) + (compassObs(:,2)*10^-6) - 1115116000;
+% heading = compassObs(:,3);
+% 
+% compObs = [time3 heading];
 
 % % %get laser data
-time4 = (laserObs(:,1)*10^6) + laserObs(:,2);
+% % time4 = (laserObs(:,1)*10^6) + laserObs(:,2);
 % % i = 1;
 % % j = 4;
 % % sizeLas = size(laserObs);
@@ -69,7 +69,7 @@ latestTurnRate = 0;
 ourX = 0;
 ourY = 0;
 ourHeading = 0;
-i=1;
+i=2;
 %%for loop starts
 for i = i:length(velObs)    
    
