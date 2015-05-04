@@ -3,7 +3,7 @@ close all
 clc
 
 % positionData = load('q1output1.txt');
-positionData = load('q2Output3.txt');
+positionData = load('q2Output4.txt');
 
 
 % xPos = positionData(:,2);
@@ -42,7 +42,7 @@ for i = 1:length(xPos)
     end
     
     grid(j,k) = grid(j,k) + 1;
-    
 end
 
+% imagesc(grid);
 HeatMap(grid);

@@ -18,7 +18,7 @@ heading = positionData(:,4);
 velocity = positionData(:,5);
 turnRate = positionData(:,6);
 
-diary './q2Output3'
+diary './q2Output4'
 
 %Get laser data
 time2 = laserObs(:,1) + (laserObs(:,2)*10^-6) - 1115116000;%get in microseconds
@@ -119,8 +119,8 @@ while(loopFlag == 1)
         
         for i = 1:size(range,2)
             if (range(iters(2),i) < 8.0 && range(iters(2),i) > 0.0001)
-                lasersX = ourX + range(iters(2),i)*cos(((i-1)*0.5)+ourHeading);
-                lasersY = ourY + range(iters(2),i)*sin(((i-1)*0.5)+ourHeading);
+                lasersX = ourX + range(iters(2),i)*cos(((i-1)*0.5)*RADIANS+ourHeading);
+                lasersY = ourY + range(iters(2),i)*sin(((i-1)*0.5)*RADIANS+ourHeading);
                 diary ON
                 fprintf('%d\t%d\n', lasersX, lasersY);
                 diary OFF
