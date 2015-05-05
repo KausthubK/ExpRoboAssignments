@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.27)  28 APR 2015 21:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.27)  5 MAY 2015 23:06
 entering extended mode
 **Assignment*3.tex
 
@@ -302,7 +302,8 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen124
 \Gin@req@width=\dimen125
 )
-No file Assignment*3.aux.
+("C:\Users\PrimarchXX\Documents\GitHub\ExpRoboAssignments\A3\LaTex\Assignment 3
+.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
@@ -317,7 +318,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 18.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 18.
@@ -397,27 +398,186 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
 (C:\Users\PrimarchXX\Documents\GitHub\ExpRoboAssignments\A3\LaTex\Question1.tex
+)
+(C:\Users\PrimarchXX\Documents\GitHub\ExpRoboAssignments\A3\LaTex\Question2.tex
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
-! Package Listings Error: File `./code/Q1/perpdist(.m)' not found.
+ []
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: m)
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.5 		\lstinputlisting{./code/Q1/perpdist.m}
-                                            
-*** (cannot \read from terminal in nonstop modes)
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
- 
+ []
+
+<./images/q2/heatmap_path_100.png, id=13, 422.32782pt x 311.66437pt>
+File: ./images/q2/heatmap_path_100.png Graphic file (type png)
+
+<use ./images/q2/heatmap_path_100.png>
+Package pdftex.def Info: ./images/q2/heatmap_path_100.png used on input line 24
+.
+(pdftex.def)             Requested size: 422.32678pt x 311.6636pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 		\newline
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./images/q2/heatmap_path_200.png, id=14, 422.32782pt x 311.66437pt>
+File: ./images/q2/heatmap_path_200.png Graphic file (type png)
+
+<use ./images/q2/heatmap_path_200.png>
+Package pdftex.def Info: ./images/q2/heatmap_path_200.png used on input line 32
+.
+(pdftex.def)             Requested size: 422.32678pt x 311.6636pt.
+ [2 <C:/Users/PrimarchXX/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q2
+/heatmap_path_100.png (PNG copy)>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 		\newline
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./images/q2/heatmap_path_500.png, id=20, 422.32782pt x 311.66437pt>
+File: ./images/q2/heatmap_path_500.png Graphic file (type png)
+
+<use ./images/q2/heatmap_path_500.png>
+Package pdftex.def Info: ./images/q2/heatmap_path_500.png used on input line 40
+.
+(pdftex.def)             Requested size: 422.32678pt x 311.6636pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 		\newline
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[3 <C:/Users/PrimarchXX/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q2/
+heatmap_path_200.png (PNG copy)>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+(C:\Users\PrimarchXX\Documents\GitHub\ExpRoboAssignments\A3\LaTex\Question3.tex
+[4 <C:/Users/PrimarchXX/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q2/
+heatmap_path_500.png (PNG copy)>] [5]) [6]
+(C:\Users\PrimarchXX\Documents\GitHub\ExpRoboAssignments\A3\LaTex\AppendixA.tex
+[7]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 10.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+(C:\Users\PrimarchXX\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q2\q2_ob
+tain_obstacles.m
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 9.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)
+LaTeX Font Info:    Try loading font information for OML+pcr on input line 36.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlpcr.fd"
+File: omlpcr.fd 
+)
+LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 36.
+ [8]
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 125.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspcr.fd"
+File: omspcr.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
+ [9])
+! Missing $ inserted.
+<inserted text> 
+                $
+l.11 		\subsubsection{obtainObstacles_v2}
+                                         
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.11 		\subsubsection{obtainObstacles_v2}
+                                         
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+(C:\Users\PrimarchXX\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q2\q2_ob
+tain_obstacles_attempt2.m [10] [11])
+(C:\Users\PrimarchXX\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q2\occup
+ancy_grid.m [12]) [13]
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
+[14])
+("C:\Users\PrimarchXX\Documents\GitHub\ExpRoboAssignments\A3\LaTex\Assignment 3
+.aux") )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 6 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 4742 strings out of 493921
- 64134 string characters out of 3147267
- 124394 words of memory out of 3000000
- 7982 multiletter control sequences out of 15000+200000
- 9418 words of font info for 35 fonts, out of 3000000 for 9000
+ 5025 strings out of 493921
+ 69154 string characters out of 3147267
+ 350033 words of memory out of 3000000
+ 8212 multiletter control sequences out of 15000+200000
+ 14527 words of font info for 54 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 33i,5n,42p,228b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 34i,7n,42p,1060b,1574s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on "Assignment 3.pdf" (15 pages, 187516 bytes).
+PDF statistics:
+ 107 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

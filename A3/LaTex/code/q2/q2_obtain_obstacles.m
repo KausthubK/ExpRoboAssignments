@@ -18,10 +18,29 @@ heading = positionData(:,4);
 velocity = positionData(:,5);
 turnRate = positionData(:,6);
 
-% diary './q2_2Output1'
+diary './q2Output4'
 
 %Get laser data
 time2 = laserObs(:,1) + (laserObs(:,2)*10^-6) - 1115116000;%get in microseconds
+
+
+%Extracting range & intensity data from LaserObs
+
+f1=1;
+range = zeros(length(laserObs), (size(laserObs,2)-2)/2);
+% intensity = zeros(length(laserObs), (size(laserObs,2)-2)/2);
+
+%Extracting range & intensity data from LaserObs
+for i=1:length(laserObs)  
+   for f2=3:2:size(laserObs,2)
+%        if(laserObs(i,f2) < 8)
+            range(i,f1)=laserObs(i,f2);
+        %     intensity(i,f1)=laserObs(i,f2+1);
+            f1=f1+1;
+%        end
+   end
+   f1=1;
+end
 
 lasersX = 0;
 lasersY = 0;
@@ -51,8 +70,7 @@ loopFlag = 1;
 loopCount = 2;
 %%loop starts
 
-xPos = zeros(1);
-yPos = zeros(1);
+
 
 while(loopFlag == 1)
     loopCount = loopCount + 1;
@@ -95,24 +113,19 @@ while(loopFlag == 1)
         ourHeading = pr(3);
         lastTime = time2(iters(2));%
         runFlags(2) = 0;
-                
-     
-         xpoint = zeros(1);
-         ypoint = zeros(1);
-         for j = 4:2:size(laserObs,2)
-             range = laserObs(iters(2),j-1);
-             bearing = ((j)/2 - 90)*pi/180;
-             if (range < 8.0)
-                 xpoint = [xpoint  ourX+range*cos(bearing + ourHeading)];
-                 ypoint = [ypoint  ourY+range*sin(bearing + ourHeading)];
-             end
-
-         end    
-         
-         xPos = [xPos xpoint];
-         yPos = [yPos ypoint];
-         
-        plot(xpoint(:), ypoint(:), '.'); 
+        
+             
+        % Get X,Y coordinates for laser ob data
+        
+        for i = 1:size(range,2)
+            if (range(iters(2),i) < 8.0 && range(iters(2),i) > 0.0001)
+                lasersX = ourX + range(iters(2),i)*cos(((i-1)*0.5)*RADIANS+ourHeading);
+                lasersY = ourY + range(iters(2),i)*sin(((i-1)*0.5)*RADIANS+ourHeading);
+                diary ON
+                fprintf('%d\t%d\n', lasersX, lasersY);
+                diary OFF
+            end
+        end
         
         %increment
         if iters(2) >= length(time2)-interval
@@ -137,49 +150,15 @@ while(loopFlag == 1)
 % xlabel('x-axis');
 % ylabel('y-axis');
 % legend('')
-drawnow
-% pause
+% drawnow
 end
 
-xpoint(1) = [];
-ypoint(1) = [];
-
-xPos(1) = [];
-yPos(1) = [];
-
-xMin = min(xPos);
-xMax = max(xPos);
-
-yMin = min(yPos);
-yMax = max(yPos);
 
 
-gridSize = 100;
-
-grid = zeros(gridSize);
 
 
-yDiff = (yMax - yMin)/(gridSize - 2);
-xDiff = (xMax - xMin)/(gridSize - 2);
 
-for i = 1:length(xPos)
-    tmpX = xPos(i);
-    tmpY = yPos(i);
-    j = 1;
-    while (tmpX > xMin)
-        tmpX = tmpX - xDiff; 
-        j = j + 1;
-    end
-    k = 1;
-    while (tmpY > yMin)
-        tmpY = tmpY - yDiff; 
-        k = k + 1;
-    end
-    
-    grid(j,k) = grid(j,k) + 1;
-end
 
-HeatMap(grid);
 
 
 

@@ -2,15 +2,15 @@ clear
 close all
 clc
 
-positionData = load('q1output1.txt');
-% positionData = load('q2Output4.txt');
+% positionData = load('q1output1.txt');
+positionData = load('q2Output4.txt');
 
 
-xPos = positionData(:,2);
-yPos = positionData(:,3);
+% xPos = positionData(:,2);
+% yPos = positionData(:,3);
 
-% xPos = positionData(:,1);
-% yPos = positionData(:,2);
+xPos = positionData(:,1);
+yPos = positionData(:,2);
 
 xMin = min(xPos);
 xMax = max(xPos);
@@ -19,7 +19,7 @@ yMin = min(yPos);
 yMax = max(yPos);
 
 
-gridSize = 500;
+gridSize = 100;
 
 grid = zeros(gridSize);
 
