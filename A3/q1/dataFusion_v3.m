@@ -4,9 +4,9 @@ clc
 
 DEGREES = 180/pi;
 RADIANS = pi/180;
-
+SUN = 1.496*10^8;
 % % Prediction Stage
-diary './q1output'
+% diary './q1output'
 %Load observational data
 velocityObs = load('velocityObs.txt');
 positionObs = load('positionObs.txt');
@@ -56,8 +56,8 @@ time4 = laserObs(:,1) + (laserObs(:,2)*10^-6) - 1115116000;
 
 %%postInput parsing
 
-alphaP = 0.5;
-alphaTH = 0.5;
+alphaP = 0.1;
+alphaTH = 0.1;
 
 lastTime = 0;
 deltaT = 0;
@@ -113,7 +113,7 @@ while(loopFlag == 1)
         lastTime = time1(iters(1));%
         runFlags(1) = 0;
         if iters(1) == length(time1)
-            time1(iters(1)) = 1.496*10^8;
+            time1(iters(1)) = SUN;
         else
             iters(1) = iters(1) + 1;
         end
@@ -130,7 +130,7 @@ while(loopFlag == 1)
         lastTime = time2(iters(2));%
         runFlags(2) = 0;
         if iters(2) == length(time2)
-            time2(iters(2)) = 1.496*10^8;
+            time2(iters(2)) = SUN;
         else
             iters(2) = iters(2) + 1;
         end
@@ -147,7 +147,7 @@ while(loopFlag == 1)
         lastTime = time3(iters(3));
         runFlags(3) = 0;
         if iters(3) == length(time3)
-            time3(iters(3)) = 1.496*10^8;
+            time3(iters(3)) = SUN;
         else
             iters(3) = iters(3) + 1;
         end
@@ -157,14 +157,14 @@ while(loopFlag == 1)
     if(runFlags(4) == 1)
 % %       fill this in
         runFlags(4) = 0;
-        time4(iters(4)) = 1.496*10^8;   %remove this line
+        time4(iters(4)) = SUN;   %remove this line
     end
 
 %check loop
-    if(time1(iters(1)) == 1.496*10^8)
-        if(time2(iters(2)) == 1.496*10^8)
-            if(time3(iters(3)) == 1.496*10^8)
-                if(time4(iters(4)) == 1.496*10^8)
+    if(time1(iters(1)) == SUN)
+        if(time2(iters(2)) == SUN)
+            if(time3(iters(3)) == SUN)
+                if(time4(iters(4)) == SUN)
                      loopFlag = 0;
                 end
             end
@@ -177,7 +177,7 @@ title('Robot Path');
 xlabel('x-axis');
 ylabel('y-axis');
 % legend('')
-% drawnow
+drawnow
 
 plot(ourX, ourY, 'r.');
 output(loopCount, 1) = lastTime;
@@ -188,8 +188,8 @@ output(loopCount, 5) = latestVel;
 output(loopCount, 6) = latestTurnRate;
 end
 
-diary ON
-output
-diary OFF
+% diary ON
+% output
+% diary OFF
 
 output(:,1) = output(:,1); %+ 1115116000;

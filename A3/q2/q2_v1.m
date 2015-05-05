@@ -124,11 +124,11 @@ while(loopFlag == 1)
         j = 4;
         n = 1;
         while(j <= jMax)
-                if ((laserObs(iters(2), j - 1) < 8.0) && (laserObs(iters(2), j - 1) > 0.0001))
+%                 if ((laserObs(iters(2), j - 1) < 8.0) && (laserObs(iters(2), j - 1) > 0.0001))
                     range(n) = laserObs(iters(2), j - 1);
                     intensity(n) = laserObs(iters(2), j);
                     n = n + 1;
-                end
+%                 end
                 j = j + 2;
         end
         
