@@ -1,0 +1,9 @@
+ for j = 4:2:size(laserObs,2)
+	 range = laserObs(iters(2),j-1);
+	 bearing = ((j)/2 - 90)*pi/180;
+	 if (range < 8.0)
+		 xpoint = [xpoint  ourX+range*cos(bearing + ourHeading)];
+		 ypoint = [ypoint  ourY+range*sin(bearing + ourHeading)];
+	 end
+
+ end    

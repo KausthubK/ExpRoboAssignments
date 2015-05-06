@@ -1,0 +1,9 @@
+for i = 1:size(range,2)
+	if (range(iters(2),i) < 8.0 && range(iters(2),i) > 0.0001)
+		lasersX = ourX + range(iters(2),i)*cos(((i-1)*0.5)*RADIANS+ourHeading);
+		lasersY = ourY + range(iters(2),i)*sin(((i-1)*0.5)*RADIANS+ourHeading);
+		diary ON
+		fprintf('%d\t%d\n', lasersX, lasersY);
+		diary OFF
+	end
+end
