@@ -1,6 +1,103 @@
 \newpage
-\section{Question 1}
-	
+\section{Data Fusion}
+	Our aim was to read the measured observation data from all four sources and fuse them appropriately in order to ascertain a real representation of the robot's path. This section of the report details the methods we employed to conduct this data fusion step. The Velocity observations would provide internal data of the robot's velocities (linear and turn rate) so that its position can be segmentally ascertained using the dead reckon approximation method. However in order to account for issues such as slip (on the wheels or motors) and observational error we need to incorporate compass and GPS readings and use corrective alterations to our position prediction. Using the retro-reflective beacon readings and positions would have added an extra level of position determination by allowing us to use a local triangulation \& trilateration method using the angle \& distance of the beacons with respect to the robot.
+	\subsection{Program Flow \& Observation Scheduling}
+		The program requires a structure that would allow us to access different courses of action based on the input received at any given time because the order of observations being made is critical to the flow of the program. We can consider this to be four different lists of inputs that need to be scheduled which can be done with a set of flag variables which was stored in an array where if a particular type of observational event was perceived to occur a corresponding array element would be driven high. On testing this element we can allow sections of the code to be run or block them from running so that only the necessary processes occur at any given time. 
+		We detect the "next" action by storing all data in a matrix which is ordered by time and an array storing the index (with respect to that matrix) of the next event and these values increment as we access each observation. Using these indices we put the timestamps of each next event into an array, detect the smallest timestamps and test each event time (for coincidental events) for procedures that need to occur.\\
 		
-		\subsection*{Test Code Listing}
-			See Appendix A [9.1]
+		Iters stores the index of the next even in each observational data set that we are yet to "perceive"
+		$$ iters =
+		\begin{bmatrix}
+		itersVel & itersGPS & itersComp & itersmeasurement n\\
+		\end{bmatrix}
+		$$
+		time stores the timestamps for the next index in each observational data set. This is so that we can use the $min()$ function in matlab as opposed to writing the min finding code ourselves (a more elegant solution for adapting to a system with more sensors).
+		$$time =
+		\begin{bmatrix}
+		timestamp (s) & measurement1 & measurement2 & ... & measurement n\\
+		\end{bmatrix}
+		$$
+		\begin{figure}[position = here]
+			\begin{centering}
+				\begin{tikzpicture}[node distance = 1cm]
+				%\node(label)[type]{name}
+		
+				\end{tikzpicture}
+				\caption[\textit{A3}]{Data I/O Process\label{DIOP}}
+			\end{centering}
+		\end{figure}
+		
+		
+		
+		
+		\pagebreak
+		\subsubsection{Data I/O}
+			Having to store each set of data separately while still having easily accessible data (for ease of writing the code and minimization of code runtime) we needed to filter the data into a series of structural arrays with the following template:
+			$$Observation Data Structure =
+			\begin{bmatrix}
+			timestampVel (s) & timestampGPS & timestampComp & timestamp... & measurement n\\
+			\end{bmatrix}
+			$$
+			Process Descriptions:
+			\newcounter{listcounter}
+			\begin{list}{\arabic{listcounter})~}{\usecounter{listcounter}}
+				\item Parse Input: Takes in the columns of data with space delimiting input saving the first column to "Seconds", second column to "Microseconds", and each subsequent observation column into a Measurements vector. In Figure~\ref{DIOP} we see the structural flow for an 2-parameter data set such as Velocity Observations where Velocity would be Measurements 1 and Turn Rate would be Measurements 2.
+				\item Merge Time Stamps: An implementation of the following equation: $ts1+ts2^{10-6} - First Time Stamp$\\
+				This effectively "zeroes" the events so that the very first event occurs at $t = 0$		
+			\end{list}
+			
+			\begin{figure}[position = here]
+				\begin{centering}
+					\begin{tikzpicture}[node distance = 1cm]
+					%\node(label)[type]{name}
+					\node(start)[startstop]{Start};
+					\node(inParse1)[filtersplit, below of = start, yshift = -1cm]{Parse Input};
+					\node(obsFile)[io, left of = inParse1, xshift = -5cm]{Observation Files};
+					\node(values1)[datastruct, below of = inParse1, yshift = -1cm]{Measurement 1};
+					\node(values2)[datastruct, right of = values1, xshift = 2.5cm]{Measurement 2};
+					\node(ts2)[datastruct, left of = values1, xshift = -2.5cm]{Microseconds};
+					\node(ts1)[datastruct, left of = ts2, xshift = -2.5cm]{Seconds};
+					\node(mergets)[process, below of = ts2, yshift = -1cm, xshift = -1.5cm]{Merge Time Stamps};
+					\node(timestamp)[datastruct, below of = mergets, yshift = -1cm]{Time Stamp};
+					\node(mergedata)[filter, below of = timestamp, yshift = -1cm, xshift = 5cm]{Merge Data};
+					\node(obsDataStruct)[datastruct,below of = mergedata, yshift = -1cm, xshift = 5cm]{Observational Data Structures};
+					\node(stop)[startstop, below of = obsDataStruct, yshift = -1cm, xshift = -5cm]{Stop};
+					
+					\draw [arrow] (start) -- (inParse1);
+					\draw [arrow] (obsFile) -- (inParse1);
+					\draw [arrow] (inParse1) -- (ts1);
+					\draw [arrow] (inParse1) -- (ts2);
+					\draw [arrow] (inParse1) -- (values1);
+					\draw [arrow] (inParse1) -- (values2);
+					\draw [arrow] (ts1) -- (mergets);
+					\draw [arrow] (ts2) -- (mergets);
+					\draw [arrow] (mergets) -- (timestamp);
+					\draw [arrow] (timestamp) -- (mergedata);
+					\draw [arrow] (values1) -- (mergedata);
+					\draw [arrow] (values2) -- (mergedata);
+					\draw [arrow] (mergedata) -- (obsDataStruct);
+					\draw [arrow] (mergedata) -- (stop);
+					\end{tikzpicture}
+				\caption[\textit{A3}]{Data I/O Process\label{DIOP}}
+				\end{centering}
+			\end{figure}
+		
+	\subsection{Prediction Stage Implementation}
+
+		\pagebreak
+	\subsection{Observation Stage Implementation}
+
+		\pagebreak
+	\subsection{Update Stage Implementation}
+
+
+
+		\pagebreak
+	\subsection{Code Listing}
+		\subsubsection{Demonstration Code}
+			\lstinputlisting{./code/dataFusionV3.m}
+			\pagebreak
+		\subsubsection{Development Code}
+			This code listing includes a partially complete implementation of fusing the data from the Laser Range Finder detection of retro reflective beacons.
+			\lstinputlisting{./code/dataFusion_v4.m}
+			\pagebreak

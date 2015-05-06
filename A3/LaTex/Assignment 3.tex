@@ -8,7 +8,27 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{shapes, shapes.multipart, shapes.geometric, arrows}
 \graphicspath{{images/}}
+
+
+%%gray = startstop; processes = orange, io files = purple, decisions = green, data variable/struct = cyan
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+\tikzstyle{startstop} = [circle, minimum width = 1cm, minimum height = 1cm, text centered,  draw=black, fill=gray!30]
+
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=2cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+
+\tikzstyle{process} = [rectangle, minimum width = 3cm, minimum height = 1cm, text centered, draw=black, fill=orange!30]
+
+\tikzstyle{filter} = [trapezium, trapezium left angle=110, trapezium right angle=110, minimum width=2cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+
+\tikzstyle{filtersplit} = [trapezium, trapezium left angle=70, trapezium right angle=70, minimum width=2cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+
+\tikzstyle{datastruct} = [rectangle, minimum width = 3cm, minimum height = 1cm, text centered, draw=black, fill=cyan!30]
 
 \lstset{
 	breaklines = true,
