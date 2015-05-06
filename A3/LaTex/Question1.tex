@@ -14,16 +14,21 @@
 		time stores the timestamps for the next index in each observational data set. This is so that we can use the $min()$ function in matlab as opposed to writing the min finding code ourselves (a more elegant solution for adapting to a system with more sensors).
 		$$time =
 		\begin{bmatrix}
-		timestamp (s) & measurement1 & measurement2 & ... & measurement n\\
+		timestampVel & timestampGPS & timestampComp & timestampLaser\\
 		\end{bmatrix}
 		$$
 		\begin{figure}[position = here]
 			\begin{centering}
 				\begin{tikzpicture}[node distance = 1cm]
 				%\node(label)[type]{name}
-		
+				\node(start)[startstop]{Start};
+				\node(dataio)[process, below of = start, yshift = -1cm]{Data I/O};
+				\node(globals)[process, below of = dataio, yshift = -1cm]{Set Global Variables};
+				\node(while)[decision, below of = globals]{loopflag == 1};
+
+			%	\node(stop)[startstop, below of = obsDataStruct, yshift = -1cm, xshift = -5cm]{Stop};
 				\end{tikzpicture}
-				\caption[\textit{A3}]{Data I/O Process\label{DIOP}}
+				\caption[\textit{A3}]{Overall Program Flow\label{DIOP}}
 			\end{centering}
 		\end{figure}
 		
