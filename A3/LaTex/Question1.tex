@@ -68,7 +68,7 @@
 
 			%	\node(stop)[startstop, below of = obsDataStruct, yshift = -1cm, xshift = -5cm]{Stop};
 				\end{tikzpicture}
-				\caption[\textit{A3}]{Overall Program Flow\label{DIOP}}
+				\caption[\textit{A3}]{Overall Program Flow\label{OPF}}
 			\end{centering}
 		\end{figure}
 		
@@ -126,23 +126,108 @@
 				\caption[\textit{A3}]{Data I/O Process\label{DIOP}}
 				\end{centering}
 			\end{figure}
-		
+	
+	
+	\pagebreak
+	
+	
+	
 	\subsection{Prediction Stage Implementation}
+		\lstinputlisting{./code/q1/predictionStage.m}
+		\newline
+		Steps for implementing Prediction Stage 
+		\begin{list}{\arabic{listcounter})~}{\usecounter{listcounter}}
+			\item find change in time and set new velocity observation values
+			\item run prediction stage function from above listing
+			\item set new ourX, ourY, ourHeading values
+			\item update index, time and  reset flag values
+		\end{list}
+		
+	\subsection{Prediction + Update Stage Implementation}
+	Steps for implementing Prediction Stage 
+	\begin{list}{\arabic{listcounter})~}{\usecounter{listcounter}}
+		\item find change in time and set new velocity observation values
+		\item run prediction stage function from above listing
+		\item run the function for either GPS or Compass updating depending on which action is required.
+		\item set new ourX, ourY, ourHeading values
+		\item update index, time and  reset flag values
 
+	\end{list}
+		\subsubsection{GPS}
+			\lstinputlisting{./code/q1/updateStageGPS.m}
+		\subsubsection{Compass}
+			\lstinputlisting{./code/q1/updateStageCompass.m}
 		\pagebreak
-	\subsection{Observation Stage Implementation}
+		\subsubsection{Laser}
+			\lstinputlisting{./code/q1/matchBeacons.m}
 
+	\pagebreak
+	\subsection{Alpha Variation Results}
+	What we noticed when varying alpha (assuming alpha for both compass and GPS was the same) is that the larger your reliability factor (closer to 1) the more erratic the data seemed to get as it included all error components.
+		\vspace{3cm}
+		\begin{figure}[position = here]
+			\begin{centering}
+				\includegraphics[scale=1]{./images/q1/q1_01}\\
+				\caption[\textit{A3}]{Robot Paths\label{RobotPaths}}
+			\end{centering}
+		\end{figure}
+			\newline
+			
+			\begin{list}{\arabic{listcounter})~}{\usecounter{listcounter}}
+					\item Blue:	Dead Reckoning (alphaP = alphaTH = 0)
+					\item Magenta: GPS data observed (alphaP = 0.1)
+					\item Cyan: Compass data observed (alphaP = 0.1)					
+					\item Red: Compass + GPS data observed	(alphaP = alphaTH = 0.1)
+			\end{list}
+		
 		\pagebreak
-	\subsection{Update Stage Implementation}
-
-
-
+		\subsubsection{alpha = 0.5}
+			\begin{figure}[position = here]
+				\begin{centering}
+					\includegraphics[scale=1]{./images/q1/dr_newcomppointfive_gpspointfive}\\
+					\caption[\textit{A3}]{All Data (alpha = 0.5)\label{RPallfive}}
+				\end{centering}
+			\end{figure}
+			
+%			\begin{figure}[position = here]
+%				\begin{centering}
+%					\includegraphics[scale=1]{./images/q1/q1_01}\\
+%					\caption[\textit{A3}]{GPS Data (alpha = 0.5)\label{RPgpsfive}}
+%				\end{centering}
+%			\end{figure}
+%			
+%			\begin{figure}[position = here]
+%				\begin{centering}
+%					\includegraphics[scale=1]{./images/q1/q1_01}\\
+%					\caption[\textit{A3}]{Compass Data (alpha = 0.5)\label{RPcompfive}}
+%				\end{centering}
+%			\end{figure}
+		
+		
 		\pagebreak
+		\subsubsection{alpha = 0.9}
+			\begin{figure}[position = here]
+				\begin{centering}
+					\includegraphics[scale=1]{./images/q1/all9}\\
+					\caption[\textit{A3}]{All Data (alpha = 0.9)\label{RPall9}}
+				\end{centering}
+			\end{figure}
+			\pagebreak
+		\subsubsection{alpha = 1}
+			\begin{figure}[position = here]
+				\begin{centering}
+					\includegraphics[scale=1]{./images/q1/dr_newcomppointfive_gpspointfive}\\
+					\caption[\textit{A3}]{All Data (alpha = 1)\label{RPallOne}}
+				\end{centering}
+			\end{figure}
+		
+	\pagebreak
 	\subsection{Code Listing}
 		\subsubsection{Demonstration Code}
-			\lstinputlisting{./code/dataFusionV3.m}
+		This code listing is the code used at the time of demonstration.
+			\lstinputlisting{./code/q1/dataFusionV3.m}
 			\pagebreak
 		\subsubsection{Development Code}
-			This code listing includes a partially complete implementation of fusing the data from the Laser Range Finder detection of retro reflective beacons.
-			\lstinputlisting{./code/dataFusion_v4.m}
+			This code listing includes a partially complete implementation of fusing the data from the Laser Range Finder detection of retro reflective beacons. However it was not demonstrated as the incomplete code led to program flow issues that wouldn't allow us to run it properly.
+			\lstinputlisting{./code/q1/dataFusion_v4.m}
 			\pagebreak
