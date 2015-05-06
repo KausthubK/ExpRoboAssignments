@@ -6,8 +6,10 @@ DEGREES = 180/pi;
 RADIANS = pi/180;
 
 
+%Load data generated from Q1
 positionData = load('q1output1.txt');
 
+%Load laser observation data
 laserObs = load('laserObs.txt');
 
 %Get output data
@@ -17,8 +19,6 @@ Ypos = positionData(:,3);
 heading = positionData(:,4);
 velocity = positionData(:,5);
 turnRate = positionData(:,6);
-
-% diary './q2_2Output1'
 
 %Get laser data
 time2 = laserObs(:,1) + (laserObs(:,2)*10^-6) - 1115116000;%get in microseconds
@@ -44,15 +44,16 @@ maxIters = max(indLengths);
 
 interval = 20;
 
-%iters [velInd, posInd, compInd, lasInd];
 iters = [2, 2];
 runFlags = [0, 0];
 loopFlag = 1;
 loopCount = 2;
-%%loop starts
 
 xPos = zeros(1);
 yPos = zeros(1);
+
+%%loop starts
+
 
 while(loopFlag == 1)
     loopCount = loopCount + 1;
@@ -86,7 +87,7 @@ while(loopFlag == 1)
         end
     end
     
-% % if laser
+% % if laser observation data
      if(runFlags(2) == 1)
         deltaT = time2(iters(2)) - lastTime;
         pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);
@@ -96,7 +97,7 @@ while(loopFlag == 1)
         lastTime = time2(iters(2));%
         runFlags(2) = 0;
                 
-     
+		%Begin here modified code extract from laserShowAcfr.m from Assignment 2
          xpoint = zeros(1);
          ypoint = zeros(1);
          for j = 4:2:size(laserObs,2)
@@ -108,7 +109,9 @@ while(loopFlag == 1)
              end
 
          end    
-         
+		 
+         %End extract
+		 
          xPos = [xPos xpoint];
          yPos = [yPos ypoint];
          
@@ -146,41 +149,6 @@ ypoint(1) = [];
 
 xPos(1) = [];
 yPos(1) = [];
-
-xMin = min(xPos);
-xMax = max(xPos);
-
-yMin = min(yPos);
-yMax = max(yPos);
-
-
-gridSize = 100;
-
-grid = zeros(gridSize);
-
-
-yDiff = (yMax - yMin)/(gridSize - 2);
-xDiff = (xMax - xMin)/(gridSize - 2);
-
-for i = 1:length(xPos)
-    tmpX = xPos(i);
-    tmpY = yPos(i);
-    j = 1;
-    while (tmpX > xMin)
-        tmpX = tmpX - xDiff; 
-        j = j + 1;
-    end
-    k = 1;
-    while (tmpY > yMin)
-        tmpY = tmpY - yDiff; 
-        k = k + 1;
-    end
-    
-    grid(j,k) = grid(j,k) + 1;
-end
-
-HeatMap(grid);
-
 
 
 
