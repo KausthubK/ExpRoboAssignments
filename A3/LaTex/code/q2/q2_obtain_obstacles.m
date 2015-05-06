@@ -5,9 +5,10 @@ close all
 DEGREES = 180/pi;
 RADIANS = pi/180;
 
-
+%Load data generated from Q1
 positionData = load('q1output1.txt');
 
+%Load laser observation data
 laserObs = load('laserObs.txt');
 
 %Get output data
@@ -18,26 +19,23 @@ heading = positionData(:,4);
 velocity = positionData(:,5);
 turnRate = positionData(:,6);
 
+%Setup output recording
 diary './q2Output4'
 
 %Get laser data
 time2 = laserObs(:,1) + (laserObs(:,2)*10^-6) - 1115116000;%get in microseconds
 
 
-%Extracting range & intensity data from LaserObs
+%Extracting range from LaserObs
 
 f1=1;
 range = zeros(length(laserObs), (size(laserObs,2)-2)/2);
-% intensity = zeros(length(laserObs), (size(laserObs,2)-2)/2);
 
 %Extracting range & intensity data from LaserObs
 for i=1:length(laserObs)  
    for f2=3:2:size(laserObs,2)
-%        if(laserObs(i,f2) < 8)
             range(i,f1)=laserObs(i,f2);
-        %     intensity(i,f1)=laserObs(i,f2+1);
             f1=f1+1;
-%        end
    end
    f1=1;
 end
@@ -63,13 +61,12 @@ maxIters = max(indLengths);
 
 interval = 20;
 
-%iters [velInd, posInd, compInd, lasInd];
-iters = [2, 2];
+%iters [velInd, posInd, compInd, lasInd];iters = [2, 2];
 runFlags = [0, 0];
 loopFlag = 1;
 loopCount = 2;
-%%loop starts
 
+%%loop starts
 
 
 while(loopFlag == 1)
@@ -104,7 +101,7 @@ while(loopFlag == 1)
         end
     end
     
-% % if laser
+% % if Laser Observation Data
      if(runFlags(2) == 1)
         deltaT = time2(iters(2)) - lastTime;
         pr = predictionStage(ourX, ourY, ourHeading, deltaT, latestTurnRate, latestVel);

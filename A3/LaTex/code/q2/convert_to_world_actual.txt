@@ -1,0 +1,14 @@
+ %Calculate x and y coordinate from the laser bearing and range value,
+ %within the robots coordinate system.
+ x_robot = range*cos(bearing);
+ y_robot = range*sin(bearing);
+ 
+ %Rotate the coordinates by the robots current heading
+ %Places the coordinates partially in the world coordinate system
+ x_rotated = x_robot*cos(robot_heading) - y_robot*sin(robot_heading); 
+ y_rotated = x_robot*sin(robot_heading) + y_robot*cos(robot_heading;
+
+ %Offset the rotated coordinates by the robots position
+ %Places the coordinates fully into the world coordinate system
+ x = x_rotated + robot_x_coordinate;
+ y = y_rotated + robot_y_coordinate;
