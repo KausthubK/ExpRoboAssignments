@@ -8,7 +8,7 @@
 		Iters stores the index of the next even in each observational data set that we are yet to "perceive"
 		$$ iters =
 		\begin{bmatrix}
-		itersVel & itersGPS & itersComp & itersmeasurement n\\
+		itersVel & itersGPS & itersComp & itersLaser n\\
 		\end{bmatrix}
 		$$
 		time stores the timestamps for the next index in each observational data set. This is so that we can use the $min()$ function in matlab as opposed to writing the min finding code ourselves (a more elegant solution for adapting to a system with more sensors).
@@ -17,14 +17,54 @@
 		timestampVel & timestampGPS & timestampComp & timestampLaser\\
 		\end{bmatrix}
 		$$
+		
+		RunFlags are each set to 1 when their corresponding data has been perceived next with respect to time and 0 when there is another PRECEDING observation. Important to note that it will be set to 1 if there is another coincidental observation.
+		$$ runFlags =
+		\begin{bmatrix}
+		runVel & runGPS & runComp & runLaser n\\
+		\end{bmatrix}
+		$$
+		
 		\begin{figure}[position = here]
 			\begin{centering}
 				\begin{tikzpicture}[node distance = 1cm]
 				%\node(label)[type]{name}
 				\node(start)[startstop]{Start};
-				\node(dataio)[process, below of = start, yshift = -1cm]{Data I/O};
-				\node(globals)[process, below of = dataio, yshift = -1cm]{Set Global Variables};
-				\node(while)[decision, below of = globals]{loopflag == 1};
+				\node(dataio)[process, below of = start, yshift = -0.5cm]{Data I/O};
+				\node(globals)[process, below of = dataio, yshift = -0.5cm]{Set Global Variables};
+				
+				\node(while)[decision, below of = globals, yshift = -1.5cm]{loopflag == 1};
+				
+				\node(if1)[decision, below of = while, yshift = -3cm]{if runFlags(1) == 1};
+				\node(do1)[process, right of = if1, xshift = 3cm, yshift = -2cm]{Prediction};
+				
+				\node(if2)[decision, below of = if1, yshift = -3.5cm]{if runFlags(1) == 1};
+				\node(do2)[process, below of = if2, xshift = 4cm, yshift = -2cm]{Prediction + GPS Update};
+				
+				\node(if3)[decision, below of = if2, yshift = -3.5cm]{if runFlags(1) == 1};
+				\node(do3)[process, below of = if3, xshift = 4cm, yshift = -2cm]{Prediction + Compass Update};
+				
+				\node(plot)[process, left of = do3, xshift = -8cm]{Plot + set loop flag};
+				
+				\node(stop)[startstop, right of = while, xshift = 4cm]{Stop};
+				
+				%arrows
+					\draw [arrow] (start) -- (dataio);
+					\draw [arrow] (dataio) -- (globals);
+					\draw [arrow] (globals) -- (while);
+					\draw [arrow] (while) -- (if1);
+					\draw [arrow] (if1) -| (do1);
+					\draw [arrow] (if1) -- (if2);
+					\draw [arrow] (do1) -- (if2);
+					\draw [arrow] (if2) -| (do2);
+					\draw [arrow] (if2) -- (if3);
+					\draw [arrow] (do2) -- (if3);
+					\draw [arrow] (if3) -| (do3);
+					\draw [arrow] (if3) |- (plot);
+					\draw [arrow] (do3) -- (plot);
+					\draw [arrow] (plot) |- (while);
+					\draw [arrow] (while) -- (stop);
+										
 
 			%	\node(stop)[startstop, below of = obsDataStruct, yshift = -1cm, xshift = -5cm]{Stop};
 				\end{tikzpicture}
