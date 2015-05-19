@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.20)  6 MAY 2015 15:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.20)  6 MAY 2015 16:51
 entering extended mode
 **Assignment*3.tex
 
@@ -641,11 +641,7 @@ File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
 \arrowsize=\dimen172
 ))
 ("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\Assignment 3.a
-ux"
-
-LaTeX Warning: Label `DIOP' multiply defined.
-
-)
+ux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
@@ -752,59 +748,108 @@ Overfull \hbox (27.37111pt too wide) detected at line 85
  []
 
 \c@listcounter=\count137
-[3] [4] [5] [6]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 143.
+[3]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 136.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\dataFusion
-V3.m
-LaTeX Font Info:    Try loading font information for TS1+pcr on input line 7.
+(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q1\predict
+ionStage.m
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 3.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-)
-LaTeX Font Info:    Try loading font information for OML+pcr on input line 42.
+))
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlpcr.fd"
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 		\newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q1\updateS
+tageGPS.m)
+(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q1\updateS
+tageCompass.m
+LaTeX Font Info:    Try loading font information for OML+pcr on input line 3.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlpcr.fd"
 File: omlpcr.fd 
 )
 LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 42.
- [7] [8]) [9]
-(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\dataFusion
-_v4.m [10] [11] [12])) [13]
-(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\Question2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
+)
+[4]
+(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q1\matchBe
+acons.m) [5] <./images/q1/q1_01.png, id=38, 421.575pt x 316.18124pt>
+File: ./images/q1/q1_01.png Graphic file (type png)
+
+<use ./images/q1/q1_01.png>
+Package pdftex.def Info: ./images/q1/q1_01.png used on input line 170.
+(pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--175
 
  []
 
+[6 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q1/q1
+_01.png (PNG copy)>]
+<./images/q1/dr_newcomppointfive_gpspointfive.png, id=43, 421.575pt x 316.18124
+pt>
+File: ./images/q1/dr_newcomppointfive_gpspointfive.png Graphic file (type png)
+ <use ./images/q1/dr_newcomppointfive_gpspointfive.png>
+Package pdftex.def Info: ./images/q1/dr_newcomppointfive_gpspointfive.png used 
+on input line 187.
+(pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
+ [7 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q1/d
+r_newcomppointfive_gpspointfive.png (PNG copy)>]
+<./images/q1/all9.png, id=47, 421.575pt x 316.18124pt>
+File: ./images/q1/all9.png Graphic file (type png)
 
+<use ./images/q1/all9.png>
+Package pdftex.def Info: ./images/q1/all9.png used on input line 211.
+(pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
+ [8 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q1/a
+ll9.png (PNG copy)>]
+File: ./images/q1/dr_newcomppointfive_gpspointfive.png Graphic file (type png)
+
+<use ./images/q1/dr_newcomppointfive_gpspointfive.png>
+Package pdftex.def Info: ./images/q1/dr_newcomppointfive_gpspointfive.png used 
+on input line 219.
+(pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
+ [9]
+(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q1\dataFus
+ionV3.m [10] [11]) [12]
+(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q1\dataFus
+ion_v4.m [13] [14] [15])) [16]
+(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\Question2.tex
+[17]
 (C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q2\q2_obta
-in_obstacles.m [14]
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 125.
+in_obstacles.m [18]
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 122.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspcr.fd"
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
 
-[15])
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[19])
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-<./images/q2/heatmap_path_100.png, id=70, 422.32782pt x 311.66437pt>
+<./images/q2/heatmap_path_100.png, id=86, 422.32782pt x 311.66437pt>
 File: ./images/q2/heatmap_path_100.png Graphic file (type png)
 
 <use ./images/q2/heatmap_path_100.png>
-Package pdftex.def Info: ./images/q2/heatmap_path_100.png used on input line 25
+Package pdftex.def Info: ./images/q2/heatmap_path_100.png used on input line 26
 .
 (pdftex.def)             Requested size: 422.32678pt x 311.6636pt.
 
@@ -815,17 +860,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 		\newline
+l.30 		\newline
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./images/q2/heatmap_path_200.png, id=71, 422.32782pt x 311.66437pt>
+<./images/q2/heatmap_path_200.png, id=87, 422.32782pt x 311.66437pt>
 File: ./images/q2/heatmap_path_200.png Graphic file (type png)
 
 <use ./images/q2/heatmap_path_200.png>
-Package pdftex.def Info: ./images/q2/heatmap_path_200.png used on input line 33
+Package pdftex.def Info: ./images/q2/heatmap_path_200.png used on input line 34
 .
 (pdftex.def)             Requested size: 422.32678pt x 311.6636pt.
 
@@ -836,17 +881,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 		\newline
+l.38 		\newline
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./images/q2/heatmap_path_500.png, id=72, 422.32782pt x 311.66437pt>
+<./images/q2/heatmap_path_500.png, id=88, 422.32782pt x 311.66437pt>
 File: ./images/q2/heatmap_path_500.png Graphic file (type png)
 
 <use ./images/q2/heatmap_path_500.png>
-Package pdftex.def Info: ./images/q2/heatmap_path_500.png used on input line 41
+Package pdftex.def Info: ./images/q2/heatmap_path_500.png used on input line 42
 .
 (pdftex.def)             Requested size: 422.32678pt x 311.6636pt.
 
@@ -857,15 +902,31 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 		\newline
+l.46 		\newline
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[16] [17 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images
-/q2/heatmap_path_100.png (PNG copy)> <C:/Users/Kausthub/Documents/GitHub/ExpRob
-oAssignments/A3/LaTex/images/q2/heatmap_path_200.png (PNG copy)>]
+[20 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q2/h
+eatmap_path_100.png (PNG copy)>] [21 <C:/Users/Kausthub/Documents/GitHub/ExpRob
+oAssignments/A3/LaTex/images/q2/heatmap_path_200.png (PNG copy)> <C:/Users/Kaus
+thub/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q2/heatmap_path_500.pn
+g (PNG copy)>]
+(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q2\occupan
+cy_grid.m) [22]
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
+
+ []
+
+<./images/q2/heatmap_obstacles_200.png, id=98, 422.32782pt x 316.18124pt>
+File: ./images/q2/heatmap_obstacles_200.png Graphic file (type png)
+
+<use ./images/q2/heatmap_obstacles_200.png>
+Package pdftex.def Info: ./images/q2/heatmap_obstacles_200.png used on input li
+ne 58.
+(pdftex.def)             Requested size: 422.32678pt x 316.18047pt.
+
 
 ! LaTeX Error: There's no line here to end.
 
@@ -873,80 +934,260 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 \newline
-             
+l.62 				\newline
+                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) (C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\Question3.tex
-[18 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q2/h
-eatmap_path_500.png (PNG copy)>] [19]) [20]
-(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\AppendixA.tex
-[21]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.11 		\subsubsection{obtainObstacles_v2}
-                                         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+<./images/q2/heatmap_obstacles_500.png, id=99, 422.32782pt x 316.18124pt>
+File: ./images/q2/heatmap_obstacles_500.png Graphic file (type png)
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.11 		\subsubsection{obtainObstacles_v2}
-                                         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+<use ./images/q2/heatmap_obstacles_500.png>
+Package pdftex.def Info: ./images/q2/heatmap_obstacles_500.png used on input li
+ne 66.
+(pdftex.def)             Requested size: 422.32678pt x 316.18047pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 				\newline
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[23 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q2/h
+eatmap_obstacles_200.png (PNG copy)>]
+(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q2\convert
+_to_world.txt) [24 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/A3/La
+Tex/images/q2/heatmap_obstacles_500.png (PNG copy)>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 		\newline
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 (C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q2\q2_obta
-in_obstacles_attempt2.m [22] [23])
-(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q2\occupan
-cy_grid.m [24]) [25]
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+in_obstacles_attempt2.m [25] [26]) [27]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 		\newline
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./images/q2/heatmap_attempt2.png, id=116, 422.32782pt x 316.18124pt>
+File: ./images/q2/heatmap_attempt2.png Graphic file (type png)
+
+<use ./images/q2/heatmap_attempt2.png>
+Package pdftex.def Info: ./images/q2/heatmap_attempt2.png used on input line 85
+.
+(pdftex.def)             Requested size: 422.32678pt x 316.18047pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--90
 
  []
 
-[26])
+[28 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q2/h
+eatmap_attempt2.png (PNG copy)>]
+<./images/q2/wall_1_attempt2.png, id=120, 422.32782pt x 316.18124pt>
+File: ./images/q2/wall_1_attempt2.png Graphic file (type png)
+
+<use ./images/q2/wall_1_attempt2.png>
+Package pdftex.def Info: ./images/q2/wall_1_attempt2.png used on input line 96.
+
+(pdftex.def)             Requested size: 422.32678pt x 316.18047pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 		\newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[29 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q2/w
+all_1_attempt2.png (PNG copy)>]
+<./images/q2/wall_2_attempt2.png, id=124, 422.32782pt x 316.18124pt>
+File: ./images/q2/wall_2_attempt2.png Graphic file (type png)
+
+<use ./images/q2/wall_2_attempt2.png>
+Package pdftex.def Info: ./images/q2/wall_2_attempt2.png used on input line 105
+.
+(pdftex.def)             Requested size: 422.32678pt x 316.18047pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 		\newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[30 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q2/w
+all_2_attempt2.png (PNG copy)>]
+<./images/q2/wall_3_attempt2.png, id=129, 422.32782pt x 316.18124pt>
+File: ./images/q2/wall_3_attempt2.png Graphic file (type png)
+
+<use ./images/q2/wall_3_attempt2.png>
+Package pdftex.def Info: ./images/q2/wall_3_attempt2.png used on input line 114
+.
+(pdftex.def)             Requested size: 422.32678pt x 316.18047pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 		\newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[31 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q2/w
+all_3_attempt2.png (PNG copy)>]
+<./images/q2/wall_5_attempt2.png, id=133, 422.32782pt x 316.18124pt>
+File: ./images/q2/wall_5_attempt2.png Graphic file (type png)
+
+<use ./images/q2/wall_5_attempt2.png>
+Package pdftex.def Info: ./images/q2/wall_5_attempt2.png used on input line 123
+.
+(pdftex.def)             Requested size: 422.32678pt x 316.18047pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 		\newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[32 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q2/w
+all_5_attempt2.png (PNG copy)>]
+<./images/q2/wall_6_attempt2.png, id=137, 422.32782pt x 316.18124pt>
+File: ./images/q2/wall_6_attempt2.png Graphic file (type png)
+
+<use ./images/q2/wall_6_attempt2.png>
+Package pdftex.def Info: ./images/q2/wall_6_attempt2.png used on input line 132
+.
+(pdftex.def)             Requested size: 422.32678pt x 316.18047pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 		\newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[33 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/A3/LaTex/images/q2/w
+all_6_attempt2.png (PNG copy)>]
+(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q2\convert
+_to_world_2.txt)
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145 		\newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+(C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\code\q2\convert
+_to_world_actual.txt)
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.150 		\newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [34]
 ("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\A3\LaTex\Assignment 3.a
-ux")
-
-LaTeX Warning: There were multiply-defined labels.
-
- )
+ux") )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 6 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17016 strings out of 493921
- 347017 string characters out of 3147273
- 651985 words of memory out of 3000000
- 19944 multiletter control sequences out of 15000+200000
+ 17138 strings out of 493921
+ 350476 string characters out of 3147273
+ 652117 words of memory out of 3000000
+ 20038 multiletter control sequences out of 15000+200000
  14527 words of font info for 54 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 55i,8n,67p,1074b,1549s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,8n,67p,1074b,1551s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier
-/ucrr8a.pfb>
-Output written on "Assignment 3.pdf" (27 pages, 251887 bytes).
+public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
+w/courier/ucrr8a.pfb>
+Output written on "Assignment 3.pdf" (35 pages, 360036 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
+ 192 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
