@@ -3,7 +3,7 @@ clear
 clc
 
 %read the image
-I=imread('test_image11.png');
+I=imread('test_image18.png');
 BW=double(I)/255; %convert to double
 
 I2=BW>0.91;  %identify faceup card
