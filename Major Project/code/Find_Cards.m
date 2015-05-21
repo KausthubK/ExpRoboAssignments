@@ -18,22 +18,20 @@ numFDWN=CC1.NumObjects;
 I2=BW>0.91;  %identify faceup card
 I3=imfill(I2,'holes'); %fill all holes but the shape was gone
 
-%remove blobs greater than some area and less than some area
 LB=3000;
 UB=4000;
-I4=xor(bwareaopen(I3,LB),bwareaopen(I3,UB));
+I4=xor(bwareaopen(I3,LB),bwareaopen(I3,UB));%remove blobs greater than UB area and less than LB
 
 Iout=imclearborder(I4,4); %remove blobs attached to the border
 Iout=bwareaopen(Iout,1000); %remove smalle pixels
 imshow(Iout);
 
-%create a outline
-Bwoutline=bwperim(Iout);
+Bwoutline=bwperim(Iout); %create a outline
 border=BW;
 border(Bwoutline)=0;
 imshow(border)
 
-%isolate face upp
+%ISOLATE FACEUP
 cards=BW;
 mask=Iout<0.5; %create a mask to isolate the face up
 cards(mask)=0;
