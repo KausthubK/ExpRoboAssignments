@@ -2,7 +2,7 @@ close all
 clear
 clc
 
-I=imread('test_image11.png');%read the image
+I=imread('test_image12.png');%read the image
 BW=double(I)/255; %convert to double
 % figure,imshow(BW);
 
@@ -82,12 +82,9 @@ centroids=cat(1,sFUP.Centroid); %make a array using centroids in the structured 
 % hold off
 
 if numFUP==2
-    if face_up(1).flag==face_up(2).flag;
-        disp 'A Match Found Fuckkkerrrrssssss'
-    end
-end
+    if face_up(1).
 
 
-% numCards
-% numFUP
-% numFDWN
+numCards
+numFUP
+numFDWN
