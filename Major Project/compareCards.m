@@ -1,3 +1,5 @@
+%V0
+
 function [matchFlag, matchIndex] = compareCards(histVec, cards)
 
 % % OUTPUTS

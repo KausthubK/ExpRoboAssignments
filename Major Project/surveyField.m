@@ -1,3 +1,5 @@
+%V0
+
 function [numCards, numFUP, numFDWN, coordsFUP, coordsFDWN] = surveyField()
 % surveyField captures an image of the playing field from the camera
 % Ouptuts:

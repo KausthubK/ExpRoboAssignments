@@ -1,3 +1,5 @@
+%V0
+
 function [fid1, fid2, fid3] = findFiducials(image)
 %finds the table fiducials
 %the points fid1, fid2, and fid3 can then be used to trilaterate the

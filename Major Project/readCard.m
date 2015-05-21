@@ -1,3 +1,5 @@
+%V0
+
 function [viewed, histVec] = readCard(flipX, flipY, flipPose)
 % returns a histogram for the card on the image
 
