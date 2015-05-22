@@ -14,12 +14,6 @@ se=strel('square',9);
 IE=imerode(I3,se);
 I4=imclearborder(IE,4);
 Iout=bwareaopen(I4,1000);
-% LB=3000;
-% UB=4000;
-% I4=xor(bwareaopen(IE,LB),bwareaopen(IE,UB));%remove blobs greater than UB area and less than LB
-% Iout=imclearborder(I4,4); %remove blobs attached to the border
-% Iout=bwareaopen(Iout,1000); %remove smalle pixels
-%figure,imshow(Iout);
 
 Bwoutline=bwperim(Iout); %create a outline
 border=Icheck;
@@ -59,6 +53,7 @@ elseif s3.Perimeter<137 && s3.Perimeter>132;
     face_up(1).flag=3; %1 elipse in set card
 end
 
+%DISPLAY
 if face_up(1).flag==1
     disp 'RECTANGLE'
 elseif face_up(1).flag==2
