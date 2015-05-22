@@ -2,7 +2,7 @@ close all
 clear
 clc
 
-I=imread('test_image21.png');%read the image
+I=imread('test_image27.png');%read the image
 BW=double(I)/255; %convert to double
 % figure,imshow(BW);
 
@@ -28,7 +28,7 @@ I3=imfill(I2,'holes'); %fill all holes but the shape was gone
 se=strel('square',9);
 IE=imerode(I3,se);
 I4=imclearborder(IE,4);
-Iout=bwareaopen(I4,10800);
+Iout=bwareaopen(I4,1000);
 % LB=3000;
 % UB=4000;
 % I4=xor(bwareaopen(IE,LB),bwareaopen(IE,UB));%remove blobs greater than UB area and less than LB
