@@ -30,34 +30,37 @@ border(Bwoutline)=0;
 cards=Icheck;
 mask=Iout<0.5; %create a mask to isolate the face up
 cards(mask)=0;
-CC2=bwconncomp(cards); %find the connected blobs
+
 % figure, imshow(cards)
 % imwrite(cards,'t3.png');
 
 s2=regionprops(CC2,'BoundingBox'); %identify the card boundary
 
 
-%EXTRACT ISOLATED FACEUP
-face_up(1).image=imcrop(Icheck,s2(1).BoundingBox);
+for i=1:numFUP
+    %EXTRACT ISOLATED FACEUP
+    face_up(i).image=imcrop(Icheck,s2(i).BoundingBox);
 
-%DETECT FEATURES
-E=edge(face_up(1).image,'canny');
-T10=imfill(E,'holes');
-T11=bwareaopen(T10,200);
+    %DETECT FEATURES
+    E=edge(face_up(i).image,'canny');
+    T10=imfill(E,'holes');
+    T11=bwareaopen(T10,200);
 %   figure,imshow(T11);
 
-CC3=bwconncomp(T11);
-s3=regionprops(CC3,'Perimeter');
-face_up(1).perim=s3.Perimeter;
+    CC3=bwconncomp(T11);
+    s3=regionprops(CC3,'Perimeter');
+    face_up(i).perim=s3.Perimeter;
 
-%DEFINING CARD
-if s3.Perimeter<162 && s3.Perimeter>155;
-    face_up(1).flag=1; %1 rectangle in set card
-elseif s3.Perimeter<90 && s3.Perimeter>85;
-    face_up(1).flag=2; %1 trangle in set card
-elseif s3.Perimeter<137 && s3.Perimeter>132;
-    face_up(1).flag=3; %1 elipse in set card
+    %DEFINING CARD
+    if s3.Perimeter<162 && s3.Perimeter>155;
+        face_up(i).flag=1; %1 rectangle in set card
+    elseif s3.Perimeter<90 && s3.Perimeter>85;
+        face_up(i).flag=2; %1 trangle in set card
+    elseif s3.Perimeter<137 && s3.Perimeter>132;
+        face_up(i).flag=3; %1 elipse in set card
+    end
 end
+
 
 if face_up(1).flag==1
     disp 'RECTANGLE'
@@ -66,4 +69,4 @@ elseif face_up(1).flag==2
 elseif face_up(1).flag==3
     disp 'ELIPSE'
 end
-imshow(cards);
+
