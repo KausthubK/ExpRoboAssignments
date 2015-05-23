@@ -72,4 +72,3 @@ function sendCommand(t,command)
     %Then flush the input buffer
     flushinput(t)
 end
-

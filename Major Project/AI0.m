@@ -1,5 +1,3 @@
-% v1
-
 % % % GamePlay AI for Concentration
 % % % MTRX5700 Major Assignment 2015
 % % % Author: Kausthub Krishnamurthy & James Ferris & Sachith
@@ -44,10 +42,20 @@ gameOver = 0;
 %gameplay variables
 numRemaining = numCards;
 nextUnknown = 1;
+%set x and y coordinates for peeking at the card
+peekX = 0;
+peekY = 0;
+peekPose = 0;
+
+%set x and y coordinate for flipped card
+flipX = 0;
+flipY = 0;
+flipPose = 0;
+
 
 % card struct: implementation
-% cards = struct('index', {},'x', {}, 'y', {}, 'pose', {}, 'histVec', {}, 'viewedFlag', {});
-cards = struct('index', {},'x', {}, 'y', {}, 'pose', {}, 'shape', {}, 'colour', {}, 'fill', {}, 'count', {});
+cards = struct('index', {},'x', {}, 'y', {}, 'pose', {}, 'histVec', {}, 'viewedFlag', {});
+% cards = struct('index', {},'x', {}, 'y', {}, 'pose', {}, 'shape', {}, 'colour', {}, 'fill', {}, 'count', {});
 
 if(numFUP ~= 0)
     disp 'ERROR: Incorrect Setup. All cards must begin Face Down'
