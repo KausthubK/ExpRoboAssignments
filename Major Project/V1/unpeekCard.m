@@ -1,4 +1,14 @@
-%V0
+%V1.0
+% % % FUNCTION:	unpeekCard
+% % % MTRX5700 Major Assignment 2015
+% % % Authors: James Ferris & Sachith Gunawardhana & Kausthub Krishnamurthy
+
+% % % REVISION HISTORY
+% % % v1.0 function stub
+
+% % % SUBFUNCTIONS LISTING
+% % %
+
 
 function peekFlag = unpeekCard(x, y, pose)
 % given an x & y position will pick up the block at that point will move the arm to the peek coordinates

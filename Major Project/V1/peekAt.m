@@ -1,4 +1,13 @@
-%V1
+%V1.0
+% % % FUNCTION:	peekAt
+% % % MTRX5700 Major Assignment 2015
+% % % Authors: James Ferris & Sachith Gunawardhana & Kausthub Krishnamurthy
+
+% % % REVISION HISTORY
+% % % v1.0 function stub
+
+% % % SUBFUNCTIONS LISTING
+% % %
 
 function peekFlag = peekAt(x, y, pose)
 
@@ -14,5 +23,6 @@ function peekFlag = peekAt(x, y, pose)
 % move J4 to 0 degrees
 % move J6 to 0 degrees
 peekFlag = 1;
+
 end
 
