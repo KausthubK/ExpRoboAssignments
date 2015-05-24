@@ -105,9 +105,6 @@ Xr=p_dist(B1,B3,x1,y1);  %distance from line going along centroids of box1 & box
 Yreal=((Yr*303)/219.3306)+220;    %REAL Y CORDINATE of Face DOWNs 
 Xreal=((Xr*540)/399.4796)-270;    %REAL x CORDINATE of Face DOWNs
 
-coordsFDWN(:,1)=Xreal; %adding to variable coordsFDWN 
-coordsFDWN(:,2)=Yreal;
-
 numFDWN=length(Xreal);  %no of face down cards 
     
 
