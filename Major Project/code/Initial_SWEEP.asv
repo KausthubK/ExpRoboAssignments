@@ -56,10 +56,9 @@ for i=1:length(x1)
         B2=[x1(i),y1(i)];
     end
 end
-OrAn1(B2(1,1)==x1)=[];
 x1(B2(1,1)==x1)=[];
 y1(B2(1,2)==y1)=[];
-
+OrAn1(B2(1,1)==x1)=[];
 
 %find fiducial box_3 (-270,523)
 for i=1:length(x1)
@@ -67,12 +66,10 @@ for i=1:length(x1)
         B3=[x1(i),y1(i)];
     end
 end
-
-OrAn1(B3(1,1)==x1)=[];
+% ccc= B3(1,1)==x1;
 x1(B3(1,1)==x1)=[];
 y1(B3(1,2)==y1)=[];
-
-coordsFDWN(:,3)=OrAn1;
+OrAn1(B3(1,1)==x1)=[];
 
 %When only fiducial boxes present
 TF=isempty(x1);
@@ -127,9 +124,6 @@ FUP_Xr=p_dist(B1,B3,FUP_x1,FUP_y1);  %distance from line going along centroids o
 FUP_Yreal=((FUP_Yr*303)/219.3306)+220;    %REAL Y CORDINATE of Face UPs 
 FUP_Xreal=((FUP_Xr*540)/399.4796)-270;    %REAL X CORDINATE of Face UPs
 
-coordsFUP(:,1)=FUP_Xreal;
-coordsFUP(:,2)=FUP_Yreal;
-
 %ORIENTATION Face Ups
 p2=regionprops(Iout,'Extrema');
 
@@ -139,8 +133,6 @@ for i=1:length(p2)
     FUP_OrAn1(i)=rad2deg(atan(-sides2(2)/sides2(1))); %note the 'minus' sign compensates for the y-values in image cordinates
     
 end
-
-coordsFUP(:,3)=FUP_OrAn1;
 
 numFDWN
 numFUP
