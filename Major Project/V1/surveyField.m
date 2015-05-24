@@ -1,4 +1,4 @@
-%V1.1
+%V1.2
 % % % FUNCTION:	surveyField
 % % % MTRX5700 Major Assignment 2015
 % % % Authors: Sachith Gunawardhana & Kausthub Krishnamurthy & James Ferris
@@ -6,6 +6,7 @@
 % % % REVISION HISTORY
 % % % v0 function stub
 % % % v1.1 imported into function format (needs testing)
+% % % v1.2 coords outputs listed properly
 
 % % % SUBFUNCTIONS LISTING
 % % %
