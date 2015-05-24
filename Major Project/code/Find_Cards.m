@@ -2,7 +2,7 @@ close all
 clear
 clc
 
-I=imread('test_image27.png');%read the image
+I=imread('test_image24.png');%read the image
 BW=double(I)/255; %convert to double
 % figure,imshow(BW);
 
@@ -53,6 +53,15 @@ elseif s3.Perimeter<137 && s3.Perimeter>132;
     face_up(1).flag=3; %1 elipse in set card
 end
 
+TT=face_up(1).image;
+st2=regionprops(T11,TT,'MeanIntensity');
+if st2.MeanIntensity>0.6
+    face_up(1).flag2=0; %not shaded
+else
+    face_up(1).flag2=1; %shaded
+end
+
+
 %DISPLAY
 if face_up(1).flag==1
     disp 'RECTANGLE'
@@ -61,4 +70,11 @@ elseif face_up(1).flag==2
 elseif face_up(1).flag==3
     disp 'ELIPSE'
 end
+
+if face_up(1).flag2==1;
+    disp 'SHADED'
+else
+    disp 'NOT SHADED'
+end
+
 imshow(cards);
