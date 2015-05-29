@@ -75,7 +75,7 @@ Fend
 ''''''''''''''''''''''''''''''''''''''''''''
 
 Function peekCard	'keep pick up/move/grab seperate?'
-
+      GoHome
       JTran 5, (90 - (-41.672))	'+90'
       JTran 3, (90 - (-26.295))	'+90'
       JTran 2, (-90 - (-22.033))	'-90'

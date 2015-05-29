@@ -11,7 +11,6 @@
 % (or less)
 % % %        BUGS: coordsFUP are giving all fiducials & all FDWNs
 % % %  v1.2.3 FIXES: 1.2.2 bugs fixed
-% % %        BUGS: lines 69, 80, 91: B1 B2 and B3 are only SOMETIMES set. when running it with a live camera image it doesn't work
 
 % % % SUBFUNCTIONS LISTING
 % % %

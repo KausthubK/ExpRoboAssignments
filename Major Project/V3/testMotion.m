@@ -27,6 +27,7 @@ cards = struct('index', {},'x', {}, 'y', {}, 'pose', {}, 'shape', {}, 'colour', 
 % Image Capture
 hideArm(t);
 I = getsnapshot(vid);
+imshow(I);
 
 [numCards, numFUP, numFDWN, coordsFUP, coordsFDWN] = surveyField(I);
 % Unhide the arm
@@ -75,12 +76,12 @@ coordsFDWN
 
 
 for i = 1:numCards
-
+    
     peekAt(t, cards(i).x, cards(i).y, cards(i).pose);
-    I = getsnapshot(vid);
- 
+    I2 = getsnapshot(vid);
+    imshow(I2);
     disp 'reading...'
-    [cards(i).viewed, cards(i).shape, cards(i).colour, cards(i).filler, cards(i).count] = readCard(I);
+    [cards(i).viewed, cards(i).shape, cards(i).colour, cards(i).filler, cards(i).count] = readCard(I2);
     cards(1).viewedFlag=viewed;
     disp 'compare...'
     [matchFlag, matchIndex] = compareCards(numCards,1 , cards, gameMode)
