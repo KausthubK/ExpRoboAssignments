@@ -15,7 +15,7 @@
 % % % 
 % % % [viewed, shape, colour, filler, count] = readCard(I);
 % % % 
-% % % [matchFlag, matchIndex] = compareCards(numCards, index, cards, gameMode);
+% % % [matchFlag, matchIndex] = compareCards(numCards, index, cards, gameType);
 % % % 
 % % % removePair(cards, matchIndex, nextUnknown);
 % % % 

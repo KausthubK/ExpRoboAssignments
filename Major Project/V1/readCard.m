@@ -1,11 +1,16 @@
-%V1.1
+%V1.2
 % % % FUNCTION:	readCard
 % % % MTRX5700 Major Assignment 2015
 % % % Authors: Sachith Gunawardhana & Kausthub Krishnamurthy & James Ferris
 
 % % % REVISION HISTORY
 % % % v0 function stub
-% % % v1.1 imported into function format (needs testing)
+% % % v1.1 imported into function format
+% % % v1.2 filler done (block needs testing)
+%TODO
+% - block
+% - count
+% - colour
 
 % % % SUBFUNCTIONS LISTING
 % % %
@@ -83,6 +88,21 @@ elseif s3.Perimeter<137 && s3.Perimeter>132;
     face_up(1).shape=3; %1 elipse in set card
 end
 
+TT=face_up(1).image;
+st2=regionprops(T11,TT,'MeanIntensity');
+if st2.MeanIntensity>0.6
+    face_up(1).filler=1; %not shaded
+elseif st2.MeanIntensity<0.6 && st2.MeanIntensity>0.5
+    face_up(1).filler=2; %shaded
+elseif st2.MeanIntensity<0.5
+    face_up(1).filler=3; %block
+end
+
+shape = face_up(1).shape;
+filler = face_up(1).filler;
+colour = face_up(1).colour;
+count = face_up(1).count;
+
 %DISPLAY
 if face_up(1).shape==1
     disp 'RECTANGLE'
@@ -94,14 +114,19 @@ elseif face_up(1).shape==3
     disp 'ELIPSE'
     viewed = 1;
 elseif face_up(1).shape==0
-	disp 'UNABLE TO RECOGNISE'
+	disp 'UNABLE TO DETERMINE SHAPE'
 	viewed = 0;
 end
 
-shape = face_up(1).shape;
-colour = face_up(1).colour;
-filler = face_up(1).filler;
-count = face_up(1).count;
+if face_up(1).filler == 3
+    disp 'BLOCK'
+elseif face_up(1).filler==2
+    disp 'SHADED'
+elseif face_up(1).filler==1
+    disp 'NOT SHADED'
+else
+    disp 'UNABLE TO DETERMINE FILLER'
+end
 
 imshow(cards);
 

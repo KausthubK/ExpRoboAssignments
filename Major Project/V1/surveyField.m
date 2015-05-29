@@ -24,8 +24,6 @@ function [numCards, numFUP, numFDWN, coordsFUP, coordsFDWN] = surveyField(I)
 % Inputs:
 % %		I 		  - Image captured from vid
 
-
-
 %FIND FACE DOWNS
 I2=imcrop(I,[68.5 4.5 491 472]); %isolate the workingspace
 I3=double(I2)/255;  %convert to double
@@ -87,10 +85,12 @@ for i=1:length(x1)
         B3=[x1(i),y1(i)];
     end
 end
+
 OrAn1(B3(1,1)==x1)=[];
 x1(B3(1,1)==x1)=[];
 y1(B3(1,2)==y1)=[];
 
+coordsFDWN(:,3)=OrAn1;
 
 %When only fiducial boxes present
 TF=isempty(x1);
@@ -109,7 +109,7 @@ Xreal=((Xr*540)/399.4796)-270;    %REAL x CORDINATE of Face DOWNs
 coordsFDWN(:,1)=Xreal; %adding to variable coordsFDWN 
 coordsFDWN(:,2)=Yreal;
 
-numFDWN=length(Xreal);  %no of face down cards 
+numFDWN=length(Xreal);  %no of face down cards
     
 
 %FIND FACE UPS
@@ -156,12 +156,14 @@ for i=1:length(p2)
     sides2=p2(i).Extrema(TR,:)-p2(i).Extrema(LT,:); %sides of the square
     FUP_OrAn1(i)=rad2deg(atan(-sides2(2)/sides2(1))); %note the 'minus' sign compensates for the y-values in image cordinates
     
-end
+end      
+    
+
 coordsFUP(:,3)=FUP_OrAn1;
 
 numCards
-numFUP
 numFDWN
+numFUP
 coordsFUP
 coordsFDWN
 
