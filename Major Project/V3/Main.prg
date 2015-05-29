@@ -76,6 +76,8 @@ Fend
 
 Function peekCard	'keep pick up/move/grab seperate?'
 
+      GoHome
+
       JTran 5, (90 - (-41.672))	'+90'
       JTran 3, (90 - (-26.295))	'+90'
       JTran 2, (-90 - (-22.033))	'-90'
@@ -238,7 +240,7 @@ Function executeCommand(command$ As String)
 			Print "J5 back down"
 			back
 			
-		ElseIf InStr(cmd1$, "p") = 1 Then
+		ElseIf InStr(cmd$, "p") = 1 Then
 			'Print "Positioning Tool at (", param2, ",", param3, ")"'
 			Print "Peeking"
 			'PositionTool(param2, param3)'
