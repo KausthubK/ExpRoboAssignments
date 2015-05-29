@@ -9,8 +9,11 @@
 
 % % % SUBFUNCTIONS LISTING
 % % %
+% % % 0000 1111
+% % % 0000 1010
+% % % 0000 1010
 
-function [matchFlag, matchIndex] = compareCards(numCards, index, cards, gameMode)
+function [matchFlag, matchIndex] = compareCards(numCards, ind, cards, gameMode)
 
 % % OUTPUTS
 % matchFlag   - returns 1 if a match is found (0 if no match exists)
@@ -37,50 +40,59 @@ function [matchFlag, matchIndex] = compareCards(numCards, index, cards, gameMode
 % %             15 = 0000 1111  (all)
 
 matchFlag = 0;
-matchChar = 0;% 0000 0000 -> xxxx sh col fi cnt
-cards = struct('index', {},'x', {}, 'y', {}, 'pose', {}, 'shape', {}, 'colour', {}, 'filler', {}, 'count', {}, 'viewedFlag', {});
+matchIndex = -1;
+% cards = struct('index', {},'x', {}, 'y', {}, 'pose', {}, 'shape', {}, 'colour', {}, 'filler', {}, 'count', {}, 'viewedFlag', {});
 
 %compare
 for i = 1:numCards
-    %shape
-    if(cards(index).shape == cards(i).shape)
-        bitset(matchChar, 4, 1);
-    else
-        bitset(matchCHar, 4, 0);
-    end
+    matchChar = 0;% 0000 0000 -> xxxx sh col fi cnt
+    if(cards(i).viewedFlag == 1)
+        %shape
+        if(cards(ind).shape == cards(i).shape)
+            matchChar = bitset(matchChar, 4, 1);
+        else
+            matchChar = bitset(matchChar, 4, 0);
+        end
     
-    %colour
-    if(cards(index).colour == cards(i).colour)
-        bitset(matchChar, 3, 1);
-    else
-        bitset(matchCHar, 3, 0);
-    end
+        %colour
+        if(cards(ind).colour == cards(i).colour)
+            matchChar = bitset(matchChar, 3, 1);
+        else
+            matchChar = bitset(matchChar, 3, 0);
+        end
     
-    %filler
-    if(cards(index).filler == cards(i).filler)
-        bitset(matchChar, 2, 1);
-    else
-        bitset(matchCHar, 2, 0);
-    end
+        %filler
+        if(cards(ind).filler == cards(i).filler)
+            matchChar = bitset(matchChar, 2, 1);
+        else
+            matchChar = bitset(matchChar, 2, 0);
+        end
     
-    %count
-    if(cards(index).count == cards(i).count)
-        bitset(matchChar, 1, 1);
-    else
-        bitset(matchCHar, 1, 0);
-    end
+        %count
+        if(cards(ind).count == cards(i).count)
+            matchChar = bitset(matchChar, 1, 1);
+        else
+            matchChar = bitset(matchChar, 1, 0);
+        end
     
-    %check
-    if(matchChar == gameMode)
-        matchFlag = 1;
-        matchIndex = 1;
-        break
+        %check
+        if(bitand(matchChar, gameMode) == gameMode)
+            if(cards(i).index ~= cards(ind).index)
+%                 disp 'MATCH'
+                matchFlag = 1;
+                matchIndex = i;
+                break
+            else
+                disp 'ERROR: Duplicate confusion'
+                matchFlag = 0;
+            end
+        end
     end
 end
 
-
-if(gameMode ~= 1 || numFeat ~= 2)
+if(gameMode < 0 || gameMode > 15)
     matchIndex = -1;
+    matchFlag = -1;
     disp 'ERROR: INVALID NUMBER OF FEATURES'   
 end
 
