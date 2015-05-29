@@ -4,7 +4,7 @@ close all
 clear
 clc
 
-I=imread('test_image34.png'); % read image
+I=imread('test_image35.png'); % read image
 
 %FIND FACE DOWNS
 I2=imcrop(I,[68.5 4.5 491 472]); %isolate the workingspace
@@ -72,7 +72,7 @@ OrAn1(B3(1,1)==x1)=[];
 x1(B3(1,1)==x1)=[];
 y1(B3(1,2)==y1)=[];
 
-coordsFDWN(:,3)=OrAn1;
+% coordsFDWN(:,3)=OrAn1;
 
 %When only fiducial boxes present
 TF=isempty(x1);
@@ -92,7 +92,10 @@ coordsFDWN(:,1)=Xreal; %adding to variable coordsFDWN
 coordsFDWN(:,2)=Yreal;
 
 numFDWN=length(Xreal);  %no of face down cards
-    
+
+if numFDWN~=0    
+coordsFDWN(:,3)=OrAn1;
+end
 
 %FIND FACE UPS
 FUP1=I3>0.91;  %identify faceup card
@@ -116,7 +119,7 @@ numCards=numFUP+numFDWN; %number of cards
 
 %POSITION OF FACEUPS
 s2=regionprops(Iout,'centroid'); %find centroids of regions
-FUPcentroids=cat(1,s.Centroid);
+FUPcentroids=cat(1,s2.Centroid);
 
 FUP_x1=FUPcentroids(:,1);
 FUP_y1=FUPcentroids(:,2);
@@ -137,10 +140,10 @@ for i=1:length(p2)
     
     sides2=p2(i).Extrema(TR,:)-p2(i).Extrema(LT,:); %sides of the square
     FUP_OrAn1(i)=rad2deg(atan(-sides2(2)/sides2(1))); %note the 'minus' sign compensates for the y-values in image cordinates
-    
+    coordsFUP(:,3)=FUP_OrAn1(i);
 end
 
-coordsFUP(:,3)=FUP_OrAn1;
+
 
 numFDWN
 numFUP
