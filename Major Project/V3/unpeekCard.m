@@ -10,7 +10,7 @@
 % % %
 
 
-function peekFlag = unpeekCard(x, y, pose)
+function peekFlag = unpeekCard(t, x, y, pose)
 % given an x & y position will pick up the block at that point will move the arm to the peek coordinates
 
 % move J2 to -90 degrees

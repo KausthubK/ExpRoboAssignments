@@ -12,7 +12,6 @@ clc
 % Game Setup
 
 % Open Network Connection
-global t;
 t = tcpip('192.168.0.1', 2020, 'NetworkRole', 'client');
 fopen(t);
 
@@ -26,11 +25,12 @@ cards = struct('index', {},'x', {}, 'y', {}, 'pose', {}, 'shape', {}, 'colour', 
 
 % Hide the arm
 % Image Capture
-hideArm();
+hideArm(t);
 I = getsnapshot(vid);
+
 [numCards, numFUP, numFDWN, coordsFUP, coordsFDWN] = surveyField(I);
 % Unhide the arm
-unHideArm();
+unHideArm(t);
 
 
 % Gameplay Flags & Variables
@@ -76,7 +76,7 @@ coordsFDWN
 
 for i = 1:numCards
 
-    peekAt(cards(i).x, cards(i).y, cards(i).pose);
+    peekAt(t, cards(i).x, cards(i).y, cards(i).pose);
     I = getsnapshot(vid);
  
     disp 'reading...'
@@ -87,8 +87,8 @@ for i = 1:numCards
     cards(1).viewedFlag=1;
     
     if matchFlag == 1
-        removePair(cards, matchIndex, i);
+        removePair(t, cards, matchIndex, i);
     else
-        unpeekCard(cards(i).x, cards(i).y, cards(i).pose);
+        unpeekCard(t, cards(i).x, cards(i).y, cards(i).pose);
     end
 end

@@ -10,7 +10,7 @@
 % % %
 
 
-function removePair(cards, matchIndex, nextUnknown)
+function removePair(t, cards, matchIndex, nextUnknown)
 
 %cards(matchIndex).x
 %cards(matchIndex).y

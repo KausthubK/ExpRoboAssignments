@@ -9,7 +9,7 @@
 % % % SUBFUNCTIONS LISTING
 % % %
 
-function peekFlag = peekAt(x, y, pose)
+function peekFlag = peekAt(t, x, y, pose)
 
 % given an x & y position will pick up the block at that point will move the arm to the peek coordinates
 
@@ -31,7 +31,7 @@ function peekFlag = peekAt(x, y, pose)
    
    sendCommand(t,'<a0>\n');	%Set tool angle to 0 deg	%check this is correct default angle
    
-   sendCommand(t,'<p>\n'));	%peek
+   sendCommand(t,'<p>\n');	%peek
    
 peekFlag = 1;
 

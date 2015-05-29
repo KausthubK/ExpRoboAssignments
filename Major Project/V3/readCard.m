@@ -104,32 +104,32 @@ colour = face_up(1).colour;
 count = face_up(1).count;
 viewed = 1;
 
-% %DISPLAY
-% if face_up(1).shape==1
-%     disp 'RECTANGLE'
-%     viewed = 1;
-% elseif face_up(1).shape==2
-%     disp 'TRANGLE'
-%     viewed = 1;
-% elseif face_up(1).shape==3
-%     disp 'ELIPSE'
-%     viewed = 1;
-% elseif face_up(1).shape==0
-% 	disp 'UNABLE TO DETERMINE SHAPE'
-% 	viewed = 0;
-% end
-% 
-% if face_up(1).filler == 3
-%     disp 'BLOCK'
-% elseif face_up(1).filler==2
-%     disp 'SHADED'
-% elseif face_up(1).filler==1
-%     disp 'NOT SHADED'
-% else
-%     disp 'UNABLE TO DETERMINE FILLER'
-% end
-% 
-% imshow(cards);
+%DISPLAY
+if face_up(1).shape==1
+    disp 'RECTANGLE'
+    viewed = 1;
+elseif face_up(1).shape==2
+    disp 'TRANGLE'
+    viewed = 1;
+elseif face_up(1).shape==3
+    disp 'ELIPSE'
+    viewed = 1;
+elseif face_up(1).shape==0
+	disp 'UNABLE TO DETERMINE SHAPE'
+	viewed = 0;
+end
+
+if face_up(1).filler == 3
+    disp 'BLOCK'
+elseif face_up(1).filler==2
+    disp 'SHADED'
+elseif face_up(1).filler==1
+    disp 'NOT SHADED'
+else
+    disp 'UNABLE TO DETERMINE FILLER'
+end
+
+imshow(cards);
 
 end
 
