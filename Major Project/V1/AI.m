@@ -132,7 +132,7 @@ while(gameOver == 0)
             end
             
             matchFlag = 0;
-            [matchFlag, matchIndex] = compareCards(numCards, nextUnknown, cards, 10);%numCards, index, cards, gameMode
+            [matchFlag, matchIndex] = compareCards(numCards, nextUnknown, cards, 15);%numCards, index, cards, gameMode
             if(matchFlag == 1)
                 disp 'Hey I have seen this before'
                 removePair(cards, matchIndex);
