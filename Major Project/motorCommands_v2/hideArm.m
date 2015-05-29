@@ -1,5 +1,5 @@
 function hideArm()
       
-	sendCommand(t,sprintf('<a>\n'));
+	sendCommand(t,sprintf('<s>\n'));
 	
 end

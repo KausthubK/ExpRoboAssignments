@@ -91,7 +91,17 @@ Function unpeekCard
 
 Fend
 
+Function displayCard
 
+    JTran 5, 90
+    
+Fend
+
+Function back
+
+    JTran 5, -(90)
+  
+Fend
 
 ' ... end wrapper functions                '
 ''''''''''''''''''''''''''''''''''''''''''''
@@ -200,26 +210,33 @@ Function executeCommand(command$ As String)
 		Real param
 		cmd$ = Left$(command$, 1)
 		
-		If InStr(cmd$, "h") = 1 Then
+		If InStr(cmd$, "h") = 1 Then ' h corresponds to tool height h for height'
 			param = Val(Right$(command$, Len(command$) - 1))
 			Print "Setting Tool Height at ", param
 			SetToolHeight(param)
-		ElseIf InStr(cmd$, "a") = 1 Then
+		ElseIf InStr(cmd$, "a") = 1 Then ' a corresponds to tool angle a for angle'
 			param = Val(Right$(command$, Len(command$) - 1))
 			Print "Setting Tool Angle at ", param
 			SetToolAngle(param)
-		ElseIf InStr(cmd$, "c") = 1 Then
+		ElseIf InStr(cmd$, "c") = 1 Then ' c corresponds to close gripper c for close'
 			Print "Closing Gripper"
 			CloseGripper
-		ElseIf InStr(cmd$, "o") = 1 Then
+		ElseIf InStr(cmd$, "o") = 1 Then ' o corresponds to open gripper o for open'
 			Print "Opening Gripper"
 			OpenGripper
-		ElseIf InStr(cmd$, "a") = 1 Then
+		ElseIf InStr(cmd$, "s") = 1 Then 's corresponds to hide arm command s for stash'
 			Print "Hiding Arm"
 			PositionArmHide
-		ElseIf InStr(cmd$, "s") = 1 Then
+		ElseIf InStr(cmd$, "r") = 1 Then 'r corresponds to unhide arm command r for reveal'
 			Print "UnHiding Arm"
 			PositionArmUnhide
+			
+		ElseIf InStr(cmd$, "d") = 1 Then 'd corresponds to display card command'
+			Print "Displaying Card"
+			displayCard
+		ElseIf InStr(cmd$, "b") = 1 Then 'B corresponds to back card command'
+			Print "J5 back down"
+			back
 			
 		ElseIf InStr(cmd1$, "p") = 1 Then
 			'Print "Positioning Tool at (", param2, ",", param3, ")"'
