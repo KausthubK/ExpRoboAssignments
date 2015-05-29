@@ -1,4 +1,4 @@
-%V1.2
+%V1.2.3
 % % % FUNCTION:	surveyField
 % % % MTRX5700 Major Assignment 2015
 % % % Authors: Sachith Gunawardhana & Kausthub Krishnamurthy & James Ferris
@@ -7,6 +7,10 @@
 % % % v0 function stub
 % % % v1.1 imported into function format (needs testing)
 % % % v1.2 coords outputs listed properly
+% % % v1.2.2 FIXES: outputs fixed & works for images with more than one face up
+% (or less)
+% % %        BUGS: coordsFUP are giving all fiducials & all FDWNs
+% % %  v1.2.3 FIXES: 
 
 % % % SUBFUNCTIONS LISTING
 % % %
@@ -91,8 +95,6 @@ OrAn1(B3(1,1)==x1)=[];
 x1(B3(1,1)==x1)=[];
 y1(B3(1,2)==y1)=[];
 
-coordsFDWN(:,3)=OrAn1;
-
 %When only fiducial boxes present
 TF=isempty(x1);
 if TF==1
@@ -112,6 +114,9 @@ coordsFDWN(:,2)=Yreal;
 
 numFDWN=length(Xreal);  %no of face down cards
     
+if(numFDWN ~= 0)
+    coordsFDWN(:,3)=OrAn1;
+end
 
 %FIND FACE UPS
 FUP1=I3>0.91;  %identify faceup card
@@ -135,20 +140,24 @@ numCards=numFUP+numFDWN; %number of cards
 
 %POSITION OF FACEUPS
 s2=regionprops(Iout,'centroid'); %find centroids of regions
-FUPcentroids=cat(1,s.Centroid);
+FUPcentroids=cat(1,s2.Centroid);
 
-FUP_x1=FUPcentroids(:,1);
-FUP_y1=FUPcentroids(:,2);
+if(numFUP ~= 0)
+    FUP_x1=FUPcentroids(:,1);
+    FUP_y1=FUPcentroids(:,2);
 
-FUP_Yr=abs(p_dist(B1,B2,FUP_x1,FUP_y1)); %distance from line going along centroids of box1 & box 2 (reference)
-FUP_Xr=p_dist(B1,B3,FUP_x1,FUP_y1);  %distance from line going along centroids of box1 & box 3 (reference)
+    FUP_Yr=abs(p_dist(B1,B2,FUP_x1,FUP_y1)); %distance from line going along centroids of box1 & box 2 (reference)
+    FUP_Xr=p_dist(B1,B3,FUP_x1,FUP_y1);  %distance from line going along centroids of box1 & box 3 (reference)
 
-FUP_Yreal=((FUP_Yr*303)/219.3306)+220;    %REAL Y CORDINATE of Face UPs 
-FUP_Xreal=((FUP_Xr*540)/399.4796)-270;    %REAL X CORDINATE of Face UPs
+    FUP_Yreal=((FUP_Yr*303)/219.3306)+220;    %REAL Y CORDINATE of Face UPs 
+    FUP_Xreal=((FUP_Xr*540)/399.4796)-270;    %REAL X CORDINATE of Face UPs
 
-coordsFUP(:,1)=FUP_Xreal;
-coordsFUP(:,2)=FUP_Yreal;
-
+    coordsFUP(:,1)=FUP_Xreal;
+    coordsFUP(:,2)=FUP_Yreal;
+else
+    coordsFUP = -1;
+    
+end
 %ORIENTATION Face Ups
 p2=regionprops(Iout,'Extrema');
 
