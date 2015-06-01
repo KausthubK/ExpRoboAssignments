@@ -240,7 +240,7 @@ Function executeCommand(command$ As String)
 			Print "J5 back down"
 			back
 			
-		ElseIf InStr(cmd$, "p") = 1 Then
+		ElseIf InStr(cmd$, "k") = 1 Then
 			'Print "Positioning Tool at (", param2, ",", param3, ")"'
 			Print "Peeking"
 			'PositionTool(param2, param3)'

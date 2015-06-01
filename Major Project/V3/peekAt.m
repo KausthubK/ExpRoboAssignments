@@ -30,7 +30,7 @@ function peekFlag = peekAt(t, x, y, pose)
    sendCommand(t,'<h2>\n');	%move to height 2
    sendCommand(t,'<a0>\n');	%Set tool angle to 0 deg	%check this is correct default angle
    
-   sendCommand(t,'<p>\n');	%peek
+   sendCommand(t,'<k>\n');	%peek
    
 peekFlag = 1;
 
