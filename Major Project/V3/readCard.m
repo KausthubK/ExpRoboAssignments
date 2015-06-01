@@ -46,6 +46,8 @@ I2=Icheck>0.72;  %identify faceup card
 I3=imfill(I2,'holes'); %fill all holes but the shape was gone
 se=strel('square',9);
 IE=imerode(I3,se);
+
+
 I4=imclearborder(IE,4);
 Iout=bwareaopen(I4,1000);
 
