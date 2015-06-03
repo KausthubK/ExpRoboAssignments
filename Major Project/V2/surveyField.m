@@ -51,12 +51,13 @@ TR=2;
 LT=8;
 
 % p=regionprops(FDWN,'Extrema');
-p=regionprops(FDWN,'orientation'); %Orientation with x-axis
+p=regionprops(FDWN,'orientation'); %Orientation of the major axiz of elipse with x-axis
 OrAn1 = -1;
 for i=1:length(p)
     
-    sides1=p(i).Extrema(TR,:)-p(i).Extrema(LT,:); %sides of the square
-    OrAn1(i)=rad2deg(atan(-sides1(2)/sides1(1))); %note the 'minus' sign compensates for the y-values in image cordinates
+    OrAn1(i)=90-(abs(p(i).Orientation) +0.8); %have to rotate the image by 0.8 degrees to align with x axis
+%     sides1=p(i).Extrema(TR,:)-p(i).Extrema(LT,:); %sides of the square
+%     OrAn1(i)=rad2deg(atan(-sides1(2)/sides1(1))); %note the 'minus' sign compensates for the y-values in image cordinates
     
 end
 
