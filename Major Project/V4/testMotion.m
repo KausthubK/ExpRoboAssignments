@@ -9,6 +9,9 @@ clear all
 close all
 clc
 
+
+saveNum = 80;
+
 % Game Setup
 
 % Open Network Connection
@@ -29,6 +32,9 @@ hideArm(t);
 I = getsnapshot(vid);
 imshow(I);
 
+    %imwrite(I, sprintf('test_image%d.png',saveNum));
+    saveNum = saveNum + 1;
+
 [numCards, numFUP, numFDWN, coordsFUP, coordsFDWN] = surveyField(I);
 % Unhide the arm
 unHideArm(t);
@@ -39,6 +45,7 @@ gameOver = 0;
 numRemaining = numCards;
 nextUnknown = 1;
 peekingFlag = 0;
+gameMode = 10; % binary 00001010
 
 
 % Pre-Game Error Checking
@@ -79,10 +86,13 @@ for i = 1:numCards
     
     peekAt(t, cards(i).x, cards(i).y, cards(i).pose);
     I2 = getsnapshot(vid);
+    
+    %imwrite(I2, sprintf('test_image%d.png',saveNum));
+    saveNum = saveNum + 1;
     imshow(I2);
     disp 'reading...'
-    [cards(i).viewed, cards(i).shape, cards(i).colour, cards(i).filler, cards(i).count] = readCard(I2);
-    cards(1).viewedFlag=viewed;
+    [cards(i).viewedFlag, cards(i).shape, cards(i).colour, cards(i).filler, cards(i).count] = readCard(I2);
+    %cards(1).viewedFlag = viewed;
     disp 'compare...'
     [matchFlag, matchIndex] = compareCards(numCards,1 , cards, gameMode)
     cards(1).viewedFlag=1;
