@@ -32,10 +32,10 @@ function [numCards, numFUP, numFDWN, coordsFUP, coordsFDWN] = surveyField(I)
 I2=imcrop(I,[68.5 4.5 491 472]); %isolate the workingspace
 I3=double(I2)/255;  %convert to double
 I4=adapthisteq(I3); %enhance contrast using adaptive histogram equalization
-I5=I4<0.10;%0.1 %0.11 % find boxes using a threshold
+I5=I4<0.09;%0.1 %0.11 % find boxes using a threshold
 
 C1=bwareaopen(I5,1000); %remove objects less than 1000 pixels/ Remove unnessosary regions
-se=strel('square',8);  %create a structuring element of size 15 square
+se=strel('square',10);  %create a structuring element of size 15 square
 C2=imclose(C1,se); %morphologicaly close image
 FDWN=imfill(C2,'holes'); %fill holes
 
