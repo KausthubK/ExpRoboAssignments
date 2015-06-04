@@ -4,7 +4,8 @@
 ''''''''''''''''''''''''''''''''''''''''''''	
 Boolean isConnected
 #define MoveBlockHeight (30) '110
-#define BlockWidth (80)
+#define BlockWidth (80)	'Feducial block width
+#define BlockHeight (40)
 Function SetupArm()
 	Motor On
 	If (1) Then
@@ -44,7 +45,7 @@ Function SetToolHeight(Height As Real)
 		Height = 0
 	EndIf
 	'Go Here :Z(MoveBlockHeight + Height * BlockWidth) LJM
-	Move LJM(Here :Z(MoveBlockHeight + Height * BlockWidth))
+	Move LJM(Here :Z(MoveBlockHeight + Height * BlockHeight))
 Fend
 Function PositionTool(XPos As Real, YPos As Real)
 	P1 = Here
@@ -61,8 +62,8 @@ Function PositionToolFast(XPos As Real, YPos As Real)
 	'Move LJM(Here :X(XPos) :Y(YPos))
 Fend
 Function SetToolAngle(Angle As Real)
-	If (Angle < 0) Then
-		Angle = 0
+	If (Angle < -90) Then
+		Angle = 180 + Angle
 	EndIf
 	If (Angle > 180) Then
 		Angle = 180
@@ -238,7 +239,7 @@ Function executeCommand(command$ As String)
 			Print "J5 back down"
 			back
 			
-		ElseIf InStr(cmd$, "p") = 1 Then
+		ElseIf InStr(cmd$, "k") = 1 Then
 			'Print "Positioning Tool at (", param2, ",", param3, ")"'
 			Print "Peeking"
 			'PositionTool(param2, param3)'
@@ -264,7 +265,6 @@ Function executeCommand(command$ As String)
 			'SetToolHeight(2)'
 			'SetToolAngle(0)'
 					
-		Else
 		Else
 			Print ("Error, make sure first letter matches a command")
 		EndIf
@@ -292,7 +292,7 @@ Function tcpServ
 	String strIn$
 	Integer inCount
 	
-	PositionArmHide	'Move arm out of the way (out of the image)
+	'PositionArmHide	'Move arm out of the way (out of the image)
 	
 	openTCPIP	'Open comms'
 	
@@ -315,7 +315,7 @@ Function tcpServ
 			'Print "."
 		Else
 			If (first_command) Then
-				PositionArmUnhide	'Go back home from the hidden position'
+				'PositionArmUnhide	'Go back home from the hidden position'
 				first_command = False
 			EndIf
 			' Some bytes ready to be read	
