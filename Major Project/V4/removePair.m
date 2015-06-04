@@ -32,7 +32,7 @@ function removePair(t, cards, matchIndex, nextUnknown)
 	
 	sendCommand(t,'<u>\n');
 	sendCommand(t,'<d>\n');		%display card
-	%sendCommand(t,sprintf('<x%.0f,y%.0f>\n',x,y));   %move to x y	%drop coordinates
+	sendCommand(t,sprintf('<x380,y300>\n'));   %move to x y	%drop coordinates
 	sendCommand(t,'<o>\n');
 	sendCommand(t,'<b>\n');
 	
@@ -46,7 +46,7 @@ function removePair(t, cards, matchIndex, nextUnknown)
 	sendCommand(t,'<h2>\n');	%move to height 2
 	
 	sendCommand(t,'<d>\n');
-	%sendCommand(t,sprintf('<x%.0f,y%.0f>\n',x,y));   %move to x y	%drop coordinates
+	sendCommand(t,sprintf('<x380,y300>\n'));   %move to x y	%drop coordinates
 	sendCommand(t,'<o>\n');
 	sendCommand(t,'<b>\n');
    
