@@ -47,7 +47,8 @@ BW=double(I)/255; %convert to double
 % figure,imshow(BW);
 
 %FIND FACEUP CARD
-Icheck=imcrop(BW,[183.5 2.5 254 221]); 
+% Icheck=imcrop(BW,[183.5 2.5 254 221]); 
+[259.5 40.5 92 126]
 % Icheck=imcrop(BW,[401.5 569.5 152 182]); %for testing only
 I2=Icheck>0.72;  %identify faceup card
 I3=imfill(I2,'holes'); %fill all holes but the shape was gone
@@ -95,7 +96,7 @@ if N>0;
     face_up(1).shape = 0;
     if face_up(1).MeanPerim<165 && face_up(1).MeanPerim>145;
         face_up(1).shape=1; %1 rectangle in set card
-    elseif (face_up(1).MeanPerim<124 && face_up(1).MeanPerim>116)||(face_up(1).MeanPerim<87 && face_up(1).MeanPerim>81);
+    elseif face_up(1).MeanPerim<124 && face_up(1).MeanPerim>116;
         face_up(1).shape=2; %1 trangle in set card
     elseif face_up(1).MeanPerim<137 && face_up(1).MeanPerim>125;
         face_up(1).shape=3; %1 elipse in set card
@@ -114,9 +115,9 @@ if N>0;
 
     face_up(1).MeanIntensity=mean(face_up(1).Intensity);
 
-    if face_up(1).MeanIntensity>0.7
+    if face_up(1).MeanIntensity>0.6
         face_up(1).filler=1; %not shaded
-    elseif face_up(1).MeanIntensity<0.7 && face_up(1).MeanIntensity>0.5
+    elseif face_up(1).MeanIntensity<0.6 && face_up(1).MeanIntensity>0.5
         face_up(1).filler=2; %shaded
     elseif face_up(1).MeanIntensity<0.5
         face_up(1).filler=3; %block

@@ -108,8 +108,11 @@ Xr=p_dist(B1,B3,x1,y1);  %distance from line going along centroids of box1 & box
 %Matching with world cordinates
     %X 792.8691 = 540 real , %Y 433.3300 = 303 real                                    
 Yreal=((Yr*303)/219.3306)+220;    %REAL Y CORDINATE of Face DOWNs 
-Xreal=((Xr*540)/399.4796)-270;    %REAL x CORDINATE of Face DOWNs
-
+if Xr>200
+    Xreal=((Xr*540)/399.4796)-265;
+else
+    Xreal=((Xr*540)/399.4796)-270;    %REAL x CORDINATE of Face DOWNs
+end
 coordsFDWN(:,1)=Xreal; %adding to variable coordsFDWN 
 coordsFDWN(:,2)=Yreal;
 
