@@ -27,7 +27,7 @@ function peekFlag = peekAt(t, x, y, pose)
    sendCommand(t,sprintf('<a%.0f>\n', pose));	%Set tool angle to deg
    sendCommand(t,'<h0>\n');	%move to height 0
    sendCommand(t,'<c>\n');	%grip
-   sendCommand(t,'<h2>\n');	%move to height 2
+   sendCommand(t,'<h1>\n');	%move to height 2
    sendCommand(t,'<a0>\n');	%Set tool angle to 0 deg	%check this is correct default angle
    
    sendCommand(t,'<k>\n');	%peek

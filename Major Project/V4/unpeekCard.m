@@ -23,13 +23,13 @@ function peekFlag = unpeekCard(t, x, y, pose)
 
    
    sendCommand(t,'<u>\n');
-   sendCommand(t,'<h2>\n');	%move to height 2
+   sendCommand(t,'<h1>\n');	%move to height 2
    sendCommand(t,sprintf('<x%.0f,y%.0f>\n',x,y));   %move to x y
    sendCommand(t,sprintf('<a%.0f>\n', pose));	%Set tool angle to pose deg
    sendCommand(t,'<h0>\n');	%move to height 0
    sendCommand(t,'<o>\n');	%grip
    
-   sendCommand(t,'<h2>\n');	%move to height 2
+   sendCommand(t,'<h1>\n');	%move to height 2
    
    
    sendCommand(t,'<a0>\n');	%Set tool angle to 0 deg	%check this is correct default angle
