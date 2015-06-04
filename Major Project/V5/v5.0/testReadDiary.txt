@@ -1,0 +1,98 @@
+diary ON
+testRead
+reading...
+viewing...
+comparing...
+compare 1
+ERROR: Duplicate confusion
+
+matchFlag =
+
+     1
+
+
+matchIndex =
+
+     2
+
+compare 2
+
+matchFlag =
+
+     1
+
+
+matchIndex =
+
+     1
+
+compare 3
+ERROR: Duplicate confusion
+
+matchFlag =
+
+     1
+
+
+matchIndex =
+
+     8
+
+compare 4
+ERROR: Duplicate confusion
+
+matchFlag =
+
+     1
+
+
+matchIndex =
+
+     7
+
+compare 5
+ERROR: Duplicate confusion
+
+matchFlag =
+
+     1
+
+
+matchIndex =
+
+     6
+
+compare 6
+
+matchFlag =
+
+     1
+
+
+matchIndex =
+
+     5
+
+compare 7
+
+matchFlag =
+
+     1
+
+
+matchIndex =
+
+     4
+
+compare 8
+
+matchFlag =
+
+     1
+
+
+matchIndex =
+
+     3
+
+diary OFF
