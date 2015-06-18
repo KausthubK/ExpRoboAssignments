@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.20)  18 JUN 2015 13:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.18)  18 JUN 2015 15:53
 entering extended mode
 **bare_conf.tex
 
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
-re_conf.tex"
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\b
+are_conf.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -16,8 +16,8 @@ ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\IE
-EEtran.cls"
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\I
+EEEtran.cls"
 Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
 istensen
 -- Based on V1.7a by Michael Shell
@@ -103,9 +103,40 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen116
 \c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
 )
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
-re_conf.aux")
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\b
+are_conf.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 351.
 LaTeX Font Info:    ... okay on input line 351.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 351.
@@ -118,21 +149,65 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 351.
 LaTeX Font Info:    ... okay on input line 351.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 351.
 LaTeX Font Info:    ... okay on input line 351.
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count92
+\scratchdimen=\dimen119
+\scratchbox=\box27
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen120
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
+\everyMPtoPDFconversion=\toks17
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 439.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 439.
 
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
-ckground_AI.tex")
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
-ckground_Vision.tex")
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
-ckground_Motion.tex")
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\b
+ackground_AI.tex")
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\b
+ackground_Vision.tex"
+<./sachiths_images/image123.png, id=1, 425.4294pt x 85.2786pt>
+File: ./sachiths_images/image123.png Graphic file (type png)
+
+<use ./sachiths_images/image123.png>
+Package pdftex.def Info: ./sachiths_images/image123.png used on input line 7.
+(pdftex.def)             Requested size: 212.71417pt x 42.63918pt.
+
+<./sachiths_images/image2.png, id=3, 320.69812pt x 62.48344pt>
+File: ./sachiths_images/image2.png Graphic file (type png)
+
+<use ./sachiths_images/image2.png>
+Package pdftex.def Info: ./sachiths_images/image2.png used on input line 13.
+(pdftex.def)             Requested size: 256.55884pt x 49.9868pt.
+
+Overfull \hbox (3.50897pt too wide) in paragraph at lines 13--14
+ [][] 
+ []
+
+)
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\b
+ackground_Motion.tex")
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\e
+xpDesign_AI.tex")
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\e
+xpDesign_Vision.tex")
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\e
+xpDesign_Motion.tex") [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+ <C:/Users/seesu_000/Documents/GitHub/ExpRoboAssignments/Major Project/Report/s
+achiths_images/image123.png> <C:/Users/seesu_000/Documents/GitHub/ExpRoboAssign
+ments/Major Project/Report/sachiths_images/image2.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 604.
+(Font)              <8> on input line 601.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 604.
+(Font)              <6> on input line 601.
 
 
 ** Conference Paper **
@@ -145,28 +220,27 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
+[2
 
 ]
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
-re_conf.aux") ) 
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\b
+are_conf.aux") ) 
 Here is how much of TeX's memory you used:
- 929 strings out of 493921
- 17146 string characters out of 3147273
- 67942 words of memory out of 3000000
- 4275 multiletter control sequences out of 15000+200000
- 38728 words of font info for 72 fonts, out of 3000000 for 9000
+ 1850 strings out of 493921
+ 30230 string characters out of 3147270
+ 84990 words of memory out of 3000000
+ 5150 multiletter control sequences out of 15000+200000
+ 39835 words of font info for 73 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
- 26i,6n,19p,387b,208s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:
-/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on bare_conf.pdf (1 page, 54671 bytes).
+ 27i,6n,21p,367b,208s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C
+:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
+tmri8a.pfb>
+Output written on bare_conf.pdf (2 pages, 80453 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
