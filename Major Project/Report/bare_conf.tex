@@ -127,7 +127,11 @@
 % *** GRAPHICS RELATED PACKAGES ***
 %
 \ifCLASSINFOpdf
+<<<<<<< HEAD
    \usepackage[pdftex]{graphicx}
+=======
+\usepackage[pdftex]{graphicx}
+>>>>>>> origin/master
   % declare the path(s) where your graphic files are
   % \graphicspath{{../pdf/}{../jpeg/}}
   % and their extensions so you won't have to specify these with
@@ -407,7 +411,7 @@
 
 \begin{abstract}
 %\boldmath
-An implementation of an Epson robotic arm as a card sorting mechanism aimed towards situational problem solving regarding the game Concentration (A.K.A. Memory) with the intent on addressing methods to simplify decision making processes for the game Set. By first addressing a simpler problem solving method
+An implementation of an Epson robotic arm as a card sorting mechanism aimed towards mimicing human style situational problem solving regarding the game Concentration (A.K.A. Memory) with the intent on addressing methods to simplify decision making processes for the game Set. By first addressing a simpler problem we can assess the suitability of this system overall in performing complex sorting operations in a way that directly mimics the way a human would perform the task.
 \end{abstract}
 % IEEEtran.cls defaults to using nonbold math in the Abstract.
 % This preserves the distinction between vectors and scalars. However,
@@ -431,24 +435,7 @@ An implementation of an Epson robotic arm as a card sorting mechanism aimed towa
 % creates the second title. It will be ignored for other modes.
 \IEEEpeerreviewmaketitle
 
-
-
-\section{Introduction}
-% no \IEEEPARstart
-This demo file is intended to serve as a ``starter file''
-for IEEE conference papers produced under \LaTeX\ using
-IEEEtran.cls version 1.7 and later.
-
-Introduction: Provide an introduction to the problem you are investigating. Why is it an
-important or interesting problem? What are potential applications of the techniques you are
-developing? The introduction should also contain an outline of the remainder of the paper
-% You must have at least 2 lines in the paragraph with the drop letter
-% (should never be an issue)
-I wish you the best of success.
-
-\hfill mds
- 
-\hfill January 11, 2007
+	\input{./intro.tex}
 
 \section{Background}
 Background: Describe related work that has been published in the literature. What papers,
