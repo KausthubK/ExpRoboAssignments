@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.20)  18 JUN 2015 15:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.18)  18 JUN 2015 18:47
 entering extended mode
 **bare_conf.tex
 
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
-re_conf.tex"
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\b
+are_conf.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -16,8 +16,8 @@ ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\IE
-EEtran.cls"
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\I
+EEEtran.cls"
 Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
 istensen
 -- Based on V1.7a by Michael Shell
@@ -135,20 +135,20 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
-re_conf.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\b
+are_conf.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count92
@@ -163,27 +163,131 @@ LaTeX Font Info:    ... okay on input line 351.
 \makeMPintoPDFobject=\count97
 \everyMPtoPDFconversion=\toks17
 )
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\in
-tro.tex")
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
-ckground_AI.tex")
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
-ckground_Vision.tex")
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
-ckground_Motion.tex")
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ex
-pDesign_AI.tex")
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ex
-pDesign_Vision.tex")
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ex
-pDesign_Motion.tex")
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 585.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 585.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 585.
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\i
+ntro.tex")
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\b
+ackground_AI.tex")
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\b
+ackground_Vision.tex"
+<./sachiths_images/image123.png, id=1, 425.4294pt x 85.2786pt>
+File: ./sachiths_images/image123.png Graphic file (type png)
 
+<use ./sachiths_images/image123.png>
+Package pdftex.def Info: ./sachiths_images/image123.png used on input line 7.
+(pdftex.def)             Requested size: 255.2596pt x 51.16753pt.
+
+Overfull \hbox (2.20973pt too wide) in paragraph at lines 7--7
+ [][] 
+ []
+
+<./sachiths_images/image2.png, id=3, 320.69812pt x 62.48344pt>
+File: ./sachiths_images/image2.png Graphic file (type png)
+
+<use ./sachiths_images/image2.png>
+Package pdftex.def Info: ./sachiths_images/image2.png used on input line 14.
+(pdftex.def)             Requested size: 256.55884pt x 49.9868pt.
+
+Overfull \hbox (3.50897pt too wide) in paragraph at lines 14--15
+ [][] 
+ []
+
+)
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\b
+ackground_Motion.tex" [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+ <C:/Users/seesu_000/Documents/GitHub/ExpRoboAssignments/Major Project/Report/s
+achiths_images/image123.png> <C:/Users/seesu_000/Documents/GitHub/ExpRoboAssign
+ments/Major Project/Report/sachiths_images/image2.png>])
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\e
+xpDesign_AI.tex")
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\e
+xpDesign_Vision.tex"
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 15.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¢ in font ptmr7t!
+
+<./sachiths_images/image3.png, id=13, 605.26125pt x 426.09187pt>
+File: ./sachiths_images/image3.png Graphic file (type png)
+
+<use ./sachiths_images/image3.png>
+Package pdftex.def Info: ./sachiths_images/image3.png used on input line 22.
+(pdftex.def)             Requested size: 181.57976pt x 127.82854pt.
+
+<./sachiths_images/image32.png, id=14, 166.221pt x 141.912pt>
+File: ./sachiths_images/image32.png Graphic file (type png)
+
+<use ./sachiths_images/image32.png>
+Package pdftex.def Info: ./sachiths_images/image32.png used on input line 29.
+(pdftex.def)             Requested size: 149.59749pt x 127.7196pt.
+
+<./sachiths_images/image4.png, id=15, 188.20313pt x 148.30406pt>
+File: ./sachiths_images/image4.png Graphic file (type png)
+
+<use ./sachiths_images/image4.png>
+Package pdftex.def Info: ./sachiths_images/image4.png used on input line 47.
+(pdftex.def)             Requested size: 150.56268pt x 118.64339pt.
+
+<./sachiths_images/image5.png, id=16, 605.26125pt x 426.09187pt>
+File: ./sachiths_images/image5.png Graphic file (type png)
+
+<use ./sachiths_images/image5.png>
+Package pdftex.def Info: ./sachiths_images/image5.png used on input line 59.
+(pdftex.def)             Requested size: 181.57976pt x 127.82854pt.
+
+<./sachiths_images/image6.png, id=17, 315.42844pt x 231.86626pt>
+File: ./sachiths_images/image6.png Graphic file (type png)
+
+<use ./sachiths_images/image6.png>
+Package pdftex.def Info: ./sachiths_images/image6.png used on input line 65.
+(pdftex.def)             Requested size: 157.71382pt x 115.93283pt.
+
+<./sachiths_images/image10.jpg, id=18, 195.73125pt x 158.84344pt>
+File: ./sachiths_images/image10.jpg Graphic file (type jpg)
+
+<use ./sachiths_images/image10.jpg>
+Package pdftex.def Info: ./sachiths_images/image10.jpg used on input line 80.
+(pdftex.def)             Requested size: 156.58519pt x 127.07492pt.
+ [2 <C:/Users/seesu_000/Documents/GitHub/ExpRoboAssignments/Major Project/Repor
+t/sachiths_images/image3.png> <C:/Users/seesu_000/Documents/GitHub/ExpRoboAssig
+nments/Major Project/Report/sachiths_images/image32.png> <C:/Users/seesu_000/Do
+cuments/GitHub/ExpRoboAssignments/Major Project/Report/sachiths_images/image4.p
+ng>]
+<./sachiths_images/image11.jpg, id=24, 195.73125pt x 158.84344pt>
+File: ./sachiths_images/image11.jpg Graphic file (type jpg)
+
+<use ./sachiths_images/image11.jpg>
+Package pdftex.def Info: ./sachiths_images/image11.jpg used on input line 86.
+(pdftex.def)             Requested size: 156.58519pt x 127.07492pt.
+)
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\e
+xpDesign_Motion.tex")
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\r
+esults_Vision.tex"
+<./sachiths_images/image7.png, id=25, 328.22626pt x 137.7647pt>
+File: ./sachiths_images/image7.png Graphic file (type png)
+
+<use ./sachiths_images/image7.png>
+Package pdftex.def Info: ./sachiths_images/image7.png used on input line 5.
+(pdftex.def)             Requested size: 262.58136pt x 110.21188pt.
+
+Overfull \hbox (9.5315pt too wide) in paragraph at lines 5--5
+ [][] 
+ []
+
+)
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\d
+iscussion_Vision.tex" [3 <C:/Users/seesu_000/Documents/GitHub/ExpRoboAssignment
+s/Major Project/Report/sachiths_images/image5.png> <C:/Users/seesu_000/Document
+s/GitHub/ExpRoboAssignments/Major Project/Report/sachiths_images/image6.png> <C
+:/Users/seesu_000/Documents/GitHub/ExpRoboAssignments/Major Project/Report/sach
+iths_images/image10.jpg> <C:/Users/seesu_000/Documents/GitHub/ExpRoboAssignment
+s/Major Project/Report/sachiths_images/image11.jpg> <C:/Users/seesu_000/Documen
+ts/GitHub/ExpRoboAssignments/Major Project/Report/sachiths_images/image7.png>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -195,28 +299,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
+[4
 
 ]
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
-re_conf.aux") ) 
+("C:\Users\seesu_000\Documents\GitHub\ExpRoboAssignments\Major Project\Report\b
+are_conf.aux") ) 
 Here is how much of TeX's memory you used:
- 1834 strings out of 493921
- 30001 string characters out of 3147273
- 83987 words of memory out of 3000000
- 5137 multiletter control sequences out of 15000+200000
- 37650 words of font info for 71 fonts, out of 3000000 for 9000
+ 1884 strings out of 493921
+ 31797 string characters out of 3147270
+ 85012 words of memory out of 3000000
+ 5174 multiletter control sequences out of 15000+200000
+ 35250 words of font info for 64 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
- 27i,6n,21p,536b,208s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:
-/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on bare_conf.pdf (1 page, 54624 bytes).
+ 27i,7n,21p,787b,212s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
+w/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on bare_conf.pdf (4 pages, 638181 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
+ 49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
