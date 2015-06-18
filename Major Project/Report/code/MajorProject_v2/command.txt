@@ -1,0 +1,13 @@
+> GoHome
+!!Error: 3100, Syntax error.
+> GoHome()
+!!Error: 3100, Syntax error.
+> CloseGripper
+!!Error: 3100, Syntax error.
+> run
+!!Error: 3100, Syntax error.
+> run CloseGripper
+!!Error: 3201, Expected ','.
+> CLoseGripper,
+!!Error: 3100, Syntax error.
+> 
