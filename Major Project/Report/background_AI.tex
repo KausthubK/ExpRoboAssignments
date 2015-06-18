@@ -1,1 +1,17 @@
 \subsection{Program Control Paradigms}
+There are a few key factors to designing an Artificial Intelligence software to deal with problem solving games, many of which can be seen in good programming style across many disciplines of Mechatronics and Computer Science. These practices are used to simplify the way the computer "perceives" the world around it and affords us certain layers of abstraction that makes it both easier to program and less susceptible to semantic and logic errors.
+
+\subsubsection{Object Oriented Programming}
+OO Programming paradigms are a key feature in the way we handle the idea of a "card" in this system. A human will be able to look at a card and immediately associate with it specific traits that make it unique like the colour, shade, shape and number of shapes. In an Object Oriented programming style it's important for the program itself to be able to deal with the concept of a card (and its traits) in the same way. This incorporates the use of data structures that logically organise the information (pertinent to each card) in a way that it makes it easy to access (unlike storing values in arrays and having arbitrary correlations between objects and array indices) irrespective of the number of instances of the cards that are present.
+
+%'A Guide to MATLAB® Object-Oriented Programming'
+% by Andy H. Register
+%Georgia Tech Research Institute
+%Atlanta, Georgia, U.S.A.
+%Published: 2007 by SciTech Publishing Inc. 
+
+\subsubsection{Modular Programming}
+Maintaining code that can be modular and split into individual functions that can be reused on demand by multiple parts of the same program. The advantage of this is that it allows for less convoluted code leading to fewer logical failures and leaves potential for each individual function (already proven to work) to be used in a multithreaded version of the system. It also creates a clear function dependency heirarchy which makes the system easier to test both piecewise and in a cascaded series of running tests.
+
+\subsubsection{Error Handling}
+As with any game system there will be situations in which the AI reaches fail cases in which it cannot succeed in its objective. As such it is crucial for the system design to take this into account and to allow it to either recover or gracefully exit from these issues.
