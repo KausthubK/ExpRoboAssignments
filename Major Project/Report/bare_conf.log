@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.20)  19 JUN 2015 10:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.20)  19 JUN 2015 10:51
 entering extended mode
 **bare_conf.tex
 
@@ -364,6 +364,11 @@ s/Major Project/Report/sachiths_images/image10.png>]
 Missing character: There is no Â in font ptmri7t!
 Missing character: There is no ® in font ptmri7t!
 
+Underfull \hbox (badness 2653) in paragraph at lines 597--600
+[]\OT1/ptm/m/n/8 Shell, Michael: \OT1/ptm/m/it/8 IEEE-tran\OT1/ptm/m/n/8 ,  IEE
+E for-mat-ted La-TeX tem-plate
+ []
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -381,20 +386,20 @@ Before submitting the final camera ready copy, remember to:
 ("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
 re_conf.aux") ) 
 Here is how much of TeX's memory you used:
- 1921 strings out of 493921
- 33081 string characters out of 3147273
- 85031 words of memory out of 3000000
- 5197 multiletter control sequences out of 15000+200000
+ 1922 strings out of 493921
+ 33090 string characters out of 3147273
+ 85034 words of memory out of 3000000
+ 5198 multiletter control sequences out of 15000+200000
  35250 words of font info for 64 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
- 27i,7n,21p,805b,212s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,7n,21p,1014b,212s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on bare_conf.pdf (6 pages, 1421130 bytes).
+Output written on bare_conf.pdf (6 pages, 1421809 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
