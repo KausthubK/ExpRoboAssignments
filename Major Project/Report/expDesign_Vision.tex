@@ -1,20 +1,19 @@
 \subsection{Vision Detection Principles}
 % vision hardware set up + software implementation
-In order to achieve the vision detection task we had broken down the task into 4 sub tasks as following
+In order to achieve the vision detection task we had broken down the task into 4 sub tasks as follows:
 \begin{enumerate}
 	\item Identify the Cards on the table.
 	\item Coordinates and pose of the cards.
 	\item Match the local coordinates to the world coordinates.
 	\item Identify the features of the cards.
 \end{enumerate}
-	
-Matlab image processing toolbox has been used for image processing tasks of this project. 
+
 
 1.	Identify the cards on the table.
 \begin{itemize}
 	\item In the initial sweep after hiding the robot arm the camera will capture an image of the table. Histogram equalisation has been used to equalise the intensity over the image to make the image processing task easier. 
-	\item The back of the card gives pixel values near to black colour in gray image. Using this data a logical image has been created by using a threshold of pixel values less than 0.09. After removing pixels areas less than 1000 using function; bwareopen a structured element has been used to morphologically close the founded blobs.
-	\item •	The same logic has been used to find face up cards as well. In that threshold of 0.91 has been used as face ups are near to white colour.
+	\item The back of the card gives pixel values that are very close to black as represented in a a grayscale image. Using this data a logical image has been created by using a threshold of pixel values less than 0.09. After removing continuous pixel groupings with areas less than 1000, \emph{bwareopen} a structured element has been used to morphologically close the founded blobs.
+	\item •	The same logic has been used to find face up cards as well but with a threshold of 0.91 to choose cards that are white in colour (and therefore are face up).
 \end{itemize}
 
 \begin{figure}[position = here]
@@ -33,25 +32,25 @@ Matlab image processing toolbox has been used for image processing tasks of this
 
 2.	Coordinates and Pose of the cards
 \begin{itemize}
-	\item Logical image created using above mentioned method has been used to find the local centroids and the orientations of the cards. The function; regionprops has been used to find the centroids and orientation. After finding both, centroids and orientations of the fiducials have been removed. In orientations a redundancy has been added to make sure that the robot arm will always work in the safety limits by checking the value of the angle.
+	\item A logical image was created using the aforementioned methodand this image was then used to find the local centroids and the orientations of the cards. The function \emph{regionprops} has been used to find the centroids and orientation. After finding both, centroids and orientations of the fiducials have been removed from our collection in order to present the collection of cards back to the Card data structure. In orientations a redundancy has been added to make sure that the robot arm will always work in the safety limits by checking the value of the angle and deciding the shortest path to the desired gripper angle (in order to stop the arm from over-revolving around joint 4 and damaging the pneumatic lines that control the end effector action).
 	
 \end{itemize}
 
 3.	Match the local coordinates to the world coordinates
 \begin{itemize}
-	\item 3 fiducials have been used to get the relative position of the cards. The method used was the perpendicular distance from two fiducials to the centroid of the card. Following figure will illustrate the method.
+	\item Three fiducials have been used to get the relative position of the cards by using two fiducials at a time to create two theoretical axes (the lines formed between them) and then using a perpendicular distance calculation to find the real world position of each card as seen in Figure\ref{trilatAlternate}. This is a simplification of the trilateration issue that we have encountered in the past with this Epson arm setup.
 	
 \end{itemize}
 \begin{figure}[position = here]
 	\begin{centering}
 		\includegraphics[scale=0.8]{./sachiths_images/image4.png}\\
-		\caption[]{\textit{Method used to match with world coordinates}}
+		\caption[]{\textit{Method used to match with world coordinates\label{trilatAlternate}}}
 	\end{centering}
 \end{figure}
 
 4.	Identify the features of the cards
 \begin{itemize}
-	\item The main target was to identify the card itself before trying to extract features. Used the same method as above and identify the card using pixel values as thresholds. Used the found logical image as a mask to isolate only the card face.
+	\item The main target was to identify the card itself before trying to extract features which used the same method as above to identify the card using pixel values as thresholds. We could then use the discorvered logical image as a mask to isolate only the card face that was relevant to us. This is one of the major advantages of using the peek-unpeek method as it is easier to control mechanically than to flip in place and the vision detection is simplified by being told exactly where to apply the masks.
 
 \end{itemize}
 \begin{figure}[position = here]
@@ -68,7 +67,7 @@ Matlab image processing toolbox has been used for image processing tasks of this
 \end{figure}
 
 \begin{itemize}
-	\item From this image using a bounding box cropped out the card to process to find the features of shape, shape count and filler.
+	\item From this image a bounding box was used to crop out the card to process it for the features of shape, shape count and filler.
 \end{itemize}
 
 \begin{itemize}
@@ -88,7 +87,7 @@ Matlab image processing toolbox has been used for image processing tasks of this
 	\end{centering}
 \end{figure}
 \begin{itemize}
-	\item Perimeter of the founded blob has been used to identify the shape as triangle, rectangle and ellipse had different perimeter values. No of connected components in this stage has been used to identify the shape count. If the shape count is greater than 1, the mean perimeter will be checked for identify the shape. The final logical image with the shape has been used with the original image to identify the filler status. Mean intensity of the blob area of the logical image in original image will have a value greater than 0.72 if the shape is not shaded as pixel value for white is 1. For block status the mean intensity will be lowest and for shaded status the intensity value will be between 0.72 and 0.5.
+	\item Perimeter of the discovered blob was used to identify the shape as triangle, rectangle and ellipse had different perimeter values. Number of connected components in this stage has been used to identify the shape count. If the shape count is greater than 1, the mean perimeter will be checked for identify the shape. The final logical image with the shape has been used with the original image to identify the filler status. Mean intensity of the blob area of the logical image in original image will have a value greater than 0.72 if the shape is not shaded as pixel value for white is 1. For block status the mean intensity will be lowest and for shaded status the intensity value will be between 0.72 and 0.5.
 	
 	
 \end{itemize}
