@@ -1,11 +1,22 @@
 \subsection{Motion}
 
-Degeneracy and Dexterity
+When designing the motions undertaken by the robotic arm, the most important factors to consider are simplicity, efficiency and the possibility of degeneracy. Additionaly, of key importance was the design of the end effector - the gripper used to pick up the cards. The particular design of this would limit the motions that the arm was capable of, it must be carefully considered.
+Coding design is also an important factor, as the epson arm needed to be easily controllable via the MATLAB interface, with any errors beign able to be handled easily by the user (without having to spend exorbitant amounts of time positioning the robot arm manually, joint by joint).
+%User interface/interface with matlab - coding style
 
- - positions with multiple inverse kinematic solutions - can't select one, so stalls
- 
- 
- 
+
+\subsubsection{Degeneracy}
+
+For any position of a robotic arm, movement to another position can run into problems. It may be that it is simply impossible for the arm to move there, as the endpoint of the robotic arm is outside the workspace of the arm itself. Alternatively, it may be that there are simply too many possible movements that could result in the end effector being placed at the desired point - there are multiple solutions to the inverse kinematics. In the case of the EPSON arm, the controller would be unable to choose a suitable set of movements and so return an error. Close consideration of the possible movemements taken by the arm are vital.
+
+\subsubsection{Gripper Design}
+
+Design of the grippers could effectively restrict the set of possible movements of the robotic arm. As such, it was important for is grippers to be as low profile as possible while still achieving their purpose. It would also be key to the effective running of the overall program, as being able to successfully pick up a card would determine whether or not the program could proceed.
+
+\subsubsection{Coding Design}
+
+Function coding for the EPSON arm must be modular and reversible. For every function, a single set of arm movements would occur. There would also be a reversing function, to return from that position. Any function had be callable from the MATLAB interface. This made the code extremely modular, and in some cases larger than necessary. However, it had the advantage of being extremely simple to follow, both in terms of readability and logic. It makes error handling far simpler, removing the need to worry about the overall program functioning perfectly.
+
  
  
 % 
