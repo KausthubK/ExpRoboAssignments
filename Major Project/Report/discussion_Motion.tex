@@ -1,1 +1,10 @@
 \subsection{Motion}
+
+\subsubsection{Error Handling}
+
+Initial code styles had full functions written within the Epson arm program code, and Matlab simply calling that function. However, it was quickly determined that any error that occurred during this process caused the Epson arm to cease function wherever it may have been at the time (usually at the peek position, or arm-hidden position), with no way to return to the home position. Attempts to return to home resulted in errors due to degeneracy or self-collisions. Thus, it was realised that epson arm code should be made as modular as possible, and that every function had to have a counterpart that would reverse it. This made the the program code morre fragmented, but enabled the easy handling of any errors that occurred during operation. A system halt at the peek position could be easily solved by calling the reverse peek function. Any complexity to the arm motion happened in the Matlab script, enabling much greater control of the movements the arm made.
+
+\subsubsection{Arm care}
+
+Great care had to be taken to ensure that all motions the arm made were within the limits of the hardware. Usually, this posed no problem - the arm would not move to a position it that would result in self-collision. However, the grippers were powered by pneumatic tubing that ran down the length of the Epson arm. Any twisting motion, especially that of the joint that controlled the angle of the end effector, also twisted the tubing. If The arm twisted too far it could cause the tubing to become wrapped around the arm, stretching or breaking it and rendering the grippers useless - a very serious problem we wanted to avoid. Thus, limiters were coded into the Epson arm program code to ensure that any change of angle could not exceed a safe amount. As an additional factor of safety, any angle determined by the vision processing was further analysed in Matlab, and would be modulated to remain within the safe operating range, while still being able to pick up the card.
+
