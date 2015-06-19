@@ -5,33 +5,53 @@ The primary program functions for the movement of the Epson arm were dclearly de
 \begin{itemize}
 	
 	\item Go Home
-	\subitem This function moves the arm to a predefined home position. Care need to be taken when using this function, as it is not always possible for the arm to return to the home position, mainly due to degeneracy or self-obstruction. As such, this function is only ever called after calling the reversal of the previous function to run, if it had one.
-	\subitem This is the default reversal function
+		\begin{itemize}
+		\item This function moves the arm to a predefined home position. Care need to be taken when using this function, as it is not always possible for the arm to return to the home position, mainly due to degeneracy or self-obstruction. As such, this function is only ever called after calling the reversal of the previous function to run, if it had one.
+		\item This is the default reversal function
+		\end{itemize}
 	\item Hide Epson Arm
-	\subitem This moves the epson arm out from the view of the camera mounted above the system, ensuring that the camera has a clear, unobstructed view of the table. 
-	\subitem The reversal function is Unhide Epson Arm
+		\begin{itemize}
+		\item This moves the epson arm out from the view of the camera mounted above the system, ensuring that the camera has a clear, unobstructed view of the table. 
+		\item The reversal function is Unhide Epson Arm
+		\end{itemize}
 	\item Unhide Epson arm
-	\subitem This is the reversal of Hide Epson Arm. It returns the Epson arm to the home position. Simply calling Go Home would result in a controller failure due to degeneracy, so a custom function was necessary
+		\begin{itemize}
+		\item This is the reversal of Hide Epson Arm. It returns the Epson arm to the home position. Simply calling Go Home would result in a controller failure due to degeneracy, so a custom function was necessary
+		\end{itemize}
 	\item Position Tool
-	\subitem Given a a centroid location of a card, this function moves the end effector to the \textit{x-y} coordinates of the centroid.
-	\subitem The reversal of this function was Go Home, as it does not make any unsual movements which could cause degeneracy of obstruction.
+		\begin{itemize}
+		\item Given a a centroid location of a card, this function moves the end effector to the \textit{x-y} coordinates of the centroid.
+		\item The reversal of this function was Go Home, as it does not make any unsual movements which could cause degeneracy of obstruction.
+		\end{itemize}
 	\item Set Tool Height
-	\subitem This function controls the \textit{z} coordinates of the end effector. It uses predefined measurements of the height of the cards, so that the function can take an integer number defining how many cards high we want to be. For exampl, to pick up a card we go to height 0, which would actually be equal to half the height of the card, enabling the grippers to effectively pick it up. Height 1 would place the grippers in such a position where it could be a card stacked on top of another, and so on.
-	\subitem This function is its own reversal, simply returning to a default operating height that avoids collisions with the cards and feducials.
+		\begin{itemize}
+		\item This function controls the \textit{z} coordinates of the end effector. It uses predefined measurements of the height of the cards, so that the function can take an integer number defining how many cards high we want to be. For exampl, to pick up a card we go to height 0, which would actually be equal to half the height of the card, enabling the grippers to effectively pick it up. Height 1 would place the grippers in such a position where it could be a card stacked on top of another, and so on.
+		\item This function is its own reversal, simply returning to a default operating height that avoids collisions with the cards and feducials.
+		\end{itemize}
 	\item Set Tool Angle
-	\subitem Given the angle to the horizontal that the card is on (as determined by the vision processing), this turns the grippers to that angle. Great care was taken to ensure that any twisting motion was limited to be between 0 and 180 degrees. Turning further than 180 degrees, or into the negative range, ran the risk of damaging pneumatic tubing that powered the grippers. This range was chosen as there is still a siginificant amount of motion left before the risk of damage occured, and the range also ensured that the a card could always be picked up.
-	\subitem This function is its own reversal
+		\begin{itemize}
+		\item Given the angle to the horizontal that the card is on (as determined by the vision processing), this turns the grippers to that angle. Great care was taken to ensure that any twisting motion was limited to be between 0 and 180 degrees. Turning further than 180 degrees, or into the negative range, ran the risk of damaging pneumatic tubing that powered the grippers. This range was chosen as there is still a siginificant amount of motion left before the risk of damage occured, and the range also ensured that the a card could always be picked up.
+		\item This function is its own reversal
+		\end{itemize}
 	\item Display Card
-	\subitem Shows the card to the audience - raises the grippers by 90 degrees.
-	\subitem Is reversed by UnDisplay
+		\begin{itemize}
+		\item Shows the card to the audience - raises the grippers by 90 degrees.
+		\item Is reversed by UnDisplay
+		\end{itemize}
 %	IMAGINATIVE NAMES FTW!
 	\item UnDisplay Card
-	\subitem Returns the grippers to their default vertical position.
+		\begin{itemize}
+		\item Returns the grippers to their default vertical position.
+		\end{itemize}
 	\item Peek
-	\subitem Turns a card up so that it can be seen by the camera. This places the card in a fixed, known position, allowing identification by the camera simpler.
-	\subitem The reversal is UnPeek. 
+		\begin{itemize}
+		\item Turns a card up so that it can be seen by the camera. This places the card in a fixed, known position, allowing identification by the camera simpler.
+		\item The reversal is UnPeek. 
+		\end{itemize}
 	\item Unpeek
-	\subitem The reversal for Peek
+		\begin{itemize}
+		\item The reversal for Peek
+		\end{itemize}
 	\item Open Grippers
 	\item Close Grippers
 	
