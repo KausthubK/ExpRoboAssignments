@@ -1,5 +1,5 @@
 \subsection{Vision}
-The image processing algorithm did able to match cards considering all variables, shape, shape count and filler. Results of the image processing can be summarised as follows.
+The image processing algorithm was able to match cards considering shape, shape count and filler. Results of the image processing can be summarised as follows:
 \begin{figure}[position = here]
 	\begin{centering}
 		\includegraphics[scale=0.8]{./sachiths_images/image7.png}\\
@@ -7,9 +7,7 @@ The image processing algorithm did able to match cards considering all variables
 	\end{centering}
 \end{figure}
 
-\textbf{Note:} We only did able to get gray images from the camera as there was a problem with white balancing with the camera driver which we didn't able to fix. If we had rgb images for check the color of the shape we should have check the 3 channels separately and found the dominant channel. 
-
-Results were as following,
+\textbf{Note:} We were only able to get gray images from the camera as there was a problem with white balancing with the camera driver which we found unable to solve manually. If RGB images were consistently procurable this could have been used to identify the colour of the card simply by checking the dominant colour channels (as RGB is a three-channel format) and would also then be converted into an HSV format image where Hue and Saturation adjustments could be made to resolve shadow problems.
 
 1. Shaded one Rectangle
 \begin{figure}[position = here]
