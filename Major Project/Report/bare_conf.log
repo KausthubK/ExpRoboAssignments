@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.20)  19 JUN 2015 10:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.20)  19 JUN 2015 13:50
 entering extended mode
 **bare_conf.tex
 
@@ -162,12 +162,27 @@ LaTeX Font Info:    ... okay on input line 355.
 \MPnumerator=\count96
 \makeMPintoPDFobject=\count97
 \everyMPtoPDFconversion=\toks17
-)
+) <./kkimgs/EPSONMUGSHOT.jpg, id=1, 230.3004pt x 172.4844pt>
+File: ./kkimgs/EPSONMUGSHOT.jpg Graphic file (type jpg)
+
+<use ./kkimgs/EPSONMUGSHOT.jpg>
+Package pdftex.def Info: ./kkimgs/EPSONMUGSHOT.jpg used on input line 417.
+(pdftex.def)             Requested size: 184.24057pt x 137.9877pt.
+
+<./kkimgs/EPSONPEEKSHOT.jpg, id=2, 226.9278pt x 170.5572pt>
+File: ./kkimgs/EPSONPEEKSHOT.jpg Graphic file (type jpg)
+
+<use ./kkimgs/EPSONPEEKSHOT.jpg>
+Package pdftex.def Info: ./kkimgs/EPSONPEEKSHOT.jpg used on input line 419.
+(pdftex.def)             Requested size: 181.54247pt x 136.44594pt.
+
 ("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\in
-tro.tex")
-Underfull \vbox (badness 10000) has occurred while \output is active []
+tro.tex") [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
+ <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/Major Project/Report/kk
+imgs/EPSONMUGSHOT.jpg> <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/M
+ajor Project/Report/kkimgs/EPSONPEEKSHOT.jpg>]
 ("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
 ckground_AI.tex"
 Underfull \hbox (badness 4621) in paragraph at lines 5--6
@@ -178,7 +193,7 @@ Underfull \hbox (badness 4621) in paragraph at lines 5--6
 )
 ("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
 ckground_Vision.tex"
-<./sachiths_images/image123.png, id=1, 425.4294pt x 85.2786pt>
+<./sachiths_images/image123.png, id=10, 425.4294pt x 85.2786pt>
 File: ./sachiths_images/image123.png Graphic file (type png)
 
 <use ./sachiths_images/image123.png>
@@ -189,11 +204,7 @@ Overfull \hbox (2.20973pt too wide) in paragraph at lines 7--7
  [][] 
  []
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-]
-<./sachiths_images/image2.png, id=11, 320.69812pt x 62.48344pt>
+<./sachiths_images/image2.png, id=12, 320.69812pt x 62.48344pt>
 File: ./sachiths_images/image2.png Graphic file (type png)
 
 <use ./sachiths_images/image2.png>
@@ -206,19 +217,19 @@ Overfull \hbox (3.50897pt too wide) in paragraph at lines 14--15
 
 )
 ("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
-ckground_Motion.tex")
+ckground_Motion.tex" [2 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/
+Major Project/Report/sachiths_images/image123.png> <C:/Users/Kausthub/Documents
+/GitHub/ExpRoboAssignments/Major Project/Report/sachiths_images/image2.png>])
 ("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ex
-pDesign_AI.tex" <./kkimgs/ProgramFlow.png, id=12, 217.31187pt x 727.71875pt>
+pDesign_AI.tex" <./kkimgs/ProgramFlow.png, id=18, 217.31187pt x 727.71875pt>
 File: ./kkimgs/ProgramFlow.png Graphic file (type png)
 
 <use ./kkimgs/ProgramFlow.png>
 Package pdftex.def Info: ./kkimgs/ProgramFlow.png used on input line 11.
 (pdftex.def)             Requested size: 162.98349pt x 545.78772pt.
- [2 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/Major Project/Report
-/sachiths_images/image123.png> <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssig
-nments/Major Project/Report/sachiths_images/image2.png> <C:/Users/Kausthub/Docu
-ments/GitHub/ExpRoboAssignments/Major Project/Report/kkimgs/ProgramFlow.png>]
-<./kkimgs/GameModes.png, id=18, 382.93062pt x 248.93pt>
+ [3 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/Major Project/Report
+/kkimgs/ProgramFlow.png>]
+<./kkimgs/GameModes.png, id=23, 382.93062pt x 248.93pt>
 File: ./kkimgs/GameModes.png Graphic file (type png)
 
 <use ./kkimgs/GameModes.png>
@@ -235,71 +246,69 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ¢ in font ptmr7t!
 
-<./sachiths_images/image3.png, id=19, 605.26125pt x 426.09187pt>
+<./sachiths_images/image3.png, id=24, 605.26125pt x 426.09187pt>
 File: ./sachiths_images/image3.png Graphic file (type png)
 
 <use ./sachiths_images/image3.png>
-Package pdftex.def Info: ./sachiths_images/image3.png used on input line 22.
+Package pdftex.def Info: ./sachiths_images/image3.png used on input line 21.
 (pdftex.def)             Requested size: 181.57976pt x 127.82854pt.
 
-<./sachiths_images/image32.png, id=20, 166.221pt x 141.912pt>
+<./sachiths_images/image32.png, id=25, 166.221pt x 141.912pt>
 File: ./sachiths_images/image32.png Graphic file (type png)
 
 <use ./sachiths_images/image32.png>
-Package pdftex.def Info: ./sachiths_images/image32.png used on input line 29.
+Package pdftex.def Info: ./sachiths_images/image32.png used on input line 28.
 (pdftex.def)             Requested size: 149.59749pt x 127.7196pt.
- [3 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/Major Project/Report
+ [4 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/Major Project/Report
 /kkimgs/GameModes.png> <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/M
 ajor Project/Report/sachiths_images/image3.png> <C:/Users/Kausthub/Documents/Gi
 tHub/ExpRoboAssignments/Major Project/Report/sachiths_images/image32.png>]
-<./sachiths_images/image4.png, id=26, 188.20313pt x 148.30406pt>
+<./sachiths_images/image4.png, id=31, 188.20313pt x 148.30406pt>
 File: ./sachiths_images/image4.png Graphic file (type png)
 
 <use ./sachiths_images/image4.png>
-Package pdftex.def Info: ./sachiths_images/image4.png used on input line 47.
+Package pdftex.def Info: ./sachiths_images/image4.png used on input line 46.
 (pdftex.def)             Requested size: 150.56268pt x 118.64339pt.
 
-<./sachiths_images/image5.png, id=27, 605.26125pt x 426.09187pt>
+<./sachiths_images/image5.png, id=32, 605.26125pt x 426.09187pt>
 File: ./sachiths_images/image5.png Graphic file (type png)
 
 <use ./sachiths_images/image5.png>
-Package pdftex.def Info: ./sachiths_images/image5.png used on input line 59.
+Package pdftex.def Info: ./sachiths_images/image5.png used on input line 58.
 (pdftex.def)             Requested size: 181.57976pt x 127.82854pt.
 
-<./sachiths_images/image6.png, id=28, 315.42844pt x 231.86626pt>
+<./sachiths_images/image6.png, id=33, 315.42844pt x 231.86626pt>
 File: ./sachiths_images/image6.png Graphic file (type png)
 
 <use ./sachiths_images/image6.png>
-Package pdftex.def Info: ./sachiths_images/image6.png used on input line 65.
+Package pdftex.def Info: ./sachiths_images/image6.png used on input line 64.
 (pdftex.def)             Requested size: 157.71382pt x 115.93283pt.
 
-<./sachiths_images/image10.jpg, id=29, 195.73125pt x 158.84344pt>
+<./sachiths_images/image10.jpg, id=34, 195.73125pt x 158.84344pt>
 File: ./sachiths_images/image10.jpg Graphic file (type jpg)
 
 <use ./sachiths_images/image10.jpg>
-Package pdftex.def Info: ./sachiths_images/image10.jpg used on input line 80.
+Package pdftex.def Info: ./sachiths_images/image10.jpg used on input line 79.
 (pdftex.def)             Requested size: 156.58519pt x 127.07492pt.
 
-<./sachiths_images/image11.jpg, id=30, 195.73125pt x 158.84344pt>
+<./sachiths_images/image11.jpg, id=35, 195.73125pt x 158.84344pt>
 File: ./sachiths_images/image11.jpg Graphic file (type jpg)
 
 <use ./sachiths_images/image11.jpg>
-Package pdftex.def Info: ./sachiths_images/image11.jpg used on input line 86.
+Package pdftex.def Info: ./sachiths_images/image11.jpg used on input line 85.
 (pdftex.def)             Requested size: 156.58519pt x 127.07492pt.
-)
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ex
-pDesign_Motion.tex")
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/Major Project/Report
+ [5 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/Major Project/Report
 /sachiths_images/image4.png> <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignm
 ents/Major Project/Report/sachiths_images/image5.png> <C:/Users/Kausthub/Docume
 nts/GitHub/ExpRoboAssignments/Major Project/Report/sachiths_images/image6.png> 
 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/Major Project/Report/sac
-hiths_images/image10.jpg>]
+hiths_images/image10.jpg> <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignment
+s/Major Project/Report/sachiths_images/image11.jpg>])
+("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ex
+pDesign_Motion.tex") [6]
 ("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\re
 sults_Vision.tex"
-<./sachiths_images/image7.png, id=35, 328.22626pt x 137.7647pt>
+<./sachiths_images/image7.png, id=43, 328.22626pt x 137.7647pt>
 File: ./sachiths_images/image7.png Graphic file (type png)
 
 <use ./sachiths_images/image7.png>
@@ -310,61 +319,71 @@ Overfull \hbox (9.5315pt too wide) in paragraph at lines 5--5
  [][] 
  []
 
-<./sachiths_images/image9.png, id=36, 509.2626pt x 161.403pt>
+<./sachiths_images/image9.png, id=44, 509.2626pt x 161.403pt>
 File: ./sachiths_images/image9.png Graphic file (type png)
 
 <use ./sachiths_images/image9.png>
-Package pdftex.def Info: ./sachiths_images/image9.png used on input line 17.
+Package pdftex.def Info: ./sachiths_images/image9.png used on input line 14.
 (pdftex.def)             Requested size: 254.63068pt x 80.7013pt.
 
-Overfull \hbox (1.58081pt too wide) in paragraph at lines 17--17
+Overfull \hbox (1.58081pt too wide) in paragraph at lines 14--14
  [][] 
  []
 
-<./sachiths_images/image8.png, id=37, 510.708pt x 161.8848pt>
+<./sachiths_images/image8.png, id=45, 510.708pt x 161.8848pt>
 File: ./sachiths_images/image8.png Graphic file (type png)
 
 <use ./sachiths_images/image8.png>
-Package pdftex.def Info: ./sachiths_images/image8.png used on input line 25.
+Package pdftex.def Info: ./sachiths_images/image8.png used on input line 21.
 (pdftex.def)             Requested size: 255.35336pt x 80.9422pt.
 
-Overfull \hbox (2.3035pt too wide) in paragraph at lines 25--25
+Overfull \hbox (2.3035pt too wide) in paragraph at lines 21--21
  [][] 
  []
 
-<./sachiths_images/image10.png, id=38, 519.3804pt x 160.9212pt>
+<./sachiths_images/image10.png, id=46, 519.3804pt x 160.9212pt>
 File: ./sachiths_images/image10.png Graphic file (type png)
 
 <use ./sachiths_images/image10.png>
-Package pdftex.def Info: ./sachiths_images/image10.png used on input line 33.
+Package pdftex.def Info: ./sachiths_images/image10.png used on input line 28.
 (pdftex.def)             Requested size: 259.68956pt x 80.4604pt.
 
-Overfull \hbox (6.6397pt too wide) in paragraph at lines 33--33
+Overfull \hbox (6.6397pt too wide) in paragraph at lines 28--28
  [][] 
  []
 
 )
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\re
-sults_Motion.tex")
 ("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\di
 scussion_AI.tex")
 ("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\di
-scussion_Vision.tex")
-("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\di
-scussion_Motion.tex")
-Underfull \vbox (badness 10000) has occurred while \output is active []
+scussion_Vision.tex"
+<./test_images_gray/test_image74.png, id=47, 642.4pt x 481.8pt>
+File: ./test_images_gray/test_image74.png Graphic file (type png)
 
- [5 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/Major Project/Report
-/sachiths_images/image11.jpg> <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssign
-ments/Major Project/Report/sachiths_images/image7.png> <C:/Users/Kausthub/Docum
-ents/GitHub/ExpRoboAssignments/Major Project/Report/sachiths_images/image9.png>
- <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/Major Project/Report/sa
-chiths_images/image8.png> <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignment
-s/Major Project/Report/sachiths_images/image10.png>]
+<use ./test_images_gray/test_image74.png>
+Package pdftex.def Info: ./test_images_gray/test_image74.png used on input line
+ 7.
+(pdftex.def)             Requested size: 192.72148pt x 144.5411pt.
+
+<./test_images_gray/test_image54.png, id=48, 642.4pt x 481.8pt>
+File: ./test_images_gray/test_image54.png Graphic file (type png)
+
+<use ./test_images_gray/test_image54.png>
+Package pdftex.def Info: ./test_images_gray/test_image54.png used on input line
+ 14.
+(pdftex.def)             Requested size: 192.72148pt x 144.5411pt.
+)
+("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\di
+scussion_Motion.tex" [7 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/
+Major Project/Report/sachiths_images/image7.png> <C:/Users/Kausthub/Documents/G
+itHub/ExpRoboAssignments/Major Project/Report/sachiths_images/image9.png> <C:/U
+sers/Kausthub/Documents/GitHub/ExpRoboAssignments/Major Project/Report/sachiths
+_images/image8.png> <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/Majo
+r Project/Report/sachiths_images/image10.png>])
 Missing character: There is no Â in font ptmri7t!
 Missing character: There is no ® in font ptmri7t!
 
-Underfull \hbox (badness 2653) in paragraph at lines 597--600
+Underfull \hbox (badness 2653) in paragraph at lines 605--608
 []\OT1/ptm/m/n/8 Shell, Michael: \OT1/ptm/m/it/8 IEEE-tran\OT1/ptm/m/n/8 ,  IEE
 E for-mat-ted La-TeX tem-plate
  []
@@ -380,28 +399,29 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6
-
-]
+[8 <C:/Users/Kausthub/Documents/GitHub/ExpRoboAssignments/Major Project/Report/
+test_images_gray/test_image74.png (PNG copy)> <C:/Users/Kausthub/Documents/GitH
+ub/ExpRoboAssignments/Major Project/Report/test_images_gray/test_image54.png (P
+NG copy)>]
 ("C:\Users\Kausthub\Documents\GitHub\ExpRoboAssignments\Major Project\Report\ba
 re_conf.aux") ) 
 Here is how much of TeX's memory you used:
- 1922 strings out of 493921
- 33090 string characters out of 3147273
- 85034 words of memory out of 3000000
- 5198 multiletter control sequences out of 15000+200000
+ 1945 strings out of 493921
+ 33586 string characters out of 3147273
+ 87071 words of memory out of 3000000
+ 5219 multiletter control sequences out of 15000+200000
  35250 words of font info for 64 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
- 27i,7n,21p,1014b,212s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,7n,21p,2113b,215s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on bare_conf.pdf (6 pages, 1421809 bytes).
+Output written on bare_conf.pdf (8 pages, 1798563 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
